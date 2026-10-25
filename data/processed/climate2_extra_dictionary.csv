@@ -1,0 +1,8 @@
+﻿column,group,description
+pet_prev3m_sum_mm,evap_soil_extra,"Pichhle 3 mahine ka PET (Hargreaves estimate, mm), current mahina shamil nahi"
+pet_prev12m_sum_mm,evap_soil_extra,"Pichhle 12 mahine ka PET (Hargreaves estimate, mm)"
+water_balance_prev12m_mm,evap_soil_extra,rain_cum_12m_mm minus pet_prev12m_sum_mm (mm); negative = PET rainfall se zyada
+soil_wet_root_prev3m_mean,evap_soil_extra,"Pichhle 3 mahine ka root-zone soil wetness (NASA POWER GWETROOT, relative index 0-1)"
+soil_wet_root_anom_prev3m,evap_soil_extra,Pichhle 3 mahine ka root-zone wetness anomaly (2005-2020 normal se)
+soil_wet_top_prev1m,evap_soil_extra,"Pichhle mahine ka surface soil wetness (GWETTOP, index 0-1)"
+evland_prev3m_mean,evap_soil_extra,"Pichhle 3 mahine ka average evaporation land (EVLAND, mm/day)"

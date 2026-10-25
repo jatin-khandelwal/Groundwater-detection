@@ -1,0 +1,70 @@
+{
+  "target": "WLS_WTR_LEVEL",
+  "baseline": [
+    "DISTRICT_NAME",
+    "LAT",
+    "LON",
+    "YEAR",
+    "month_sin",
+    "month_cos"
+  ],
+  "rainfall": [
+    "rainfall_mm",
+    "rainfall_lag_1m_mm",
+    "rainfall_lag_3m_mm",
+    "rainfall_lag_12m_mm",
+    "rainfall_normal_mm"
+  ],
+  "elevation": [
+    "elevation_m"
+  ],
+  "well_aquifer": [
+    "WELL_TYPE",
+    "AQUIFER_TYPE"
+  ],
+  "lag": [
+    "water_level_lag_1_obs_m",
+    "water_level_lag_2_obs_m",
+    "water_level_prev3_obs_mean_m",
+    "water_level_prev5_obs_mean_m",
+    "days_since_previous_observation"
+  ],
+  "neighbor": [
+    "neighbor_prev_level_mean_5_m",
+    "nearest_neighbor_prev_distance_km",
+    "neighbor_prev_level_count_5"
+  ],
+  "stage_2023_snapshot": [
+    "STAGE_EXTRACTION_PCT",
+    "CATEGORY_CODE"
+  ],
+  "never_use_as_features": [
+    "WELL_DEPTH",
+    "LEVEL_DIFF",
+    "OUTLIER"
+  ],
+  "ids_and_bookkeeping": [
+    "SITE_ID",
+    "STATION_NAME",
+    "DATE",
+    "MONTH",
+    "STATE_NAME",
+    "SOURCE_DS",
+    "ROUND",
+    "BLOCK_NAME",
+    "BLOCK_STATUS",
+    "BASIN",
+    "SUB_BASIN",
+    "rainfall_grid_lat",
+    "rainfall_grid_lon",
+    "valid_daily_records",
+    "elevation_source",
+    "elevation_status",
+    "rainfall_normal_grid_cells",
+    "ASSESSMENT_YEAR",
+    "ASSESSMENT_DATE",
+    "CATEGORY_CONFLICT",
+    "STAGE_MATCH_STATUS",
+    "SPLIT"
+  ]
+}

@@ -1,0 +1,50 @@
+column_name,description,unit_or_format,notes,dtype_in_csv,missing_count,missing_pct
+SITE_ID,Station identifier,Identifier,Station key; preserve as text.,object,0,0.0
+DATE,Observation date,YYYY-MM-DD,Date of groundwater-level measurement.,object,0,0.0
+STATE_NAME,State name,Text,State name from source data.,object,0,0.0
+DISTRICT_NAME,District name,Text,District associated with observation; source spellings may vary.,object,0,0.0
+STATION_NAME,Monitoring station name,Text,Station name from source.,object,0,0.0
+LAT,Station latitude,Decimal degrees,Station latitude.,float64,0,0.0
+LON,Station longitude,Decimal degrees,Station longitude.,float64,0,0.0
+BASIN,River basin,Text,Basin metadata from source.,object,0,0.0
+SUB_BASIN,Sub-basin,Text,Sub-basin metadata from source.,object,0,0.0
+WELL_TYPE,Well type,Text,Type of monitoring well.,object,1257,1.36
+AQUIFER_TYPE,Aquifer type,Text,Aquifer metadata; may be missing.,object,15194,16.43
+WELL_DEPTH,Well depth,Metres,Well construction/depth metadata; exclude from model predictors per project leakage policy.,float64,1558,1.69
+WLS_WTR_LEVEL,Depth to water level,Metres below ground level (m bgl),Target variable. Larger values mean water is deeper.,float64,0,0.0
+LEVEL_DIFF,Water-level difference,Metres,Source-derived difference field; exclude from model predictors.,float64,68994,74.63
+SOURCE_DS,Source dataset code,Text,"Source identifier; generally metadata, not a predictor.",object,0,0.0
+YEAR,Observation year,Integer year,Calendar year of observation.,int64,0,0.0
+MONTH,Observation month,1–12,Calendar month of observation.,int64,0,0.0
+ROUND,Monitoring round,Text,Source monitoring round/month label.,object,0,0.0
+OUTLIER,Source outlier flag,Boolean/text,Existing source flag; requires documented handling before modeling.,bool,0,0.0
+BLOCK_NAME,Mapped assessment block,Text,Block assigned from station-block mapping; blank when no mapping.,object,42325,45.78
+BLOCK_STATUS,Block mapping status,Text,Mapping confidence/status from station_block_map.,object,0,0.0
+rainfall_grid_lat,Rainfall grid latitude,Decimal degrees,Latitude of selected 0.5-degree rainfall grid cell.,float64,0,0.0
+rainfall_grid_lon,Rainfall grid longitude,Decimal degrees,Longitude of selected 0.5-degree rainfall grid cell.,float64,0,0.0
+rainfall_mm,Monthly rainfall,Millimetres,Rainfall for selected grid cell and observation calendar month; missing where source coverage is unavailable.,float64,34273,37.07
+valid_daily_records,Daily rainfall records count,Count,Count of daily records contributing to monthly rainfall.,float64,34273,37.07
+rainfall_lag_1m_mm,Rainfall lag 1 month,Millimetres,Rainfall for the previous calendar month.,float64,34273,37.07
+rainfall_lag_3m_mm,Rainfall lag 3 months,Millimetres,Rainfall from three calendar months earlier (not rolling total).,float64,34273,37.07
+rainfall_lag_12m_mm,Rainfall lag 12 months,Millimetres,Rainfall for the same calendar month one year earlier.,float64,34273,37.07
+water_level_lag_1_obs_m,Previous station water level,Metres bgl,"Immediately previous available observation for same station, shifted so current target is not used.",float64,1403,1.52
+water_level_lag_2_obs_m,Second previous station water level,Metres bgl,Second previous available observation for same station.,float64,2757,2.98
+water_level_prev3_obs_mean_m,Mean of previous up to 3 station observations,Metres bgl,"Mean of up to three prior observations, excluding current row.",float64,1403,1.52
+water_level_prev5_obs_mean_m,Mean of previous up to 5 station observations,Metres bgl,"Mean of up to five prior observations, excluding current row.",float64,1403,1.52
+days_since_previous_observation,Days since previous station observation,Days,Elapsed days from previous observation at same station.,float64,1403,1.52
+month_sin,Month sine encoding,Unitless,Cyclic encoding of calendar month.,float64,0,0.0
+month_cos,Month cosine encoding,Unitless,Cyclic encoding of calendar month.,float64,0,0.0
+elevation_m,Station elevation,Metres above mean sea level,Elevation value attached from elevation source.,float64,0,0.0
+elevation_source,Elevation data source,Text,Source identifier for elevation.,object,0,0.0
+elevation_status,Elevation lookup status,Text,Status from elevation data acquisition.,object,0,0.0
+rainfall_normal_mm,District-month rainfall normal,Millimetres,Monthly climatological normal estimate; calculated from available grid cells and not an official area-weighted normal.,float64,0,0.0
+rainfall_normal_grid_cells,Grid cells contributing to rainfall normal,Count,Number of rainfall grid cells contributing to district-month normal.,int64,0,0.0
+STAGE_EXTRACTION_PCT,Stage of groundwater extraction,Percent,Official 2023 assessment snapshot; percentage of annual extractable groundwater resources extracted.,float64,57657,62.36
+CATEGORY_CODE,Official assessment category,Code,"Official category code from 2023 report (e.g. OE, C, SC, SAFE, SALINE).",object,57657,62.36
+ASSESSMENT_YEAR,Groundwater assessment year,Year,Assessment snapshot year; currently 2023 where matched.,float64,57657,62.36
+ASSESSMENT_DATE,Groundwater assessment date,Date,Assessment reference date (31 March 2023).,object,57657,62.36
+CATEGORY_CONFLICT,Category/percentage diagnostic flag,Boolean/text,Flags apparent category vs extraction-percentage threshold inconsistency; preserves source values.,object,57657,62.36
+STAGE_MATCH_STATUS,Stage mapping result,Text,MATCHED_2023 or NO_EXACT_MATCH based on exact district+block matching.,object,0,0.0
+neighbor_prev_level_mean_5_m,Mean prior water level across nearest neighbours,Metres bgl,Mean of latest observations strictly before target date from up to five nearest distinct stations; requires fold/time-safe recomputation for evaluation.,float64,4428,4.79
+neighbor_prev_level_count_5,Number of neighbours with prior reading,Count (0–5),Count of nearest stations with a prior reading available before target date.,int64,0,0.0
+nearest_neighbor_prev_distance_km,Nearest neighbour distance,Kilometres,Distance to nearest distinct station with prior observation available.,float64,4428,4.79

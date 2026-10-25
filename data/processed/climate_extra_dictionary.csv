@@ -1,0 +1,7 @@
+﻿column,group,description
+temp_prev3m_mean_c,climate_extra,"Pichhle 3 mahine ka average temperature (C), NASA POWER T2M"
+temp_prev12m_mean_c,climate_extra,Pichhle 12 mahine ka average temperature (C)
+temp_anom_prev3m_c,climate_extra,Pichhle 3 mahine ka temperature anomaly (2005-2020 normal se)
+temp_anom_prev12m_c,climate_extra,Pichhle 12 mahine ka temperature anomaly
+rh_prev3m_mean_pct,climate_extra,"Pichhle 3 mahine ka average relative humidity (%), NASA POWER RH2M"
+rh_anom_prev3m_pct,climate_extra,Pichhle 3 mahine ka humidity anomaly (2005-2020 normal se)

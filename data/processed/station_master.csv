@@ -1,0 +1,1405 @@
+station_name,latitude,longitude,state_name,district_name,basin,sub_basin,SITE_ID,WELL_TYPE,AQUIFER_TYPE,WELL_DEPTH,AGENCY
+MANGALANA,27.01111,74.80833,Rajasthan,Nagaur,Ganga,Banas,270040074483001,Dug Well,,12.0,CGWB
+Manu,27.56111,74.25556,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273340074152001,Tube Well,Unconfined,100.0,CGWB
+Nokha Chandwata_Pz,26.75889,73.77083,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264532073461501,Tube Well,Unconfined,150.0,CGWB
+HARSOR,26.73333,74.46667,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264400074280001,Dug Well,,14.0,CGWB
+PADMANIWAS,27.4,74.59167,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272400074353001,Dug Well,,9.87,CGWB
+Kolia,27.34583,74.48333,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272045074290001,Dug Well,Unconfined,35.0,CGWB
+DAG1,23.94889,75.83472,Rajasthan,Jhalawar,Ganga,Chambal Upper,235656075500501,Dug Well,Unconfined,20.0,CGWB
+MITHRI,27.0875,74.9,Rajasthan,Nagaur,Ganga,Banas,270515074540001,Dug Well,,24.0,CGWB
+KITALSAR,26.87083,74.36667,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,265215074220001,Tube Well,,100.0,CGWB
+CHOSLI,26.975,74.2125,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,265830074124501,Dug Well,Unconfined,49.0,CGWB
+NAGAUR,27.2,73.75,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271200073450002,Tube Well,,152.0,CGWB
+JAYAL1,27.225,74.18333,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271330074110001,Tube Well,,100.0,CGWB
+Bagot_DW,26.81306,74.59111,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264847074352801,Dug Well,Unconfined,46.3,CGWB
+ROL,27.16667,73.91667,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.1667_73.9167,,,,
+Merta City,26.65,74.01667,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.6500_74.0167,,,,
+Merta Road_Pz,26.72528,73.92472,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264331073552901,Tube Well,Unconfined,119.0,CGWB
+BARANI,27.3,73.61667,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271800073370001,Dug Well,Unconfined,65.2,CGWB
+PADUKALAN,26.65,74.26667,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,263900074160001,Dug Well,,43.0,CGWB
+Degana (GWD),26.88333,74.31667,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,265300074190001,Tube Well,Unconfined,100.0,CGWB
+KOLIA,27.34583,74.48333,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.3458_74.4833,,,,
+KERAP,27.16667,74.4,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271000074240001,Dug Well,,46.0,CGWB
+CHILO,27.43333,73.55,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272600073330001,Dug Well,Unconfined,36.0,CGWB
+Nagari,26.91167,73.37833,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265442073224201,Tube Well,Unconfined,180.0,CGWB
+DAULATPURA,27.37083,74.65,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272215074390001,Dug Well,Unconfined,35.0,CGWB
+Nagaur1,27.18333,73.75,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271100073450001,Tube Well,Unconfined,100.0,CGWB
+Rani Gaon_Pz,27.08889,74.42306,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,270520074252301,Tube Well,Unconfined,72.0,CGWB
+NAGARI,26.90833,73.38333,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265430073230001,Dug Well,,59.82,CGWB
+RIAN,26.53333,74.25,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,263200074150001,Dug Well,Unconfined,46.0,CGWB
+DIDWANA1,27.4,74.55,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272400074330001,Dug Well,Unconfined,31.63,CGWB
+KALRU,26.65417,73.9625,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.6542_73.9625,,,,
+SANWARD,27.51667,74.51667,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273100074310001,Dug Well,Unconfined,36.0,CGWB
+ODAN,24.9,73.81667,Rajasthan,Rajsamand,Ganga,Banas,245400073490001,Dug Well,Unconfined,13.53,CGWB
+DEGANA JN.,26.89167,74.325,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,265330074193001,Dug Well,,80.0,CGWB
+DEU,27.13333,73.36667,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270800073220001,Dug Well,Unconfined,60.0,CGWB
+SANGWA KI DHANI,26.66667,73.71667,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264000073430001,Dug Well,,57.0,CGWB
+KUCHERA,26.49583,73.99583,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.4958_73.9958,,,,
+Kuchera,26.96667,73.96667,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265800073580001,Tube Well,Unconfined,118.0,CGWB
+CHHOTI KHATU,27.15417,74.34583,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270915074204501,Dug Well,Unconfined,43.0,CGWB
+GURHA,27.23028,73.48333,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271349073290001,Dug Well,,76.0,CGWB
+CHAKDHANI,26.85833,74.04167,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,265130074023001,Dug Well,Unconfined,47.79,CGWB
+RAGHUNATHPURA,27.36667,74.51667,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272200074310001,Dug Well,Unconfined,45.36,CGWB
+MERTA CITY,26.65,74.01667,Rajasthan,Nagaur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,263900074010002,Tube Well,,87.0,CGWB
+KATOTI,27.25,74.28333,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271500074170001,Dug Well,,55.0,CGWB
+SINGHANA1,27.30417,74.5125,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271815074304501,Dug Well,Unconfined,40.38,CGWB
+BANKALIA,27.61667,74.43333,Rajasthan,Nagaur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273700074260001,Dug Well,Unconfined,49.32,CGWB
+Khara,27.02667,72.1175,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,RJGW_5715,Piezometer,Not Available,190.0,Rajasthan GW
+Bisalpur,26.21778,73.31389,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.2178_73.3139,,,,
+Palari,26.775,73.33333,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264630073200001,Tube Well,Unconfined,100.0,CGWB
+BAP1,27.36667,72.35,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272200072210001,Dug Well,Unconfined,27.4,CGWB
+MOGRA,26.11667,72.96667,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260700072580001,Dug Well,Unconfined,18.39,CGWB
+KHUDALA,26.15833,72.82917,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260930072494501,Dug Well,Unconfined,35.0,CGWB
+NARAN KI DHANI,26.24444,72.90833,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261440072543001,Dug Well,,60.0,CGWB
+Ghewra,26.58833,72.79667,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,263518072474801,Tube Well,,200.0,CGWB
+Sikarpura,26.03667,73.03889,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260212073022001,Bore Well,,151.0,CGWB
+Rajwa,26.325,72.24361,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261930072143701,Tube Well,Unconfined,142.0,CGWB
+MANAKALAO,26.43333,73.02222,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.4333_73.0222,,,,
+Arifa Kallan,26.55278,73.42083,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,263310073251501,Tube Well,,100.0,CGWB
+KOLU,26.91667,72.3,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265500072180001,Dug Well,Unconfined,98.0,CGWB
+Gnewara,26.6,72.8,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,263600072480001,Tube Well,,100.0,CGWB
+RAMRAWAS,26.36944,73.34583,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,262210073204501,Dug Well,Unconfined,95.41,CGWB
+OSIAN2,26.725,72.91667,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.7250_72.9167,,,,
+GANGDHAR,23.93333,75.61667,Rajasthan,Jhalawar,Ganga,Chambal Upper,235600075370001,Dug Well,Unconfined,17.0,CGWB
+DHARMI,26.7375,73.64167,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264415073383001,Dug Well,Unconfined,70.0,CGWB
+Balesar-I,26.35,72.31667,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.3500_72.3167,,,,
+Narwa,26.41778,72.92583,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,262504072553301,Bore Well,Unconfined,203.1,CGWB
+CAZRI,26.26667,73.0,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261600073000001,Tube Well,Unconfined,78.0,CGWB
+PHALODI1,27.12778,72.36667,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270740072220001,Dug Well,,59.0,CGWB
+Jambeshawar Nagar,26.98333,72.59583,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265900072354501,Tube Well,,,CGWB
+Rajiv Nagar(Chaukha),26.24028,72.91861,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261425072550701,Bore Well,Unconfined,126.0,CGWB
+DHAWA,26.05833,72.74167,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260330072443001,Dug Well,Unconfined,35.0,CGWB
+DANGIWAS,26.26667,73.28333,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261600073170001,Dug Well,Unconfined,23.25,CGWB
+Salodi,26.41306,72.83167,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.4131_72.8317,,,,
+NADIAWALA,25.2,73.86667,Rajasthan,Rajsamand,Ganga,Banas,251200073520001,Dug Well,Unconfined,22.0,CGWB
+JODHPUR,26.3,73.03333,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261800073020001,Dug Well,Unconfined,42.99,CGWB
+LORDI,26.31111,72.83333,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261840072500001,Dug Well,,39.8,CGWB
+NARNADI,26.15417,72.9375,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260915072561501,Tube Well,Unconfined,73.65,CGWB
+BALESAR,26.38333,72.49583,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,262300072294501,Dug Well,,17.61,CGWB
+MAKALAO,26.28333,72.875,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261700072523001,Dug Well,,40.8,CGWB
+BARI DHANI,27.34167,72.31944,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272030072191001,Dug Well,Unconfined,38.5,CGWB
+KHICHAN,27.125,72.58889,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270730072352001,Dug Well,,78.0,CGWB
+Kolu Pz,26.91667,72.3,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_26.9167_72.3000,,,,
+BAMBORE,26.32917,72.725,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261945072433001,Dug Well,Unconfined,16.0,CGWB
+CHOPASNI NATH,26.275,72.93333,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261630072560001,Dug Well,Unconfined,16.8,CGWB
+Luni,26.0,73.02083,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260000073011501,Bore Well,Unconfined,111.6,CGWB
+DEVATRA,26.51028,73.37778,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,263037073224001,Dug Well,Unconfined,28.0,CGWB
+Dechu,26.7625,72.33611,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.7625_72.3361,,,,
+BENAN,26.31667,73.42083,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261900073251501,Dug Well,Unconfined,20.0,CGWB
+Bhawi,26.10778,73.17917,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260628073104501,Bore Well,,197.0,CGWB
+KAPARDA,26.24722,73.55,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261450073330001,Dug Well,,29.38,CGWB
+Jodhpur Army Area,26.31111,73.05556,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261840073032001,Tube Well,Unconfined,197.0,CGWB
+Gangani,26.51,73.21194,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,263036073124301,Bore Well,Unconfined,160.0,CGWB
+BUJAWAR,26.225,72.90833,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261330072543001,Dug Well,Unconfined,27.68,CGWB
+ROHIL KALAN,26.24167,72.86389,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261430072515001,Dug Well,,29.15,CGWB
+Soyala,26.82083,73.3375,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264915073201501,Tube Well,Unconfined,216.0,CGWB
+Olvi,26.285,73.45833,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261706073273001,Tube Well,Unconfined,203.0,CGWB
+Bada Mandla,26.85167,72.21667,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265106072130001,Tube Well,Unconfined,166.5,CGWB
+KARANI,26.27222,72.825,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261620072493001,Dug Well,Unconfined,65.15,CGWB
+CHIRAI,26.675,72.69167,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264030072413001,Dug Well,,32.82,CGWB
+BALESAR_Pz,26.38333,72.5,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,262300072300001,Bore Well,Unconfined,184.8,CGWB
+KALPAN,27.06667,72.24583,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270400072144501,Dug Well,,105.0,CGWB
+CAZRI(Barali),26.32194,72.96639,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261919072575901,Bore Well,Unconfined,206.15,CGWB
+RARON KI DHANI,26.19444,72.775,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261140072463001,Dug Well,Unconfined,42.0,CGWB
+KURI1,26.18889,73.04167,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261120073023001,Tube Well,Unconfined,100.0,CGWB
+Lordiya,27.06111,72.40833,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270340072243001,Tube Well,Unconfined,194.0,CGWB
+Udaliya,26.245,73.76667,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.2450_73.7667,,,,
+Nahar Singh Nagar,26.36111,72.28611,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,262140072171001,Tube Well,Unconfined,100.0,CGWB
+GWALAT,23.95278,75.72,Rajasthan,Jhalawar,Ganga,Chambal Upper,235710075431201,Dug Well,Unconfined,9.2,CGWB
+Dechu Pz,26.7725,72.32694,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,264621072193701,Tube Well,Unconfined,110.0,CGWB
+OSIAN1,26.725,72.91667,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264330072550001,Dug Well,Unconfined,39.21,CGWB
+Nokh1,27.54167,72.275,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273230072163001,Tube Well,,200.0,CGWB
+SAJJARA,26.11389,73.24722,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260650073145001,Tube Well,Unconfined,21.0,CGWB
+BHAWI,26.21944,73.625,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261310073373001,Dug Well,Unconfined,19.91,CGWB
+KUMBHARIYA,26.7375,73.5375,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264415073321501,Dug Well,Unconfined,36.3,CGWB
+SHERGARH1,26.32917,72.3,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261945072180002,Tube Well,,91.3,CGWB
+Darmi,26.74333,73.63,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264436073374801,Tube Well,,100.0,CGWB
+KANGIK SIRDI,27.4875,72.475,Rajasthan,Jodhpur,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272915072283001,Dug Well,,36.0,CGWB
+KUMARO KI DHANI,26.33333,72.2,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,262000072120001,Dug Well,Unconfined,44.05,CGWB
+KETU KI DHANI,26.45,72.43333,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.4500_72.4333,,,,
+BHIMKAM KAUR,26.8,72.79361,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,264800072473701,Dug Well,Unconfined,26.0,CGWB
+MANDORE1,26.35,73.04167,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,262100073023001,Dug Well,Unconfined,35.54,CGWB
+JATYASANI,26.09167,72.83333,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260530072500001,Dug Well,Unconfined,22.0,CGWB
+Umaidnagar,26.56667,73.01167,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,263400073004201,Tube Well,Unconfined,203.0,CGWB
+Dhirpura_Pz,26.39778,72.43333,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.3978_72.4333,,,,
+AFRI(Jodhpur),26.22972,73.02972,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261347073014701,Bore Well,Unconfined,56.0,CGWB
+BAORI,26.625,73.18056,Rajasthan,Jodhpur,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,263730073105001,Dug Well,,54.0,CGWB
+BINDA,24.41667,76.18333,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,242500076110001,Dug Well,Unconfined,15.0,CGWB
+GAURADIYA KALAN,24.09722,75.86667,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,240550075520001,Dug Well,Unconfined,10.41,CGWB
+AKTASA,24.4875,76.30278,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,242915076181001,Dug Well,Unconfined,11.2,CGWB
+Krishanpura Chow,24.5,76.18333,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,243000076110001,Dug Well,Unconfined,13.16,CGWB
+Nahardi,24.46667,76.2,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,242800076120001,Dug Well,Unconfined,8.0,CGWB
+JHALRAPATAN,24.53333,76.15,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,243200076090001,Dug Well,Unconfined,9.84,CGWB
+GURARIYA JOGA,24.36667,75.82778,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,242200075494001,Dug Well,Unconfined,16.0,CGWB
+JASWANTPURA1,24.34167,75.99167,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,242030075593001,Dug Well,Unconfined,20.0,CGWB
+JHALAWAR,24.58333,76.15,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,243500076090001,Dug Well,Unconfined,24.39,CGWB
+AKLERA,24.4125,76.56111,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,242445076334001,Dug Well,Unconfined,10.0,CGWB
+MISHROLI,24.275,75.84167,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,241630075503001,Dug Well,Unconfined,13.61,CGWB
+KARVAN KALA,24.17778,75.83333,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,241040075500001,Dug Well,Unconfined,16.39,CGWB
+GAJWARA,24.32722,76.75278,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,241938076451001,Dug Well,Unconfined,20.0,CGWB
+GAGRON,24.56667,76.16667,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,243400076100001,Dug Well,Unconfined,20.94,CGWB
+JHIRI,24.27083,76.73056,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,241615076435001,Dug Well,Unconfined,8.0,CGWB
+DOONGARGAON,24.43333,76.375,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,242600076223001,Dug Well,Unconfined,10.0,CGWB
+SAREDI,24.35,76.67222,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,242100076402001,Dug Well,Unconfined,18.0,CGWB
+ASALPUR,24.27083,76.50417,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,241615076301501,Dug Well,Unconfined,12.85,CGWB
+Khanpur1,24.73333,76.4,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,244400076240001,Tube Well,,150.0,CGWB
+MANDAWAR1,24.56667,76.25833,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,243400076153001,Dug Well,,13.39,CGWB
+GANESHPURA,24.48333,75.975,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,242900075583001,Dug Well,Unconfined,11.89,CGWB
+ANVLIKALAN,24.44167,75.91528,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,242630075545501,Dug Well,Unconfined,14.84,CGWB
+GUNAVI,24.00417,75.88333,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,240015075530001,Dug Well,Unconfined,16.53,CGWB
+MANOHAR THANA1,24.23333,76.80833,Rajasthan,Jhalawar,Ganga,Kali Sindh And Others Up To Confluence With Parbati,241400076483001,Dug Well,Unconfined,17.11,CGWB
+Rd135,27.56111,71.08,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273340071044801,Tube Well,Unconfined,198.4,CGWB
+SANU,27.25,70.63194,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271500070375501,Dug Well,,111.1,CGWB
+GUDI KA TALA,26.7625,71.60417,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,264545071361501,Dug Well,Unconfined,12.95,CGWB
+SANWALA,26.98333,71.23333,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265900071140001,Dug Well,Unconfined,37.35,CGWB
+Shekhowala,27.55,71.70833,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273300071423001,Tube Well,Unconfined,186.0,CGWB
+KHURI,26.6,70.7,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_26.6000_70.7000,,,,
+Bhavanipura Shallow,27.72,71.97944,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274312071584601,Tube Well,Unconfined,86.0,CGWB
+Jjw Deep,27.54361,71.29722,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273237071175001,Tube Well,Unconfined,200.0,CGWB
+Ramgarh2,27.35833,70.5,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272130070300001,Tube Well,Unconfined,200.0,CGWB
+RAJGARH1,26.55833,71.5,Rajasthan,Jaisalmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,263330071300001,Dug Well,Unconfined,27.0,CGWB
+KURIA,27.825,70.49167,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274930070293001,Tube Well,Unconfined,121.5,CGWB
+Shastri Nagar,27.5825,71.15694,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273457071092501,Tube Well,Unconfined,200.5,CGWB
+Chandsar,27.19,71.72,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271124071431201,Tube Well,,200.0,CGWB
+AJASAR,27.2625,71.7125,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271545071424501,Dug Well,,53.0,CGWB
+SODAKAR,27.5,71.4375,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273000071261501,Dug Well,Unconfined,54.0,CGWB
+Ranau,27.59333,70.45,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273536070270001,Tube Well,Unconfined,102.0,CGWB
+BARORA GAON,26.85833,71.18333,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_26.8583_71.1833,,,,
+Phulia1,26.39,70.47167,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,262324070281801,Tube Well,Unconfined,200.0,CGWB
+Moolsagar_Pz,26.9,70.84167,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265400070503001,Tube Well,Unconfined,200.0,CGWB
+BHAINSARA,26.63056,71.49167,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,263750071293001,Dug Well,Unconfined,30.25,CGWB
+NOKH,27.55,72.25417,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273300072151501,Dug Well,,25.25,CGWB
+TANOT,27.8,70.36667,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274800070220001,Dug Well,Unconfined,43.88,CGWB
+DEVA,27.21667,71.0,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.2167_71.0000,,,,
+LOHARKI,27.15,71.76667,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270900071460001,Dug Well,Unconfined,80.0,CGWB
+DHAISAR,26.90417,71.35833,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265415071213001,Dug Well,Unconfined,63.75,CGWB
+BHADUREGAON,26.91667,71.18333,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_26.9167_71.1833,,,,
+CHACHA,26.975,71.75278,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265830071451001,Dug Well,Unconfined,26.06,CGWB
+MOOLSAGAR,26.9125,70.835,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265445070500601,Dug Well,Unconfined,20.5,CGWB
+SANWATA,26.71667,71.30833,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,264300071183001,Dug Well,Unconfined,53.25,CGWB
+Kathora,26.57556,71.04167,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,263432071023001,Tube Well,,201.0,CGWB
+MIAZLER,26.25,70.36667,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_26.2500_70.3667,,,,
+Khariakua,27.71667,70.325,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274300070193002,Dug Well,,42.0,CGWB
+BOA,27.275,70.975,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271630070583002,Tube Well,,100.0,CGWB
+PHALSUND,26.39722,71.92778,Rajasthan,Jaisalmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,RJGW_4796,Dug Well,Not Available,10.0,Rajasthan GW
+Mayathiwala,27.48722,70.35639,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272914070212301,Dug Well,Unconfined,70.0,CGWB
+NEWEATA,27.6125,72.03333,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273645072020001,Dug Well,Unconfined,31.13,CGWB
+Sanu1,27.24,70.65,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.2400_70.6500,,,,
+JAISALMER,26.94167,70.90972,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265630070543501,Dug Well,Unconfined,61.68,CGWB
+HABOOR,27.17639,70.55833,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271035070333001,Dug Well,Unconfined,106.0,CGWB
+LANELA,27.07778,70.80833,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270440070483001,Tube Well,Unconfined,204.0,CGWB
+GAJESINGH KATAR,27.69167,70.2875,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.6917_70.2875,,,,
+GHANTIYALI1,27.76667,70.43333,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.7667_70.4333,,,,
+Kodiyasar,26.48333,71.275,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,262900071163001,Tube Well,Unconfined,200.0,CGWB
+SAGON KI DHANI,26.78333,71.11667,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,264700071070001,Dug Well,,66.91,CGWB
+GOTARU,27.31667,70.0375,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271900070021501,Dug Well,Unconfined,69.15,CGWB
+Jawahar Nagar Shallow,27.54194,71.14833,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273231071085401,Tube Well,Unconfined,193.0,CGWB
+LONGEWALA2,27.525,70.16222,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273130070094402,Tube Well,,116.4,CGWB
+LUNA KALAN,26.67917,71.57083,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,264045071341501,Dug Well,Unconfined,21.8,CGWB
+HAMIRA,27.0,71.0,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270000071000001,Dug Well,Unconfined,48.25,CGWB
+GAMNEWALI,27.48611,70.26806,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.4861_70.2681,,,,
+KUCHERI,27.07278,70.55694,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270422070332501,Dug Well,Unconfined,106.52,CGWB
+BAISHAKHI,27.03333,70.9,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270200070540001,Tube Well,Unconfined,59.0,CGWB
+KUI,27.59167,71.99583,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273530071594501,Dug Well,,27.03,CGWB
+GAMANEWALA,27.48611,70.26806,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272910070160501,Dug Well,,69.24,CGWB
+Sataya_DW,27.42,71.65889,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272512071393201,Dug Well,Unconfined,22.6,CGWB
+NACHNA,27.51667,71.72083,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273100071431501,Dug Well,Unconfined,17.2,CGWB
+KALEWA,26.80556,71.90417,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,264820071541501,Dug Well,Unconfined,35.0,CGWB
+BHADRIAS,27.48333,71.78333,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272900071470001,Dug Well,Unconfined,18.1,CGWB
+NATHU KA BERA,27.81111,70.41528,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274840070245501,Tube Well,Unconfined,120.05,CGWB
+BALAR,26.48889,71.80833,Rajasthan,Jaisalmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,262920071483001,Dug Well,Unconfined,27.45,CGWB
+SADEWALA,27.63472,70.24444,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273805070144001,Dug Well,Unconfined,44.8,CGWB
+PHULIA,26.38333,70.31667,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_26.3833_70.3167,,,,
+Borana,27.63333,72.11667,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.6333_72.1167,,,,
+Ramgarh Ignp,27.35833,70.48333,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272130070290001,Tube Well,Unconfined,300.0,CGWB
+BORANA,27.64583,72.125,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273845072073001,Tube Well,Unconfined,200.0,CGWB
+NEDAI,27.35833,70.98333,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.3583_70.9833,,,,
+SAM1,26.825,70.50278,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_26.8250_70.5028,,,,
+Jawahar Nagar Deep,27.54194,71.14833,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.5419_71.1483,,,,
+POKRAN,26.9375,71.90417,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265615071541501,Dug Well,Unconfined,7.7,CGWB
+MADASAR,26.74583,71.50417,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,264445071301501,Dug Well,Unconfined,23.7,CGWB
+Bhavanipura Deep,27.72028,71.98056,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274313071585001,Tube Well,Unconfined,188.0,CGWB
+Maizalar,26.25,70.36667,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,261500070220001,Dug Well,,63.69,CGWB
+CHANDAN,26.99167,71.3,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265930071180001,Tube Well,Unconfined,154.5,CGWB
+SAKHAKI KA TOBA,27.75278,70.2875,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274510070171501,Dug Well,,43.9,CGWB
+Khuri,26.6,70.7,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,263600070420001,Dug Well,Unconfined,16.7,CGWB
+CHODHARIYA,27.1,70.91667,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270600070550002,Tube Well,Unconfined,200.0,CGWB
+Training_GroundW1,26.41556,70.26528,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_26.4156_70.2653,,,,
+JHINJHINIYALI,26.2125,70.81667,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,RJGW_4678,Piezometer,Not Available,200.0,Rajasthan GW
+GHANTIYALI,27.76667,70.43333,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274600070260002,Tube Well,,250.0,CGWB
+Delasar,26.96667,71.35833,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265800071213002,Tube Well,Unconfined,200.0,CGWB
+Tuli Deep,27.59917,71.07361,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273557071042501,Tube Well,Unconfined,200.0,CGWB
+LAKHASAR,26.725,71.4325,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,264330071255701,Dug Well,Unconfined,45.09,CGWB
+Gomath,26.95167,71.93333,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,265706071560001,Tube Well,Unconfined,200.0,CGWB
+LAWAN,26.87222,72.03333,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_26.8722_72.0333,,,,
+LONGEWALA1,27.525,70.16222,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.5250_70.1622,,,,
+LATHI,27.5,71.51667,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273000071310001,Tube Well,,200.0,CGWB
+Tuli Shallow,27.59167,71.06667,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273530071040001,Tube Well,Unconfined,99.0,CGWB
+Dantal,26.525,71.93,Rajasthan,Jaisalmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,263130071554801,Tube Well,,120.0,CGWB
+SRIBHADRIA,27.08333,71.55,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270500071330001,Dug Well,Unconfined,46.65,CGWB
+Parwar,27.23333,70.73167,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,271400070435401,Tube Well,,200.0,CGWB
+KHUYIALA,27.14722,70.425,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,270850070253001,Dug Well,Unconfined,22.0,CGWB
+AWAI,27.51667,71.83333,Rajasthan,Jaisalmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273100071500001,Dug Well,Unconfined,9.0,CGWB
+THIKARWAS,25.6,73.93333,Rajasthan,Rajsamand,Ganga,Banas,253600073560001,Dug Well,Unconfined,16.79,CGWB
+DOWAS,25.08333,73.56667,Rajasthan,Rajsamand,Ganga,Banas,250500073340001,Dug Well,Unconfined,11.0,CGWB
+SANGET,24.85,73.66667,Rajasthan,Rajsamand,Ganga,Banas,245100073400001,Dug Well,Unconfined,21.0,CGWB
+CHATTARPUR,25.25556,73.93333,Rajasthan,Rajsamand,Ganga,Banas,251520073560001,Dug Well,Unconfined,18.33,CGWB
+ODA1,25.03333,74.01667,Rajasthan,Rajsamand,Ganga,Banas,250200074010001,Dug Well,Unconfined,18.0,CGWB
+RAILMAGRA1,25.03333,74.11667,Rajasthan,Rajsamand,Ganga,Banas,250200074070001,Dug Well,Unconfined,21.0,CGWB
+GUGLI,25.23333,73.88333,Rajasthan,Rajsamand,Ganga,Banas,251400073530001,Dug Well,Unconfined,21.0,CGWB
+KALWANA,25.1,73.6,Rajasthan,Rajsamand,Ganga,Banas,250600073360001,Dug Well,Unconfined,14.0,CGWB
+BALI1,25.83333,74.08333,Rajasthan,Rajsamand,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255000074050001,Dug Well,Unconfined,12.82,CGWB
+KHAMNOR1,24.91667,73.73333,Rajasthan,Rajsamand,Ganga,Banas,245500073440001,Dug Well,Unconfined,17.0,CGWB
+Gajpura,25.125,73.7,Rajasthan,Rajsamand,Ganga,Banas,250730073420001,Dug Well,Unconfined,,CGWB
+KANCHOLI,24.96667,73.55,Rajasthan,Rajsamand,Ganga,Banas,245800073330001,Dug Well,Unconfined,14.35,CGWB
+GAVERDI,24.93333,74.1,Rajasthan,Rajsamand,Ganga,Banas,245600074060001,Dug Well,Unconfined,20.87,CGWB
+BHIM1,25.73333,74.08333,Rajasthan,Rajsamand,Ganga,Banas,254400074050001,Dug Well,,19.77,CGWB
+KELWARA,25.1,73.61333,Rajasthan,Rajsamand,Ganga,Banas,250600073364801,Dug Well,Unconfined,11.09,CGWB
+BARAR,25.66667,74.01667,Rajasthan,Rajsamand,Ganga,Banas,254000074010001,Dug Well,Unconfined,20.63,CGWB
+MANSINGH KAGURA,25.24306,73.78333,Rajasthan,Rajsamand,Ganga,Banas,251435073470001,Dug Well,Unconfined,17.81,CGWB
+RAJSAMAND,25.06667,73.88333,Rajasthan,Rajsamand,Ganga,Banas,250400073530001,Dug Well,Unconfined,20.2,CGWB
+BAGHANA,25.51111,73.8625,Rajasthan,Rajsamand,Ganga,Banas,253040073514501,Dug Well,Unconfined,17.86,CGWB
+GHATO1,25.78333,74.18333,Rajasthan,Rajsamand,Ganga,Banas,254700074110001,Dug Well,Unconfined,15.6,CGWB
+KHANDEL1,25.11667,74.08333,Rajasthan,Rajsamand,Ganga,Banas,250700074050001,Dug Well,Unconfined,18.0,CGWB
+Bherududa,25.51944,73.88917,Rajasthan,Rajsamand,Ganga,Banas,A_25.5194_73.8892,,,,
+Sheron Ka Bala,25.85,74.13333,Rajasthan,Rajsamand,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255100074080001,Dug Well,Unconfined,17.18,CGWB
+JHILWARA,25.23333,73.65833,Rajasthan,Rajsamand,Ganga,Banas,251400073393001,Dug Well,Unconfined,18.86,CGWB
+Bhim,25.74333,74.07917,Rajasthan,Rajsamand,Ganga,Banas,254436074044501,Dug Well,Unconfined,19.4,CGWB
+Gomti Chouraha,25.27833,73.78278,Rajasthan,Rajsamand,Ganga,Banas,251642073465801,Tube Well,Unconfined,100.0,CGWB
+DEWAIR,25.41667,73.81667,Rajasthan,Rajsamand,Ganga,Banas,252500073490001,Dug Well,Unconfined,15.39,CGWB
+DHANA1,24.88333,73.95,Rajasthan,Rajsamand,Ganga,Banas,245300073570001,Dug Well,,17.5,CGWB
+Bhop Ji Ki Bhagal,25.25833,73.72083,Rajasthan,Rajsamand,Ganga,Banas,251530073431501,Bore Well,Unconfined,129.0,CGWB
+KITELA,25.31806,73.80833,Rajasthan,Rajsamand,Ganga,Banas,251905073483001,Dug Well,Unconfined,17.16,CGWB
+MOKAMPURA,25.13333,73.85,Rajasthan,Rajsamand,Ganga,Banas,250800073510001,Dug Well,Unconfined,17.0,CGWB
+Bagar1,25.6,73.88333,Rajasthan,Rajsamand,Ganga,Banas,253600073530001,Bore Well,,150.0,CGWB
+Raipur,25.40361,74.16111,Rajasthan,Bhilwara,Ganga,Banas,252413074094001,Dug Well,Unconfined,26.5,CGWB
+Raila,25.63333,74.58333,Rajasthan,Bhilwara,Ganga,Banas,253800074350001,Bore Well,,150.0,CGWB
+SAWAIPUR,25.30694,74.86667,Rajasthan,Bhilwara,Ganga,Banas,251825074520001,Dug Well,Unconfined,28.99,CGWB
+BADNOR,25.83333,74.28333,Rajasthan,Bhilwara,Ganga,Banas,255000074170001,Dug Well,Unconfined,15.0,CGWB
+JAHAJPUR,25.62083,75.275,Rajasthan,Bhilwara,Ganga,Banas,253715075163001,Dug Well,Unconfined,14.75,CGWB
+PITAKHERA,25.37389,74.10833,Rajasthan,Bhilwara,Ganga,Banas,252226074063001,Dug Well,Unconfined,24.3,CGWB
+LAKOLA,25.17083,74.3,Rajasthan,Bhilwara,Ganga,Banas,251015074180001,Dug Well,,18.0,CGWB
+Taswaria Khurd,25.56111,74.8,Rajasthan,Bhilwara,Ganga,Banas,253340074480001,Dug Well,Unconfined,16.85,CGWB
+KODUKOTA,25.375,74.775,Rajasthan,Bhilwara,Ganga,Banas,252230074463001,Dug Well,Unconfined,19.0,CGWB
+TILOLI,25.5975,74.31333,Rajasthan,Bhilwara,Ganga,Banas,253551074184801,Dug Well,Unconfined,15.48,CGWB
+PAROLI,25.51778,75.09167,Rajasthan,Bhilwara,Ganga,Banas,253104075053001,Dug Well,Unconfined,10.4,CGWB
+NANGPURA,25.45417,74.1875,Rajasthan,Bhilwara,Ganga,Banas,252715074111501,Dug Well,Unconfined,32.0,CGWB
+BIGOD,25.24444,75.04167,Rajasthan,Bhilwara,Ganga,Banas,251440075023001,Dug Well,Unconfined,10.9,CGWB
+BORANI,25.68333,75.33333,Rajasthan,Bhilwara,Ganga,Banas,254100075200001,Dug Well,Unconfined,20.0,CGWB
+KANWALIAWAS,25.72778,74.63056,Rajasthan,Bhilwara,Ganga,Banas,A_25.7278_74.6306,,,,
+Galodiya,25.19528,74.29417,Rajasthan,Bhilwara,Ganga,Banas,251143074173901,Dug Well,Unconfined,24.3,CGWB
+Pander,25.64167,75.18333,Rajasthan,Bhilwara,Ganga,Banas,253830075110001,Bore Well,,150.0,CGWB
+BIJOLIA,25.17,75.32278,Rajasthan,Bhilwara,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251012075192201,Dug Well,Unconfined,15.38,CGWB
+Ladpura,25.15417,75.12139,Rajasthan,Bhilwara,Ganga,Banas,250915075071701,Dug Well,Unconfined,20.0,CGWB
+BANERAMATAJI,25.4875,74.7,Rajasthan,Bhilwara,Ganga,Banas,252915074420001,Dug Well,Unconfined,19.0,CGWB
+AMARWASI,25.72083,75.35417,Rajasthan,Bhilwara,Ganga,Banas,254315075211501,Dug Well,Unconfined,6.99,CGWB
+DEVARIA,25.28333,74.15833,Rajasthan,Bhilwara,Ganga,Banas,251700074093001,Dug Well,Unconfined,33.6,CGWB
+SOPURA,25.60417,74.9,Rajasthan,Bhilwara,Ganga,Banas,253615074540001,Dug Well,Unconfined,13.62,CGWB
+BARASNI,25.75833,74.46667,Rajasthan,Bhilwara,Ganga,Banas,254530074280001,Dug Well,Unconfined,23.68,CGWB
+Sawaipur,25.30833,74.83333,Rajasthan,Bhilwara,Ganga,Banas,251830074500001,Bore Well,Unconfined,150.0,CGWB
+MANDALGARH1,25.28333,75.09389,Rajasthan,Bhilwara,Ganga,Banas,251700075053801,Dug Well,Unconfined,25.0,CGWB
+Dahimatha,25.52778,74.30083,Rajasthan,Bhilwara,Ganga,Banas,253140074180301,Dug Well,Unconfined,25.0,CGWB
+SUWANA1,25.35,74.7,Rajasthan,Bhilwara,Ganga,Banas,252100074420001,Dug Well,Unconfined,22.0,CGWB
+GANGAPUR1,25.21667,74.25972,Rajasthan,Bhilwara,Ganga,Banas,251300074153501,Dug Well,Unconfined,25.53,CGWB
+GULABPURA,25.9,74.68333,Rajasthan,Bhilwara,Ganga,Banas,255400074410001,Dug Well,Unconfined,19.0,CGWB
+Bhagwanpura,25.49111,75.03667,Rajasthan,Bhilwara,Ganga,Banas,252928075021201,Dug Well,Unconfined,13.3,CGWB
+MANDAPIA RS,25.26944,74.6375,Rajasthan,Bhilwara,Ganga,Banas,251610074381501,Dug Well,Unconfined,13.8,CGWB
+HAMIRGARH,25.18056,74.58056,Rajasthan,Bhilwara,Ganga,Banas,A_25.1806_74.5806,,,,
+RAILA ROAD,25.63333,74.6,Rajasthan,Bhilwara,Ganga,Banas,253800074360001,Dug Well,Unconfined,26.0,CGWB
+Dimta,25.56111,74.22639,Rajasthan,Bhilwara,Ganga,Banas,A_25.5611_74.2264,,,,
+KOTARI,25.39722,74.89167,Rajasthan,Bhilwara,Ganga,Banas,252350074533001,Dug Well,Unconfined,17.63,CGWB
+Kotri2,25.4,74.88333,Rajasthan,Bhilwara,Ganga,Banas,252400074530001,Bore Well,,150.0,CGWB
+GULABPURA1,25.63889,75.11528,Rajasthan,Bhilwara,Ganga,Banas,253820075065501,Dug Well,Unconfined,11.2,CGWB
+SALAWATIA,25.11389,75.26111,Rajasthan,Bhilwara,Ganga,Kali Sindh And Others Up To Confluence With Parbati,250650075154001,Dug Well,Unconfined,31.0,CGWB
+Karera,25.51667,74.26667,Rajasthan,Bhilwara,Ganga,Banas,253100074160001,Bore Well,Unconfined,150.0,CGWB
+Daulatgarh,25.63333,74.27917,Rajasthan,Bhilwara,Ganga,Banas,253800074164501,Dug Well,Unconfined,29.8,CGWB
+JIWANLIYAN,25.51556,74.55778,Rajasthan,Bhilwara,Ganga,Banas,253056074332801,Dug Well,Unconfined,17.0,CGWB
+KANCHAN-KALA,25.75556,74.90556,Rajasthan,Bhilwara,Ganga,Banas,254520074542001,Dug Well,Unconfined,10.5,CGWB
+GAGEDA,25.86667,74.55,Rajasthan,Bhilwara,Ganga,Banas,255200074330001,Dug Well,Unconfined,14.9,CGWB
+Jhadoli,24.75,73.025,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,244500073013001,Bore Well,,150.0,CGWB
+MOHADA,23.775,74.85833,Rajasthan,Pratapgarh,Ganga,Chambal Upper,234630074513001,Dug Well,Unconfined,18.5,CGWB
+GULABGANJ,24.675,72.675,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,244030072403001,Dug Well,Unconfined,22.0,CGWB
+Pindwara,24.8,73.06667,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,244800073040001,Bore Well,Unconfined,150.0,CGWB
+MERA KISHANGANJ,24.76667,72.73333,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,244600072440001,Dug Well,,28.01,CGWB
+Reodar,24.63333,72.53333,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,243800072320001,Bore Well,Unconfined,150.0,CGWB
+PARTAPGARH,24.05,74.78333,Rajasthan,Pratapgarh,Mahi,Mahi Upper,240300074470001,Dug Well,Unconfined,11.0,CGWB
+Posaliya,25.13333,72.96667,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250800072580001,Bore Well,Unconfined,150.0,CGWB
+Palri M,25.01528,72.925,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250055072553001,Dug Well,Unconfined,48.0,CGWB
+Mera Kishanganj Pz,24.76944,72.73611,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,244610072441001,Tube Well,Unconfined,120.0,CGWB
+SUMERPUR1,25.14583,73.06667,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250845073040001,Dug Well,Unconfined,18.3,CGWB
+Anadara,24.63333,72.65,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,243800072390001,Bore Well,Unconfined,150.0,CGWB
+DHAMSARA,24.50417,72.70833,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,A_24.5042_72.7083,,,,
+ABU ROAD1,24.58333,72.78333,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,243500072470001,Dug Well,,9.76,CGWB
+SIYANA,24.41667,72.77639,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,242500072463501,Dug Well,,11.08,CGWB
+SARUPGANJ,24.65833,72.93611,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,243930072561001,Dug Well,Unconfined,21.0,CGWB
+MUNGANA1,23.96,74.42389,Rajasthan,Pratapgarh,Mahi,Mahi Upper,235736074252601,Dug Well,Unconfined,13.56,CGWB
+JIRAWAL,24.63472,72.49167,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,243805072293001,Dug Well,Unconfined,30.0,CGWB
+Manpur2,24.45,72.75,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,242700072450001,Bore Well,Unconfined,150.0,CGWB
+MOUNT ABU,24.63056,72.70139,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,243750072420501,Dug Well,Unconfined,51.2,CGWB
+Palri1,25.01389,72.92778,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250050072554001,Tube Well,,50.0,CGWB
+VIRWARA,24.84583,72.9875,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,245045072591501,Dug Well,Unconfined,19.55,CGWB
+PALRI,24.8,72.67917,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,244800072404501,Dug Well,Unconfined,19.0,CGWB
+KALANDRI,24.925,72.6875,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245530072411501,Dug Well,Unconfined,18.0,CGWB
+BARLOT,24.99528,72.71667,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245943072430001,Dug Well,Unconfined,29.0,CGWB
+AMBESHWARJI,24.95556,72.89167,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245720072533001,Dug Well,Unconfined,25.43,CGWB
+SIROHI,24.88333,72.86667,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245300072520001,Dug Well,Unconfined,27.26,CGWB
+Mungthalla,24.48333,72.68333,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,242900072410001,Bore Well,Unconfined,150.0,CGWB
+KARAUNTI,24.60972,72.57556,Rajasthan,Sirohi,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Saraswati,243635072343201,Dug Well,,19.69,CGWB
+Devgarh,24.03861,74.65861,Rajasthan,Pratapgarh,Mahi,Mahi Upper,240219074393101,Dug Well,Unconfined,6.0,CGWB
+JHATIA BARI,23.7425,74.68306,Rajasthan,Pratapgarh,Mahi,Mahi Upper,A_23.7425_74.6831,,,,
+JHATIA BARI,23.75139,74.68333,Rajasthan,Pratapgarh,Mahi,Mahi Upper,234505074410001,Dug Well,,7.56,CGWB
+Mokhampura,24.03333,74.89167,Rajasthan,Pratapgarh,Ganga,Chambal Upper,240200074533001,Dug Well,Unconfined,20.0,CGWB
+Saran,23.70944,74.60861,Rajasthan,Pratapgarh,Mahi,Mahi Upper,234234074363101,Dug Well,Unconfined,6.3,CGWB
+Arnod1,23.9,74.8125,Rajasthan,Pratapgarh,Ganga,Chambal Upper,235400074484502,Tube Well,,60.0,CGWB
+RAJPURIA,24.03333,74.9775,Rajasthan,Pratapgarh,Ganga,Chambal Upper,240200074583901,Dug Well,Unconfined,13.18,CGWB
+PIPAL KHUNT,23.79583,74.56667,Rajasthan,Pratapgarh,Mahi,Mahi Upper,234745074340001,Dug Well,Unconfined,14.0,CGWB
+BARAWARDA,24.18167,74.70278,Rajasthan,Pratapgarh,Mahi,Mahi Upper,241054074421001,Dug Well,Unconfined,19.79,CGWB
+Choti Sadri,24.38611,74.7,Rajasthan,Pratapgarh,Mahi,Mahi Upper,242310074420001,Dug Well,Unconfined,25.68,CGWB
+KHUNTA,24.03333,74.45833,Rajasthan,Pratapgarh,Mahi,Mahi Upper,240200074273001,Dug Well,Unconfined,7.6,CGWB
+DHARIAWAD1,24.09583,74.45833,Rajasthan,Pratapgarh,Mahi,Mahi Upper,240545074273001,Dug Well,Unconfined,8.45,CGWB
+Punga Talab,24.075,74.575,Rajasthan,Pratapgarh,Mahi,Mahi Upper,240430074343001,Dug Well,Unconfined,12.99,CGWB
+Arnod,23.88111,74.81361,Rajasthan,Pratapgarh,Ganga,Chambal Upper,A_23.8811_74.8136,,,,
+NINOR,23.61667,74.85,Rajasthan,Pratapgarh,Ganga,Chambal Upper,233700074510001,Dug Well,Unconfined,10.36,CGWB
+Suhagpura,23.94583,74.67694,Rajasthan,Pratapgarh,Mahi,Mahi Upper,235645074403701,Dug Well,Unconfined,14.0,CGWB
+Dholapani,24.26667,74.675,Rajasthan,Pratapgarh,Mahi,Mahi Upper,241600074403001,Dug Well,Unconfined,7.0,CGWB
+Ninor_Pz,23.61667,74.85,Rajasthan,Pratapgarh,Ganga,Chambal Upper,A_23.6167_74.8500,,,,
+JAWAHAR NAGAR,24.08917,74.49167,Rajasthan,Pratapgarh,Mahi,Mahi Upper,240521074293001,Dug Well,Unconfined,8.37,CGWB
+LAMBA DABRA,23.88333,74.66667,Rajasthan,Pratapgarh,Mahi,Mahi Upper,235300074400001,Dug Well,Unconfined,16.2,CGWB
+Rampura,29.4175,73.90417,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,292503073541501,Bore Well,Unconfined,25.0,CGWB
+MUNGANA,24.875,74.26667,Rajasthan,Chittorgarh,Ganga,Banas,245230074160001,Dug Well,Unconfined,24.0,CGWB
+NOHAR1,29.28056,74.76667,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,291650074460001,Dug Well,Unconfined,26.67,CGWB
+LAKHASAR2,29.03333,74.73333,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,290200074440001,Dug Well,Unconfined,33.35,CGWB
+PANDITAWALI,29.4125,74.2,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,292445074120002,Tube Well,Unconfined,100.0,CGWB
+Hanumangarh Rau,29.61667,74.28333,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,293700074170001,Tube Well,Unconfined,186.7,CGWB
+SALEWALI,29.7,74.4875,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,294200074291501,Dug Well,Unconfined,25.51,CGWB
+PURABSAR,29.03333,74.28333,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,290200074170001,Dug Well,Unconfined,62.35,CGWB
+Kalibanga,29.46667,74.10278,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,A_29.4667_74.1028,,,,
+BHUKARKA1,29.23333,74.75,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,A_29.2333_74.7500,,,,
+SURATGARH,29.46667,73.93333,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,292800073560001,Tube Well,Unconfined,90.11,CGWB
+KHERUWALA,29.84583,74.24167,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,295045074143001,Dug Well,Unconfined,54.93,CGWB
+Chistian-I,29.66667,74.23333,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,A_29.6667_74.2333,,,,
+PALLU,28.91667,74.2,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,285500074120001,Dug Well,Unconfined,47.5,CGWB
+PAKKASARNA,29.68333,74.1625,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,294100074094501,Dug Well,Unconfined,49.34,CGWB
+Pilibanga,29.48333,74.06667,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,A_29.4833_74.0667,,,,
+RAMSARA,29.39583,73.94083,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,292345073562701,Dug Well,Unconfined,33.4,CGWB
+CHANDURWALA,29.625,74.50833,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,293730074303001,Dug Well,Unconfined,23.5,CGWB
+GOLUWALA,29.63333,74.06,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,293800074033602,Tube Well,Unconfined,198.0,CGWB
+KOHLA,29.56111,74.33333,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,293340074200001,Dug Well,Unconfined,33.85,CGWB
+LAKHASAR1,29.5625,73.97083,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,293345073581501,Dug Well,Unconfined,48.6,CGWB
+Goluwala,29.63333,74.06,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,A_29.6333_74.0600,,,,
+Rawatsar Shallow,29.255,74.40972,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,A_29.2550_74.4097,,,,
+DUDHAL,28.90833,74.13333,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,285430074080001,Dug Well,Unconfined,50.7,CGWB
+Bhagatpura,29.875,74.46667,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,A_29.8750_74.4667,,,,
+Rawatsar Deep,29.255,74.40972,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,291518074243501,Tube Well,Unconfined,127.0,CGWB
+RAWATSAR,29.25278,74.41389,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,291510074245001,Dug Well,Unconfined,28.78,CGWB
+LAKHERAN,28.975,74.29167,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,285830074173001,Dug Well,Unconfined,57.22,CGWB
+CHHANI BARI,29.18333,75.325,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,291100075193001,Dug Well,Unconfined,19.95,CGWB
+BIRAMSAR,29.075,74.3,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,290430074180001,Dug Well,Unconfined,48.2,CGWB
+Bhagatpura-Pz,29.875,74.46667,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,295230074280002,Tube Well,,200.0,CGWB
+Paditawali,29.4125,74.2,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,A_29.4125_74.2000,,,,
+CHISTIAN,29.35889,74.59861,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,292132074355501,Tube Well,Unconfined,200.0,CGWB
+KHODA,29.23611,74.28611,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,291410074171001,Dug Well,,24.5,CGWB
+MUNDA,29.475,74.40278,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,292830074241001,Dug Well,,29.3,CGWB
+MALSISAR,28.97083,75.03333,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,285815075020001,Dug Well,Unconfined,19.0,CGWB
+RAMSARA1,29.25,74.83333,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,291500074500001,Dug Well,Unconfined,24.5,CGWB
+SARDARPURA,29.28333,74.17083,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,291700074101501,Dug Well,Unconfined,37.15,CGWB
+Kalibanga-Pz,29.475,74.12694,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,292830074073701,Tube Well,Unconfined,201.0,CGWB
+BHUKARKA,29.23333,74.75,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,291400074450002,Dug Well,Unconfined,34.0,CGWB
+CHAUWALI,29.35889,74.43194,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,292132074255501,Dug Well,,40.0,CGWB
+CHOHLINYAWALI,29.37917,74.27083,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,292245074161501,Dug Well,Unconfined,45.44,CGWB
+DHOLIPAL,29.75833,74.26667,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,294530074160001,Dug Well,Unconfined,52.83,CGWB
+RATANPURA,29.85,74.45,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,295100074270001,Dug Well,Unconfined,50.97,CGWB
+SUREWALA,29.6,74.55,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,A_29.6000_74.5500,,,,
+Chak Sampatnagar1,29.69722,74.29444,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,294150074174001,Tube Well,,198.9,CGWB
+Lohgarh,29.83333,74.51667,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,295000074310001,Dug Well,,34.9,CGWB
+MUNSARI,29.1,75.03333,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,290600075020001,Dug Well,Unconfined,29.08,CGWB
+Chak Sampatnagar2,29.69722,74.29444,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,A_29.6972_74.2944,,,,
+Bhadra1,29.1,75.15,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,290600075090001,Dug Well,,30.0,CGWB
+Tibbi,29.56667,74.50833,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,293400074303001,Tube Well,,141.2,CGWB
+SATIPURA,29.625,74.31667,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,293730074190001,Dug Well,Unconfined,33.29,CGWB
+GANDEHALI,29.21667,74.53333,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,291300074320001,Dug Well,Unconfined,28.38,CGWB
+Pale Wali Dhani,29.68333,74.1,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,294100074060001,Tube Well,Unconfined,100.0,CGWB
+MASITANWALI,29.43333,74.51111,Rajasthan,Hanumangarh,Indus (Up To Border),Ghaghar And Others,292600074304001,Dug Well,,19.13,CGWB
+DUNGRANA,29.01389,75.09722,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,290050075055001,Dug Well,Unconfined,40.0,CGWB
+BOLANWALI,29.8375,74.40972,Rajasthan,Hanumangarh,Indus (Up To Border),Sutlaj Lower,295015074243501,Dug Well,Unconfined,19.0,CGWB
+BISRASAR,28.86667,74.27778,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,285200074164001,Dug Well,Unconfined,50.15,CGWB
+DHANASAR,29.18333,74.34167,Rajasthan,Hanumangarh,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,291100074203001,Dug Well,Unconfined,38.3,CGWB
+Narsinghpur,29.68278,73.85833,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294058073513001,Dug Well,Unconfined,28.3,CGWB
+22GB CHAK,29.26389,73.59167,Rajasthan,Ganganagar,Indus (Up To Border),Ghaghar And Others,291550073353001,Dug Well,Unconfined,24.01,CGWB
+SANGITA,29.225,73.77917,Rajasthan,Ganganagar,Indus (Up To Border),Ghaghar And Others,291330073464501,Dug Well,Unconfined,28.22,CGWB
+ANUPGARH1,29.2,73.2,Rajasthan,Ganganagar,Indus (Up To Border),Ghaghar And Others,291200073120001,Dug Well,Unconfined,28.3,CGWB
+RUPANAGAR,29.79583,73.44583,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294745073264501,Dug Well,Unconfined,13.45,CGWB
+HARISINGHPURA,29.12917,73.7875,Rajasthan,Ganganagar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,290745073471501,Dug Well,Unconfined,47.35,CGWB
+JAITSAR,29.35417,73.63333,Rajasthan,Ganganagar,Indus (Up To Border),Ghaghar And Others,292115073380001,Dug Well,Unconfined,38.3,CGWB
+Mokalsar,28.96667,73.86667,Rajasthan,Ganganagar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_28.9667_73.8667,,,,
+MAHIYANWALI,29.80417,73.85833,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294815073513001,Dug Well,,41.55,CGWB
+LALGARIYA,29.1,73.71667,Rajasthan,Ganganagar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,290600073430001,Dug Well,Unconfined,48.75,CGWB
+BANDA COLONY,29.30833,73.22917,Rajasthan,Ganganagar,Indus (Up To Border),Ghaghar And Others,291830073134501,Tube Well,Unconfined,100.0,CGWB
+MORJHAND KHERI,29.76667,74.08333,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294600074050001,Dug Well,,41.5,CGWB
+GANGUWALA,29.59583,73.61667,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,293545073370001,Dug Well,Unconfined,31.1,CGWB
+KARANPUR1,29.81667,73.45,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294900073270001,Dug Well,Unconfined,20.12,CGWB
+RAISINGHNAGAR,29.54167,73.45,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,293230073270001,Dug Well,Unconfined,32.1,CGWB
+BHOPALPURA,29.03333,73.525,Rajasthan,Ganganagar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,290200073313001,Dug Well,Unconfined,36.25,CGWB
+RAMSINGHPURA,29.16667,73.375,Rajasthan,Ganganagar,Indus (Up To Border),Ghaghar And Others,291000073223001,Dug Well,Unconfined,30.89,CGWB
+PIPERAN,29.24833,73.9,Rajasthan,Ganganagar,Indus (Up To Border),Ghaghar And Others,291454073540001,Dug Well,Unconfined,40.15,CGWB
+RAYANWALI,29.18333,73.95,Rajasthan,Ganganagar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,291100073570001,Dug Well,Unconfined,53.51,CGWB
+JAGATSINGHWALA,29.5125,73.61667,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,293045073370001,Dug Well,Unconfined,47.93,CGWB
+GANESHGARH,29.74583,73.9,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294445073540001,Dug Well,Unconfined,53.52,CGWB
+PIPASAR,29.05,73.85417,Rajasthan,Ganganagar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,290300073511501,Dug Well,Unconfined,58.28,CGWB
+LALGAARH JATAN,29.84167,74.02222,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,295030074012001,Dug Well,Unconfined,30.2,CGWB
+TATARSAR,29.80833,73.73333,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294830073440001,Dug Well,Unconfined,50.76,CGWB
+Jaitsar,29.33611,73.6875,Rajasthan,Ganganagar,Indus (Up To Border),Ghaghar And Others,292010073411501,Tube Well,Unconfined,84.0,CGWB
+GAJSINGHPURA,29.63333,73.45,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,293800073270001,Dug Well,Unconfined,21.12,CGWB
+KHARLA,29.80833,73.55833,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294830073333001,Dug Well,,15.7,CGWB
+Hindumal Kot,30.14639,73.91528,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,300847073545501,Dug Well,,17.0,CGWB
+GOMANWALI,29.03333,73.43333,Rajasthan,Ganganagar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,290200073260001,Dug Well,Unconfined,23.4,CGWB
+Rayanwali Shallow,29.185,73.95083,Rajasthan,Ganganagar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,291106073570302,Tube Well,Unconfined,170.0,CGWB
+BIRMANA,29.16667,73.71667,Rajasthan,Ganganagar,Indus (Up To Border),Ghaghar And Others,291000073430001,Dug Well,Unconfined,38.95,CGWB
+CHUNAWAD,29.825,73.72917,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294930073434501,Dug Well,Unconfined,47.77,CGWB
+PADAMPURA,29.275,73.775,Rajasthan,Ganganagar,Indus (Up To Border),Ghaghar And Others,291630073463001,Dug Well,Unconfined,34.31,CGWB
+Rayanwali Deep,29.185,73.95083,Rajasthan,Ganganagar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_29.1850_73.9508,,,,
+KHAL,29.08333,73.36667,Rajasthan,Ganganagar,Indus (Up To Border),Ghaghar And Others,290500073220001,Dug Well,Unconfined,33.0,CGWB
+Lalgarh,29.85556,73.9875,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,295120073591501,Tube Well,Unconfined,198.0,CGWB
+AKOLA,24.73333,74.26667,Rajasthan,Chittorgarh,Ganga,Banas,A_24.7333_74.2667,,,,
+MUKLAWA,29.52083,73.58333,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,293115073350001,Dug Well,Unconfined,42.98,CGWB
+Sunderpura_Pz,30.02944,73.66528,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,300146073395501,Tube Well,Unconfined,50.0,CGWB
+ROJARI,28.8,73.06667,Rajasthan,Ganganagar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284800073040001,Dug Well,Unconfined,34.17,CGWB
+DABLA,29.49167,73.62917,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,292930073374501,Dug Well,Unconfined,31.47,CGWB
+Birdhwal1,29.11667,73.91944,Rajasthan,Ganganagar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,290700073551001,Dug Well,Unconfined,50.85,CGWB
+BINJBALIA,29.63333,73.76667,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,293800073460001,Dug Well,Unconfined,27.75,CGWB
+SURANWALI,29.69583,73.91667,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294145073550001,Dug Well,Unconfined,37.3,CGWB
+NARSINGHPUR1,29.68333,73.85833,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294100073513001,Tube Well,,100.0,CGWB
+DELWAN,29.725,73.59583,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294330073354501,Dug Well,Unconfined,24.15,CGWB
+Sunderpura_DW,29.79861,74.08944,Rajasthan,Ganganagar,Indus (Up To Border),Sutlaj Lower,294755074052201,Dug Well,Unconfined,45.0,CGWB
+Rajgarh,25.07056,74.84722,Rajasthan,Chittorgarh,Ganga,Banas,A_25.0706_74.8472,,,,
+RASHMI1,25.06667,74.3625,Rajasthan,Chittorgarh,Ganga,Banas,250400074214501,Dug Well,Unconfined,12.5,CGWB
+Dugar,25.10833,74.83333,Rajasthan,Chittorgarh,Ganga,Banas,250630074500001,Bore Well,Unconfined,150.0,CGWB
+NAGARI1,24.95,74.7,Rajasthan,Chittorgarh,Ganga,Banas,245700074420001,Dug Well,Unconfined,17.75,CGWB
+MENAL,25.07778,75.16667,Rajasthan,Chittorgarh,Ganga,Banas,250440075100001,Dug Well,Unconfined,6.85,CGWB
+BANSEN,24.72667,74.45,Rajasthan,Chittorgarh,Ganga,Banas,244336074270001,Dug Well,Unconfined,18.95,CGWB
+MAHOODA,24.36667,74.375,Rajasthan,Chittorgarh,Ganga,Banas,242200074223001,Dug Well,,14.25,CGWB
+RAJPURIA,24.45,74.5,Rajasthan,Chittorgarh,Ganga,Banas,242700074300001,Dug Well,,11.18,CGWB
+SINGHPUR,24.93333,74.45556,Rajasthan,Chittorgarh,Ganga,Banas,245600074272001,Dug Well,Unconfined,17.17,CGWB
+KHARKHANDA,25.03611,74.49167,Rajasthan,Chittorgarh,Ganga,Banas,250210074293001,Dug Well,Unconfined,22.04,CGWB
+Jasma,24.95,74.2,Rajasthan,Chittorgarh,Ganga,Banas,245700074120001,Bore Well,,150.0,CGWB
+KALAKHET,24.31667,74.43333,Rajasthan,Chittorgarh,Mahi,Mahi Upper,241900074260001,Dug Well,Unconfined,25.4,CGWB
+BHAINSROADGARH,24.95583,75.55972,Rajasthan,Chittorgarh,Ganga,Kali Sindh And Others Up To Confluence With Parbati,245721075333501,Bore Well,,121.6,CGWB
+PUROHITOKASAVAT,24.94167,74.51944,Rajasthan,Chittorgarh,Ganga,Banas,245630074311001,Dug Well,Unconfined,31.0,CGWB
+ARAMPURA,24.25139,74.41667,Rajasthan,Chittorgarh,Mahi,Mahi Upper,241505074250001,Dug Well,Unconfined,7.3,CGWB
+GANGRAR1,25.05,74.63333,Rajasthan,Chittorgarh,Ganga,Banas,250300074380001,Dug Well,Unconfined,22.0,CGWB
+Bojunda,24.85,74.58889,Rajasthan,Chittorgarh,Ganga,Banas,245100074352001,Tube Well,Unconfined,155.0,CGWB
+NAPANIA,24.68333,74.35,Rajasthan,Chittorgarh,Ganga,Banas,244100074210001,Dug Well,Unconfined,32.5,CGWB
+MANPURA2,24.90556,74.64444,Rajasthan,Chittorgarh,Ganga,Banas,245420074384001,Dug Well,Unconfined,18.0,CGWB
+Shambhupura,24.76667,74.63333,Rajasthan,Chittorgarh,Ganga,Banas,244600074380001,Dug Well,,22.8,CGWB
+RAWATBHATA,24.93333,75.59167,Rajasthan,Chittorgarh,Ganga,Kali Sindh And Others Up To Confluence With Parbati,245600075353001,Dug Well,Unconfined,9.95,CGWB
+PARSOLI,25.13639,74.8875,Rajasthan,Chittorgarh,Ganga,Banas,250811074531501,Dug Well,Unconfined,14.44,CGWB
+KAPASAN1,24.86111,74.30833,Rajasthan,Chittorgarh,Ganga,Banas,245140074183001,Dug Well,Unconfined,20.78,CGWB
+Alanpur,27.8,76.43333,Rajasthan,Alwar,Ganga,Yamuna Upper,274800076260001,Tube Well,Unconfined,93.6,CGWB
+GHATA MORDI,27.225,76.25833,Rajasthan,Alwar,Ganga,Yamuna Middle,271330076153001,Dug Well,Unconfined,19.0,CGWB
+PUR1,27.96667,76.71667,Rajasthan,Alwar,Ganga,Yamuna Upper,275800076430001,Tube Well,Unconfined,,CGWB
+BOLNI,28.05,76.68333,Rajasthan,Alwar,Ganga,Yamuna Upper,280300076410001,Tube Well,Unconfined,142.04,CGWB
+RAJGARH1,27.23611,76.6,Rajasthan,Alwar,Ganga,Yamuna Middle,271410076360001,Dug Well,,24.15,CGWB
+Bhituda,27.94167,76.30833,Rajasthan,Alwar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275630076183001,Tube Well,Unconfined,100.2,CGWB
+JOSAI,27.93333,76.46667,Rajasthan,Alwar,Ganga,Yamuna Upper,275600076280001,Tube Well,Unconfined,99.0,CGWB
+GANGWALI DHANI,27.78333,76.50417,Rajasthan,Alwar,Ganga,Yamuna Upper,274700076301501,Tube Well,Unconfined,74.08,CGWB
+Holawas,27.63333,76.33333,Rajasthan,Alwar,Ganga,Yamuna Upper,273800076200001,Tube Well,Unconfined,150.0,CGWB
+Japaneese Zone,27.75,76.25417,Rajasthan,Alwar,Ganga,Yamuna Upper,A_27.7500_76.2542,,,,
+HASANPURA,27.89167,76.89167,Rajasthan,Alwar,Ganga,Yamuna Upper,275330076533001,Dug Well,,30.0,CGWB
+Govindgarh-Pz,27.49389,76.98972,Rajasthan,Alwar,Ganga,Yamuna Middle,272938076592301,Tube Well,Unconfined,50.0,CGWB
+TEHLA,27.2375,76.4,Rajasthan,Alwar,Ganga,Yamuna Middle,271415076240001,Dug Well,Unconfined,12.9,CGWB
+LACHMANGARH,27.35,76.83333,Rajasthan,Alwar,Ganga,Yamuna Middle,272100076500001,Dug Well,Unconfined,14.0,CGWB
+RAMGARH1,27.58333,76.80972,Rajasthan,Alwar,Ganga,Yamuna Middle,273500076483502,Tube Well,Unconfined,76.5,CGWB
+TAPUKARA,28.11,76.835,Rajasthan,Alwar,Ganga,Yamuna Upper,280636076500601,Tube Well,Unconfined,158.42,CGWB
+Naraina,26.79306,75.18806,Rajasthan,Jaipur,Ganga,Banas,264735075111701,Dug Well,Unconfined,21.5,CGWB
+AMBER,26.98333,75.86667,Rajasthan,Jaipur,Ganga,Banas,265900075520001,Dug Well,Unconfined,13.75,CGWB
+NEWATA,26.79583,75.67083,Rajasthan,Jaipur,Ganga,Banas,264745075401501,Tube Well,,48.0,CGWB
+Ladana Pz,26.64806,75.58778,Rajasthan,Jaipur,Ganga,Banas,263853075351601,Tube Well,Unconfined,70.0,CGWB
+Kansel,26.7275,75.50444,Rajasthan,Jaipur,Ganga,Banas,264339075301601,Tube Well,Unconfined,72.0,CGWB
+Alisar,27.23444,75.5825,Rajasthan,Jaipur,Ganga,Banas,271404075345701,Tube Well,Unconfined,116.0,CGWB
+Garh,26.76444,76.12528,Rajasthan,Jaipur,Ganga,Banas,264552076073101,Tube Well,Unconfined,90.0,CGWB
+CHAKSU,26.6,75.95,Rajasthan,Jaipur,Ganga,Banas,263600075570001,Dug Well,Unconfined,18.55,CGWB
+DHODSAR,27.30278,75.61667,Rajasthan,Jaipur,Ganga,Banas,271810075370001,Tube Well,Unconfined,86.56,CGWB
+TIGARIA,27.29194,75.77333,Rajasthan,Jaipur,Ganga,Banas,A_27.2919_75.7733,,,,
+Astikalan,27.25778,75.50889,Rajasthan,Jaipur,Ganga,Banas,A_27.2578_75.5089,,,,
+JHOTWARA1,26.94333,75.74444,Rajasthan,Jaipur,Ganga,Banas,265636075444001,Tube Well,Unconfined,85.04,CGWB
+HARSAULI,27.86667,76.61667,Rajasthan,Alwar,Ganga,Yamuna Upper,275200076370002,Tube Well,Unconfined,86.64,CGWB
+Rampura2,27.11667,76.83333,Rajasthan,Alwar,Ganga,Yamuna Middle,270700076500001,Tube Well,,,CGWB
+Doulatpura,27.23833,76.555,Rajasthan,Alwar,Ganga,Yamuna Middle,A_27.2383_76.5550,,,,
+Majri Khurd,27.49861,76.31667,Rajasthan,Alwar,Ganga,Yamuna Upper,272955076190001,Tube Well,Unconfined,84.6,CGWB
+Sota Nala,27.85278,76.25889,Rajasthan,Alwar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275110076153201,Tube Well,Unconfined,96.0,CGWB
+BEHROR,27.88333,76.28333,Rajasthan,Alwar,Ganga,Yamuna Upper,275300076170001,Tube Well,Unconfined,95.09,CGWB
+Janak Singh Pura,27.58056,76.40833,Rajasthan,Alwar,Ganga,Yamuna Upper,A_27.5806_76.4083,,,,
+SODAWAS1,27.86667,76.4,Rajasthan,Alwar,Ganga,Yamuna Upper,275200076240002,Tube Well,Unconfined,36.0,CGWB
+KOTKASIM1,28.08333,76.725,Rajasthan,Alwar,Ganga,Yamuna Upper,280500076433001,Dug Well,Unconfined,22.0,CGWB
+BAGAR,27.625,76.83833,Rajasthan,Alwar,Ganga,Yamuna Middle,A_27.6250_76.8383,,,,
+DALALPUR,27.7,76.60556,Rajasthan,Alwar,Ganga,Yamuna Middle,274200076362001,Tube Well,Unconfined,51.0,CGWB
+Baran1,27.44167,76.525,Rajasthan,Alwar,Ganga,Yamuna Middle,272630076313001,Dug Well,Unconfined,20.0,CGWB
+CHATTARPURA,27.56667,76.3,Rajasthan,Alwar,Ganga,Yamuna Upper,273400076180002,Tube Well,,80.64,CGWB
+Kabrala,27.23056,76.205,Rajasthan,Alwar,Ganga,Yamuna Middle,271350076121801,Dug Well,Unconfined,30.0,CGWB
+TIJARA1,27.41667,76.96667,Rajasthan,Alwar,Ganga,Yamuna Middle,272500076580001,Tube Well,Unconfined,132.4,CGWB
+Doroli,27.28333,76.71667,Rajasthan,Alwar,Ganga,Yamuna Middle,271700076430001,Dug Well,Unconfined,55.0,CGWB
+KISHANGARH BAS1,27.82,76.73333,Rajasthan,Alwar,Ganga,Yamuna Middle,274912076440001,Tube Well,Unconfined,76.65,CGWB
+Nogawa,27.65,76.86667,Rajasthan,Alwar,Ganga,Yamuna Middle,273900076520001,Tube Well,Unconfined,150.0,CGWB
+GADI SWAIRAM,27.20833,76.79167,Rajasthan,Alwar,Ganga,Yamuna Middle,271230076473001,Dug Well,Unconfined,32.25,CGWB
+BANSUR,27.69167,76.35556,Rajasthan,Alwar,Ganga,Yamuna Upper,274130076212001,Tube Well,Unconfined,65.54,CGWB
+Barodamev-Pz,27.48083,76.87111,Rajasthan,Alwar,Ganga,Yamuna Middle,272851076521601,Tube Well,,108.0,CGWB
+ANANTPURA,27.99167,76.2,Rajasthan,Alwar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275930076120001,Tube Well,Unconfined,90.32,CGWB
+Sundana,27.31667,76.98333,Rajasthan,Alwar,Ganga,Yamuna Middle,271900076590001,Tube Well,,97.3,CGWB
+JHALADALA,27.25417,76.84583,Rajasthan,Alwar,Ganga,Yamuna Middle,271515076504501,Dug Well,Unconfined,45.0,CGWB
+Neemrana,27.98333,76.38333,Rajasthan,Alwar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.9833_76.3833,,,,
+NIMLI,27.83333,76.93333,Rajasthan,Alwar,Ganga,Yamuna Middle,275000076560001,Dug Well,Unconfined,25.0,CGWB
+Akhegarh,27.23333,77.05,Rajasthan,Alwar,Ganga,Yamuna Middle,A_27.2333_77.0500,,,,
+TORIKABAS,27.11806,76.3,Rajasthan,Alwar,Ganga,Yamuna Middle,270705076180001,Dug Well,Unconfined,30.0,CGWB
+Deogaon,26.78083,76.05694,Rajasthan,Jaipur,Ganga,Banas,264651076032501,Tube Well,Unconfined,105.0,CGWB
+Madhogarh,26.75306,76.16583,Rajasthan,Jaipur,Ganga,Banas,264511076095701,Tube Well,Unconfined,102.0,CGWB
+Palri,27.34472,76.11389,Rajasthan,Jaipur,Ganga,Yamuna Middle,272041076065001,Dug Well,Unconfined,20.0,CGWB
+Gangarampur,26.76417,76.02917,Rajasthan,Jaipur,Ganga,Banas,264551076014501,Tube Well,Unconfined,108.0,CGWB
+Papar,26.96194,76.01361,Rajasthan,Jaipur,Ganga,Banas,265743076004901,Tube Well,Unconfined,103.0,CGWB
+Chandama,26.50611,75.66,Rajasthan,Jaipur,Ganga,Banas,263022075393601,Dug Well,Unconfined,17.5,CGWB
+Didwata Pz,26.49667,75.73833,Rajasthan,Jaipur,Ganga,Banas,262948075441801,Tube Well,Unconfined,70.0,CGWB
+Khejroli-Pz,27.33333,75.71389,Rajasthan,Jaipur,Ganga,Banas,272000075425001,Tube Well,Unconfined,87.6,CGWB
+Niwaroo,26.96667,75.71667,Rajasthan,Jaipur,Ganga,Banas,265800075430001,Tube Well,,100.0,CGWB
+Rajpura Patalwas,26.8,76.16667,Rajasthan,Jaipur,Ganga,Banas,264800076100001,Tube Well,,100.0,CGWB
+Tickel,26.70639,75.50167,Rajasthan,Jaipur,Ganga,Banas,264223075300601,Dug Well,Unconfined,19.0,CGWB
+Naila,26.91889,75.97111,Rajasthan,Jaipur,Ganga,Banas,265508075581601,Tube Well,Unconfined,116.0,CGWB
+Phagi Pz,26.57944,75.5675,Rajasthan,Jaipur,Ganga,Banas,RJGW_4473,Piezometer,Not Available,72.0,Rajasthan GW
+Lasariya,26.53972,75.50861,Rajasthan,Jaipur,Ganga,Banas,263223075303101,Dug Well,Unconfined,21.0,CGWB
+Udaipuriya-Pz,27.23333,75.71667,Rajasthan,Jaipur,Ganga,Banas,271400075430001,Tube Well,,78.4,CGWB
+BASSI2,26.83333,76.06667,Rajasthan,Jaipur,Ganga,Banas,265000076040002,Tube Well,Unconfined,56.6,CGWB
+Bhojpura,26.62222,75.61361,Rajasthan,Jaipur,Ganga,Banas,263720075364901,Dug Well,Unconfined,13.2,CGWB
+HASTAL KA BAS,27.025,76.00833,Rajasthan,Jaipur,Ganga,Yamuna Middle,270130076003001,Dug Well,,23.0,CGWB
+Dahmi Kallan,26.83333,75.56667,Rajasthan,Jaipur,Ganga,Banas,265000075340001,Tube Well,Unconfined,90.0,CGWB
+Chittora Pz,26.64083,75.69889,Rajasthan,Jaipur,Ganga,Banas,263827075415601,Tube Well,Unconfined,76.0,CGWB
+DAWACH1,26.56667,75.76667,Rajasthan,Jaipur,Ganga,Banas,263400075460001,Tube Well,Unconfined,150.0,CGWB
+Majhi Renwal Pz,26.69056,75.67556,Rajasthan,Jaipur,Ganga,Banas,RJGW_4451,Piezometer,Not Available,72.0,Rajasthan GW
+N.PUROHITAN,27.05,75.75,Rajasthan,Jaipur,Ganga,Banas,270300075450002,Tube Well,,81.0,CGWB
+Sunderpura,27.70194,76.16333,Rajasthan,Jaipur,Ganga,Yamuna Upper,274207076094801,Tube Well,Unconfined,69.0,CGWB
+Sambhar,26.90611,75.19417,Rajasthan,Jaipur,Ganga,Banas,265422075113901,Dug Well,Unconfined,20.0,CGWB
+Majhi Renwal,26.70056,75.68333,Rajasthan,Jaipur,Ganga,Banas,264202075410001,Dug Well,Unconfined,32.0,CGWB
+Padasoli,26.94639,76.18472,Rajasthan,Jaipur,Ganga,Yamuna Middle,265647076110501,Tube Well,Unconfined,70.0,CGWB
+Parun Pz,26.51222,75.60194,Rajasthan,Jaipur,Ganga,Banas,263044075360701,Tube Well,Unconfined,80.0,CGWB
+SIRSI,26.91667,75.68333,Rajasthan,Jaipur,Ganga,Banas,265500075410002,Tube Well,,84.04,CGWB
+Gadota,26.78361,75.41389,Rajasthan,Jaipur,Ganga,Banas,264701075245001,Tube Well,Unconfined,92.0,CGWB
+Barkabalaji,26.76667,75.63333,Rajasthan,Jaipur,Ganga,Banas,264600075380001,Tube Well,Unconfined,110.0,CGWB
+ITWA BHOPJI,27.25,75.71944,Rajasthan,Jaipur,Ganga,Banas,271500075431001,Tube Well,,100.0,CGWB
+Kanarpura,27.18389,75.57167,Rajasthan,Jaipur,Ganga,Banas,271102075341801,Tube Well,Unconfined,94.0,CGWB
+Madhorajpur Pz,26.57611,75.64028,Rajasthan,Jaipur,Ganga,Banas,263434075382501,Tube Well,Unconfined,72.0,CGWB
+Bilwa Pz,26.75167,75.85972,Rajasthan,Jaipur,Ganga,Banas,264506075513501,Tube Well,Unconfined,71.5,CGWB
+Ladana,26.65139,75.58639,Rajasthan,Jaipur,Ganga,Banas,263905075351101,Dug Well,Unconfined,18.0,CGWB
+Bhankrota,26.86333,75.69472,Rajasthan,Jaipur,Ganga,Banas,265148075414101,Tube Well,,80.0,CGWB
+Rajarampura,27.0925,75.75361,Rajasthan,Jaipur,Ganga,Banas,270533075451301,Tube Well,Unconfined,88.0,CGWB
+Kansli,27.70194,76.14472,Rajasthan,Jaipur,Ganga,Yamuna Upper,274207076084101,Tube Well,Unconfined,80.0,CGWB
+CHAUMP,27.1,75.85,Rajasthan,Jaipur,Ganga,Yamuna Middle,270600075510001,Tube Well,Unconfined,78.0,CGWB
+Choru Pz,26.59639,75.45,Rajasthan,Jaipur,Ganga,Banas,263547075270001,Tube Well,Unconfined,70.0,CGWB
+KALWAD,26.975,75.6,Rajasthan,Jaipur,Ganga,Banas,265830075360001,Tube Well,Unconfined,100.0,CGWB
+MANGARWARA,26.61,75.27778,Rajasthan,Jaipur,Ganga,Banas,263636075164001,Dug Well,Unconfined,16.17,CGWB
+Sarundh,27.72222,76.12417,Rajasthan,Jaipur,Ganga,Yamuna Upper,274320076072701,Tube Well,Unconfined,87.0,CGWB
+Amarsar,27.37528,75.82861,Rajasthan,Jaipur,Ganga,Yamuna Middle,272231075494301,Tube Well,Unconfined,120.0,CGWB
+Jhotwara,26.93333,75.73333,Rajasthan,Jaipur,Ganga,Banas,265600075440001,Tube Well,,85.04,CGWB
+Bindayaka,26.91833,75.64861,Rajasthan,Jaipur,Ganga,Banas,265506075385501,Tube Well,Unconfined,112.0,CGWB
+Niwana,27.27556,75.73194,Rajasthan,Jaipur,Ganga,Banas,271632075435501,Tube Well,Unconfined,95.0,CGWB
+Rajnota,27.68694,76.19222,Rajasthan,Jaipur,Ganga,Yamuna Upper,274113076113201,Tube Well,Unconfined,96.0,CGWB
+PHAGI1,26.56667,75.56667,Rajasthan,Jaipur,Ganga,Banas,263400075340001,Dug Well,,15.75,CGWB
+ANDHI,27.05833,76.16667,Rajasthan,Jaipur,Ganga,Yamuna Middle,270330076100001,Dug Well,,30.0,CGWB
+Phulera,26.875,75.23806,Rajasthan,Jaipur,Ganga,Banas,265230075141702,Tube Well,Unconfined,108.0,CGWB
+Samred Kalan,27.135,76.0675,Rajasthan,Jaipur,Ganga,Yamuna Middle,270806076040301,Tube Well,Unconfined,88.0,CGWB
+PHULERA(PIPLI K,26.89167,75.2625,Rajasthan,Jaipur,Ganga,Banas,265330075154501,Tube Well,,41.6,CGWB
+SHIVDASPURA,26.71361,75.90056,Rajasthan,Jaipur,Ganga,Banas,264249075540201,Dug Well,Unconfined,27.18,CGWB
+Nemeda,26.50389,75.51361,Rajasthan,Jaipur,Ganga,Banas,263014075304901,Dug Well,Unconfined,16.25,CGWB
+Dantala Meena,27.16306,76.06278,Rajasthan,Jaipur,Ganga,Yamuna Middle,270947076034601,Tube Well,Unconfined,105.0,CGWB
+CHOMU,27.16167,75.72444,Rajasthan,Jaipur,Ganga,Banas,270942075432801,Tube Well,,99.1,CGWB
+KHEJROLI,27.33611,75.7,Rajasthan,Jaipur,Ganga,Banas,272010075420001,Tube Well,,100.0,CGWB
+Jalsu,27.10833,75.625,Rajasthan,Jaipur,Ganga,Banas,270630075373001,Tube Well,,100.0,CGWB
+Jobner,26.96667,75.36667,Rajasthan,Jaipur,Ganga,Banas,265800075220001,Tube Well,,100.0,CGWB
+JAIPUR PZO 1,26.86667,75.78333,Rajasthan,Jaipur,Ganga,Banas,265200075470001,Tube Well,,71.2,CGWB
+Parun,26.50583,75.60667,Rajasthan,Jaipur,Ganga,Banas,263021075362401,Dug Well,Unconfined,14.0,CGWB
+Manda Bhida,27.2,75.54167,Rajasthan,Jaipur,Ganga,Banas,A_27.2000_75.5417,,,,
+DATAL GURJRAN,27.18333,76.06667,Rajasthan,Jaipur,Ganga,Yamuna Middle,271100076040001,Tube Well,Unconfined,57.0,CGWB
+Tickel Pz,26.67222,75.51056,Rajasthan,Jaipur,Ganga,Banas,264020075303801,Tube Well,Unconfined,75.0,CGWB
+Bidhara,27.36611,75.95389,Rajasthan,Jaipur,Ganga,Yamuna Upper,272158075571401,Tube Well,Unconfined,119.0,CGWB
+MOZMABAD,26.68333,75.3625,Rajasthan,Jaipur,Ganga,Banas,264100075214501,Dug Well,Unconfined,10.48,CGWB
+Paniyala,27.79222,76.24194,Rajasthan,Jaipur,Ganga,Yamuna Upper,274732076143101,Tube Well,Unconfined,90.0,CGWB
+DURGAPURA,26.84167,75.78889,Rajasthan,Jaipur,Ganga,Banas,265030075472001,Tube Well,Unconfined,100.0,CGWB
+Rojwari,26.78028,76.17556,Rajasthan,Jaipur,Ganga,Banas,264649076103201,Tube Well,Unconfined,110.0,CGWB
+Mansarovar Cgwb,26.85333,75.76667,Rajasthan,Jaipur,Ganga,Banas,265112075460001,Tube Well,Unconfined,79.0,CGWB
+Kaladera2,27.18611,75.67361,Rajasthan,Jaipur,Ganga,Banas,271110075402501,Tube Well,Unconfined,70.4,CGWB
+Tuntoli,26.63417,75.79944,Rajasthan,Jaipur,Ganga,Banas,263803075475801,Dug Well,Unconfined,25.0,CGWB
+Kotputli1,27.68333,76.21667,Rajasthan,Jaipur,Ganga,Yamuna Upper,A_27.6833_76.2167,,,,
+Samod,27.19361,75.81333,Rajasthan,Jaipur,Ganga,Banas,271137075484801,Tube Well,Unconfined,65.0,CGWB
+MES JAIPUR,26.93333,75.77917,Rajasthan,Jaipur,Ganga,Banas,265600075464501,Tube Well,Unconfined,67.8,CGWB
+Govindgarh1,27.24583,75.65,Rajasthan,Jaipur,Ganga,Banas,271445075390001,Tube Well,,100.0,CGWB
+Mehla Pz,26.81056,75.47861,Rajasthan,Jaipur,Ganga,Banas,264838075284301,Tube Well,Unconfined,93.0,CGWB
+Harmara,27.01056,75.75833,Rajasthan,Jaipur,Ganga,Banas,270038075453001,Tube Well,Unconfined,125.0,CGWB
+BHANPUR KALAN,27.06667,75.96667,Rajasthan,Jaipur,Ganga,Banas,270400075580002,Tube Well,,55.25,CGWB
+Mohanpura,26.56306,75.58694,Rajasthan,Jaipur,Ganga,Banas,263347075351301,Tube Well,Unconfined,70.0,CGWB
+BADHAL,27.25278,75.61667,Rajasthan,Jaipur,Ganga,Banas,271510075370001,Tube Well,,90.0,CGWB
+MANSAROVAR,26.85278,75.76667,Rajasthan,Jaipur,Ganga,Banas,265110075460001,Tube Well,Unconfined,100.0,CGWB
+Chandama Kallan,26.50778,75.66278,Rajasthan,Jaipur,Ganga,Banas,263028075394601,Tube Well,Unconfined,73.0,CGWB
+Mahal,26.83333,75.86667,Rajasthan,Jaipur,Ganga,Banas,265000075520001,Tube Well,Unconfined,105.0,CGWB
+Heerapura,26.88806,75.71694,Rajasthan,Jaipur,Ganga,Banas,265317075430101,Tube Well,Unconfined,106.0,CGWB
+NASNOTA,26.8,75.43333,Rajasthan,Jaipur,Ganga,Banas,264800075260001,Dug Well,Unconfined,17.0,CGWB
+Choru,26.5925,75.45,Rajasthan,Jaipur,Ganga,Banas,263533075270001,Dug Well,Unconfined,20.0,CGWB
+Daulatpura,27.05,75.83333,Rajasthan,Jaipur,Ganga,Banas,A_27.0500_75.8333,,,,
+Kanota1,26.875,75.95,Rajasthan,Jaipur,Ganga,Banas,265230075570001,Tube Well,,70.0,CGWB
+Hira Ka Bas,27.28333,75.575,Rajasthan,Jaipur,Ganga,Banas,271700075343001,Tube Well,,100.0,CGWB
+BHAISALANA,27.05833,75.3,Rajasthan,Jaipur,Ganga,Banas,270330075180001,Tube Well,,46.0,CGWB
+Jamwa Ramgarh,27.01972,76.01194,Rajasthan,Jaipur,Ganga,Yamuna Middle,270111076004301,Tube Well,Unconfined,87.0,CGWB
+Chomu1,27.16667,75.71667,Rajasthan,Jaipur,Ganga,Banas,271000075430001,Tube Well,,99.17,CGWB
+Bandh Ka Balaji,26.86194,75.36278,Rajasthan,Jaipur,Ganga,Banas,265143075214601,Tube Well,Unconfined,90.0,CGWB
+Anantpura,27.12722,75.76333,Rajasthan,Jaipur,Ganga,Banas,270738075454801,Tube Well,,92.65,CGWB
+Dhabli,27.22972,75.83694,Rajasthan,Jaipur,Ganga,Banas,271347075501301,Tube Well,,91.0,CGWB
+Raiser,27.1475,76.11528,Rajasthan,Jaipur,Ganga,Yamuna Middle,270851076065501,Tube Well,Unconfined,105.0,CGWB
+Saipura Pz,26.98167,75.92472,Rajasthan,Jaipur,Ganga,Banas,265854075552901,Tube Well,Unconfined,65.0,CGWB
+SURYANAGAR,26.87917,75.77778,Rajasthan,Jaipur,Ganga,Banas,265245075464001,Tube Well,,77.96,CGWB
+Gonera,27.8,76.2,Rajasthan,Jaipur,Ganga,Yamuna Upper,274800076120001,Tube Well,,140.0,CGWB
+Ghatyali,26.50167,75.45444,Rajasthan,Jaipur,Ganga,Banas,263006075271601,Dug Well,Unconfined,14.5,CGWB
+Bassi Nagal,26.98694,75.50361,Rajasthan,Jaipur,Ganga,Banas,265913075301301,Tube Well,Unconfined,72.0,CGWB
+Hastera1,27.22556,75.52972,Rajasthan,Jaipur,Ganga,Banas,271332075314701,Tube Well,Unconfined,60.0,CGWB
+PALLUKHURD,26.73611,75.3,Rajasthan,Jaipur,Ganga,Banas,264410075180001,Dug Well,Unconfined,19.25,CGWB
+Hastera,27.23333,75.53333,Rajasthan,Jaipur,Ganga,Banas,271400075320001,Tube Well,,57.32,CGWB
+Khladkhani,27.30306,76.03833,Rajasthan,Jaipur,Ganga,Yamuna Middle,271811076021801,Tube Well,Unconfined,87.0,CGWB
+SIROHIKHURD,26.79167,75.15,Rajasthan,Jaipur,Ganga,Banas,264730075090001,Dug Well,Unconfined,10.5,CGWB
+Gwd Campus,26.87361,75.81972,Rajasthan,Jaipur,Ganga,Banas,265225075491101,Tube Well,Unconfined,112.0,CGWB
+RASALA,27.11667,76.205,Rajasthan,Jaipur,Ganga,Yamuna Middle,270700076121801,Dug Well,Unconfined,20.07,CGWB
+Kharana,26.99917,76.11667,Rajasthan,Jaipur,Ganga,Yamuna Middle,265957076070001,Tube Well,Unconfined,84.0,CGWB
+THALLI,26.6125,75.88611,Rajasthan,Jaipur,Ganga,Banas,263645075531001,Dug Well,Unconfined,15.85,CGWB
+KOTPUTLI1,27.68333,76.21667,Rajasthan,Jaipur,Ganga,Yamuna Upper,274100076130002,Tube Well,,100.0,CGWB
+TILAWALA,26.72222,75.70278,Rajasthan,Jaipur,Ganga,Banas,264320075421001,Tube Well,,40.0,CGWB
+Malawala,27.0,75.96667,Rajasthan,Jaipur,Ganga,Banas,A_27.0000_75.9667,,,,
+GONER,26.67917,75.90833,Rajasthan,Jaipur,Ganga,Banas,264045075543001,Dug Well,Unconfined,15.0,CGWB
+Kheerwa,27.05389,75.40917,Rajasthan,Jaipur,Ganga,Banas,270314075243301,Tube Well,Unconfined,120.0,CGWB
+Maharajpura,26.78139,75.99778,Rajasthan,Jaipur,Ganga,Banas,264653075595201,Tube Well,Unconfined,108.0,CGWB
+Ghatyali Pz,26.50861,75.36361,Rajasthan,Jaipur,Ganga,Banas,263031075214901,Tube Well,Unconfined,63.0,CGWB
+MALAWALA,27.00278,75.975,Rajasthan,Jaipur,Ganga,Banas,270010075583001,Tube Well,Unconfined,56.0,CGWB
+Madhorajpur,26.57722,75.65583,Rajasthan,Jaipur,Ganga,Banas,263438075392101,Dug Well,Unconfined,25.2,CGWB
+Jatwara Pz,26.87556,76.20833,Rajasthan,Jaipur,Ganga,Banas,265232076123001,Tube Well,Unconfined,53.0,CGWB
+MOHANA,26.8,75.66667,Rajasthan,Jaipur,Ganga,Banas,264800075400002,Tube Well,,63.01,CGWB
+Chakwara,26.60556,75.5125,Rajasthan,Jaipur,Ganga,Banas,263620075304501,Dug Well,Unconfined,18.0,CGWB
+Mohanpur Balaji,27.165,75.35722,Rajasthan,Jaipur,Ganga,Banas,270954075212601,Tube Well,Unconfined,75.0,CGWB
+DHOLA1,27.2625,76.07778,Rajasthan,Jaipur,Ganga,Yamuna Middle,A_27.2625_76.0778,,,,
+Nemeda Pz,26.51222,75.5225,Rajasthan,Jaipur,Ganga,Banas,263044075312101,Tube Well,Unconfined,76.0,CGWB
+Chittora,26.63806,75.70194,Rajasthan,Jaipur,Ganga,Banas,263817075420701,Dug Well,Unconfined,30.0,CGWB
+Chirota,26.79694,75.58056,Rajasthan,Jaipur,Ganga,Banas,264749075345001,Tube Well,Unconfined,30.5,CGWB
+Raghunathpura_Pz,27.63583,76.12194,Rajasthan,Jaipur,Ganga,Yamuna Upper,273809076071901,Tube Well,Unconfined,68.57,CGWB
+Chakwara Pz,26.60778,75.50722,Rajasthan,Jaipur,Ganga,Banas,263628075302601,Tube Well,Unconfined,70.0,CGWB
+SUKHPURIA,26.75139,75.82222,Rajasthan,Jaipur,Ganga,Banas,A_26.7514_75.8222,,,,
+Hingonia,27.04389,75.47139,Rajasthan,Jaipur,Ganga,Banas,270238075281701,Tube Well,,78.0,CGWB
+Bhuj,26.93333,76.075,Rajasthan,Jaipur,Ganga,Yamuna Middle,265600076043001,Bore Well,,150.0,CGWB
+DAWACH,26.56722,75.75417,Rajasthan,Jaipur,Ganga,Banas,263402075451501,Dug Well,Unconfined,16.0,CGWB
+RAMNAGAR,25.4,75.55833,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,252400075333001,Dug Well,Unconfined,15.23,CGWB
+Bhimnagar,26.96667,77.3,Rajasthan,Bharatpur,Ganga,Yamuna Middle,265800077180001,Tube Well,Unconfined,41.2,CGWB
+SATUR,25.47222,75.55417,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,252820075331501,Dug Well,Unconfined,15.0,CGWB
+GUDLI,25.26583,75.91528,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251557075545501,Dug Well,Unconfined,14.82,CGWB
+MOTIPURA,25.55556,75.94722,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,253320075565001,Dug Well,Unconfined,14.0,CGWB
+CHIRWA,24.7,73.75,Rajasthan,Udaipur,Ganga,Banas,244200073450002,Bore Well,Unconfined,125.75,CGWB
+KAPREN,25.39111,76.07361,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,252328076042501,Dug Well,Unconfined,6.71,CGWB
+LAKHERI,25.66667,76.18333,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,254000076110001,Dug Well,Unconfined,3.95,CGWB
+BALLOP,25.26667,75.76667,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251600075460001,Dug Well,Unconfined,6.0,CGWB
+Dahi Khera,25.51667,76.16667,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,253100076100001,Dug Well,Unconfined,7.38,CGWB
+DEVAKHERA,25.66389,75.43889,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,A_25.6639_75.4389,,,,
+GIRDHARPURA,25.2275,75.83778,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251339075501601,Dug Well,Unconfined,7.0,CGWB
+RAJWAS,25.49444,75.825,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,252940075493001,Dug Well,Unconfined,7.5,CGWB
+MAIJA,25.40833,75.8875,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,252430075531501,Dug Well,Unconfined,10.7,CGWB
+DELUNDA,25.47083,75.86667,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,252815075520001,Dug Well,Unconfined,17.68,CGWB
+Pasta,27.55,77.3,Rajasthan,Bharatpur,Ganga,Yamuna Middle,A_27.5500_77.3000,,,,
+NENWA,25.77333,75.86333,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,254624075514801,Dug Well,,18.92,CGWB
+GAINDOLI,25.54167,75.99583,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,253230075594501,Dug Well,Unconfined,10.72,CGWB
+KESHORAIPATAN,25.31889,75.93056,Rajasthan,Bundi,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251908075555001,Dug Well,Unconfined,3.96,CGWB
+Gopalgarh,27.65472,77.06333,Rajasthan,Bharatpur,Ganga,Yamuna Middle,273917077034801,Dug Well,Unconfined,12.3,CGWB
+SIHORA,27.55,77.3,Rajasthan,Bharatpur,Ganga,Yamuna Middle,273300077180001,Dug Well,Unconfined,15.0,CGWB
+Kheria Mod,26.95,77.38333,Rajasthan,Bharatpur,Ganga,Yamuna Middle,265700077230001,Dug Well,Unconfined,11.2,CGWB
+KALYANPURA2,27.10833,77.51667,Rajasthan,Bharatpur,Ganga,Yamuna Middle,270630077310001,Dug Well,,6.16,CGWB
+SADPURA,27.03333,77.06667,Rajasthan,Bharatpur,Ganga,Yamuna Middle,270200077040001,Dug Well,,15.0,CGWB
+Indroli,27.63333,77.28333,Rajasthan,Bharatpur,Ganga,Yamuna Middle,273800077170001,Dug Well,Unconfined,14.3,CGWB
+JHANTLI,27.60833,77.07083,Rajasthan,Bharatpur,Ganga,Yamuna Middle,273630077041501,Dug Well,,10.0,CGWB
+DEEG1,27.46667,77.33333,Rajasthan,Bharatpur,Ganga,Yamuna Middle,272800077200001,Dug Well,Unconfined,14.0,CGWB
+LULHARA,27.16667,77.26667,Rajasthan,Bharatpur,Ganga,Yamuna Middle,271000077160001,Dug Well,Unconfined,20.0,CGWB
+Bharatpur1,27.21667,77.5,Rajasthan,Bharatpur,Ganga,Yamuna Middle,271300077300001,Dug Well,Unconfined,8.39,CGWB
+HALENA,27.13056,77.15,Rajasthan,Bharatpur,Ganga,Yamuna Middle,270750077090001,Tube Well,Unconfined,52.64,CGWB
+KHANUA,27.03333,77.55,Rajasthan,Bharatpur,Ganga,Yamuna Middle,270200077330001,Dug Well,Unconfined,13.0,CGWB
+Jagjeevanpura,27.03333,77.13333,Rajasthan,Bharatpur,Ganga,Yamuna Middle,270200077080001,Tube Well,Unconfined,100.0,CGWB
+GULPURA,27.53333,77.125,Rajasthan,Bharatpur,Ganga,Yamuna Middle,273200077073001,Dug Well,Unconfined,15.0,CGWB
+Deeg,27.5,77.31667,Rajasthan,Bharatpur,Ganga,Yamuna Middle,273000077190001,Tube Well,Unconfined,129.2,CGWB
+UCHAIN,27.09222,77.41083,Rajasthan,Bharatpur,Ganga,Yamuna Middle,270532077243901,Dug Well,,13.0,CGWB
+Roopwas1,26.98333,77.56667,Rajasthan,Bharatpur,Ganga,Yamuna Middle,265900077340001,Bore Well,Unconfined,150.0,CGWB
+NAKATPURA1,27.625,77.06667,Rajasthan,Bharatpur,Ganga,Yamuna Middle,273730077040001,Tube Well,,106.48,CGWB
+BAWARI BARODA,26.96389,77.35972,Rajasthan,Bharatpur,Ganga,Yamuna Middle,265750077213501,Dug Well,Unconfined,10.0,CGWB
+BANDH BARETA,26.90556,77.37778,Rajasthan,Bharatpur,Ganga,Yamuna Middle,265420077224001,Dug Well,Unconfined,5.15,CGWB
+Newada Shallow,27.11667,77.13472,Rajasthan,Bharatpur,Ganga,Yamuna Middle,270700077080501,Tube Well,Unconfined,98.0,CGWB
+PANHORI,27.445,77.25,Rajasthan,Bharatpur,Ganga,Yamuna Middle,272642077150001,Dug Well,,11.2,CGWB
+Jheel Mandir,26.91667,77.31667,Rajasthan,Bharatpur,Ganga,Yamuna Middle,265500077190001,Tube Well,,100.0,CGWB
+JAISARI,27.525,77.075,Rajasthan,Bharatpur,Ganga,Yamuna Middle,273130077043001,Tube Well,Unconfined,121.65,CGWB
+DAHINAGAON,26.99583,77.49167,Rajasthan,Bharatpur,Ganga,Yamuna Middle,A_26.9958_77.4917,,,,
+KUMHER,27.31667,77.38333,Rajasthan,Bharatpur,Ganga,Yamuna Middle,271900077230001,Slim Hole,Unconfined,,CGWB
+RARAH PZII,27.33333,77.55,Rajasthan,Bharatpur,Ganga,Yamuna Middle,272000077330002,Tube Well,Unconfined,50.0,CGWB
+KOT1,26.80417,77.43056,Rajasthan,Bharatpur,Ganga,Yamuna Middle,264815077255001,Dug Well,Unconfined,12.5,CGWB
+BIRAITHA,27.00833,77.38333,Rajasthan,Bharatpur,Ganga,Yamuna Middle,270030077230001,Dug Well,,5.43,CGWB
+Chokarwada,27.11667,77.06667,Rajasthan,Bharatpur,Ganga,Yamuna Middle,270700077040002,Tube Well,Unconfined,91.0,CGWB
+RARAH PZI,27.33333,77.55,Rajasthan,Bharatpur,Ganga,Yamuna Middle,A_27.3333_77.5500,,,,
+SALABAD,26.99583,77.49167,Rajasthan,Bharatpur,Ganga,Yamuna Middle,265945077293002,Dug Well,Unconfined,17.0,CGWB
+CHIKSANA,27.18333,77.66667,Rajasthan,Bharatpur,Ganga,Yamuna Middle,A_27.1833_77.6667,,,,
+MANDHERA,27.395,77.3525,Rajasthan,Bharatpur,Ganga,Yamuna Middle,272342077210901,Dug Well,Unconfined,20.0,CGWB
+PAHARI,27.7,77.08333,Rajasthan,Bharatpur,Ganga,Yamuna Middle,274200077050001,Dug Well,Unconfined,12.0,CGWB
+JURAHRA,27.78222,77.22667,Rajasthan,Bharatpur,Ganga,Yamuna Middle,274656077133601,Dug Well,Unconfined,15.5,CGWB
+KHAN SURJAPUR,26.975,77.6375,Rajasthan,Bharatpur,Ganga,Yamuna Middle,265830077381501,Dug Well,Unconfined,16.88,CGWB
+WEIR1,27.01389,77.175,Rajasthan,Bharatpur,Ganga,Yamuna Middle,270050077103001,Tube Well,Unconfined,92.2,CGWB
+NADBAI,27.20833,77.2125,Rajasthan,Bharatpur,Ganga,Yamuna Middle,271230077124501,Tube Well,Unconfined,90.62,CGWB
+Milakpur,27.02222,77.38306,Rajasthan,Bharatpur,Ganga,Yamuna Middle,270120077225901,Tube Well,Unconfined,50.0,CGWB
+Newada Deep,27.11667,77.13333,Rajasthan,Bharatpur,Ganga,Yamuna Middle,270700077080001,Tube Well,Unconfined,98.0,CGWB
+CHIKSANA1,27.18333,77.66667,Rajasthan,Bharatpur,Ganga,Yamuna Middle,271100077400001,Tube Well,Unconfined,,CGWB
+BAONLI CHAN,27.225,77.09167,Rajasthan,Bharatpur,Ganga,Yamuna Middle,271330077053001,Tube Well,Unconfined,100.0,CGWB
+BHAGORI,26.96806,77.25167,Rajasthan,Bharatpur,Ganga,Yamuna Middle,265805077150601,Dug Well,Unconfined,19.44,CGWB
+KAMAN1,27.66389,77.295,Rajasthan,Bharatpur,Ganga,Yamuna Middle,273950077174201,Dug Well,,12.68,CGWB
+GHANERAO,25.23333,73.525,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,251400073313001,Dug Well,Unconfined,23.12,CGWB
+Haripur Rly Stn,26.01472,74.02889,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260053074014401,Dug Well,Unconfined,24.5,CGWB
+HAJIWAS,26.13333,74.10833,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260800074063001,Dug Well,Unconfined,21.98,CGWB
+Dhaulpur,26.68333,77.86667,Rajasthan,Dholpur,Ganga,Yamuna Middle,264100077520002,Tube Well,Unconfined,31.22,CGWB
+RADAWAS,25.18333,73.29167,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,251100073173001,Dug Well,Unconfined,24.03,CGWB
+Karimpur,26.75139,77.81111,Rajasthan,Dholpur,Ganga,Yamuna Middle,264505077484001,Tube Well,Unconfined,55.0,CGWB
+PERWA,25.15833,73.2,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250930073120001,Dug Well,Unconfined,15.0,CGWB
+ROHAT1,25.95139,73.14306,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255705073083501,Tube Well,Unconfined,28.8,CGWB
+DHOLA,25.50417,73.24583,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_25.5042_73.2458,,,,
+NIMAJ,26.15,73.81667,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260900073490001,Dug Well,Unconfined,39.0,CGWB
+Binjliawas,25.8,73.58333,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254800073350001,Bore Well,Unconfined,150.0,CGWB
+SADRI,25.17917,73.4625,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,251045073274501,Dug Well,Unconfined,19.8,CGWB
+PALI1,25.76667,73.33333,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254600073200001,Dug Well,Unconfined,12.09,CGWB
+NIMBORNATH,25.22917,73.1625,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,251345073094501,Dug Well,Unconfined,8.3,CGWB
+Mangraul,26.81667,77.95833,Rajasthan,Dholpur,Ganga,Yamuna Middle,264900077573001,Tube Well,Unconfined,90.0,CGWB
+JAITPURA,25.82917,73.0625,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254945073034501,Dug Well,Unconfined,13.89,CGWB
+KANAWAS,25.86667,73.475,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255200073283001,Dug Well,Unconfined,20.0,CGWB
+CHANDAWAL,26.025,73.85,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260130073510001,Dug Well,,20.04,CGWB
+GUNDOJ,25.60833,73.3125,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,253630073184501,Dug Well,Unconfined,24.14,CGWB
+BIRAMI,25.36667,73.2,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252200073120001,Dug Well,Unconfined,20.0,CGWB
+SARDARSAMAD,25.975,73.38333,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255830073230001,Dug Well,Unconfined,17.0,CGWB
+KHUDALA1,25.23333,73.25,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,251400073150001,Dug Well,,26.72,CGWB
+JAITARAN1,26.2,73.93333,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261200073560001,Dug Well,,22.5,CGWB
+BASSI1,26.35,74.0125,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,262100074004501,Dug Well,Unconfined,17.0,CGWB
+Balwana,25.11417,73.15861,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250651073093101,Dug Well,Unconfined,10.0,CGWB
+PRITHIPURA,26.2,73.81667,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261200073490001,Dug Well,Unconfined,36.0,CGWB
+VAED,25.71667,72.96667,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254300072580001,Dug Well,Unconfined,16.81,CGWB
+RANAKPUR,25.13333,73.46667,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250800073280001,Dug Well,Unconfined,16.46,CGWB
+KIRWA,25.49583,73.25833,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252945073153001,Dug Well,Unconfined,21.0,CGWB
+KARIASODA,25.83333,73.6375,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255000073381501,Dug Well,Unconfined,21.0,CGWB
+SANDERAO,25.31528,73.18278,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,251855073105801,Dug Well,Unconfined,17.2,CGWB
+RAIPUR-I,26.07083,74.06667,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260415074040001,Dug Well,,12.5,CGWB
+RAIPUR-II,26.05833,74.05833,Rajasthan,Pali,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260330074033001,Dug Well,Unconfined,12.7,CGWB
+Lebudapura,26.81667,77.68611,Rajasthan,Dholpur,Ganga,Yamuna Middle,264900077411001,Tube Well,,28.14,CGWB
+SAWALIAPURA,26.84722,78.09167,Rajasthan,Dholpur,Ganga,Yamuna Middle,265050078053001,Dug Well,Unconfined,35.0,CGWB
+SIKRONDA,26.93333,78.1375,Rajasthan,Dholpur,Ganga,Yamuna Middle,265600078081502,Tube Well,Unconfined,122.72,CGWB
+GAJPURA,26.575,77.69167,Rajasthan,Dholpur,Ganga,Yamuna Middle,263430077413001,Dug Well,Unconfined,14.0,CGWB
+ANGAI,26.60194,77.47667,Rajasthan,Dholpur,Ganga,Yamuna Middle,263607077283601,Dug Well,Unconfined,21.24,CGWB
+KANTHRI,26.85833,77.71667,Rajasthan,Dholpur,Ganga,Yamuna Middle,265130077430001,Dug Well,Unconfined,8.0,CGWB
+MARAINA1,26.8,78.03333,Rajasthan,Dholpur,Ganga,Chambal Lower,264800078020003,Tube Well,,19.78,CGWB
+PURA KA SAD,26.81667,77.68611,Rajasthan,Dholpur,Ganga,Yamuna Middle,A_26.8167_77.6861,,,,
+AITHMEEL,26.65,77.8,Rajasthan,Dholpur,Ganga,Chambal Lower,263900077480001,Dug Well,Unconfined,20.72,CGWB
+BARI1,26.66667,77.61667,Rajasthan,Dholpur,Ganga,Yamuna Middle,264000077370001,Dug Well,Unconfined,17.57,CGWB
+PIPEHARA,26.88333,77.78333,Rajasthan,Dholpur,Ganga,Yamuna Middle,265300077470001,Tube Well,,42.0,CGWB
+BARETHA KALAN,26.90278,77.93333,Rajasthan,Dholpur,Ganga,Yamuna Middle,265410077560001,Tube Well,Unconfined,82.66,CGWB
+NAKATPURA,26.52222,77.3875,Rajasthan,Dholpur,Ganga,Yamuna Middle,263120077231501,Dug Well,Unconfined,11.45,CGWB
+Dhaulpur1,26.68333,77.86667,Rajasthan,Dholpur,Ganga,Yamuna Middle,A_26.6833_77.8667,,,,
+SALEMPUR,26.76944,77.59722,Rajasthan,Dholpur,Ganga,Yamuna Middle,264610077355001,Tube Well,Unconfined,28.5,CGWB
+MANPURA,24.24972,73.29889,Rajasthan,Udaipur,Sabarmati,Sabarmati Upper,241459073175601,Dug Well,Unconfined,10.0,CGWB
+KALAYANPURA,24.00139,73.75833,Rajasthan,Udaipur,Mahi,Mahi Upper,240005073453001,Dug Well,Unconfined,6.0,CGWB
+PARSHAD,24.19333,73.7,Rajasthan,Udaipur,Mahi,Mahi Upper,241136073420001,Dug Well,Unconfined,8.2,CGWB
+KANOD,24.43333,74.26667,Rajasthan,Udaipur,Mahi,Mahi Upper,242600074160001,Dug Well,Unconfined,14.2,CGWB
+SARADA,24.15,73.83333,Rajasthan,Udaipur,Mahi,Mahi Upper,240900073500001,Dug Well,Unconfined,17.54,CGWB
+INTALIKHARA,24.01667,73.96667,Rajasthan,Udaipur,Mahi,Mahi Upper,240100073580001,Bore Well,Unconfined,116.4,CGWB
+KHAIRKA,24.295,74.075,Rajasthan,Udaipur,Mahi,Mahi Upper,241742074043001,Dug Well,Unconfined,10.0,CGWB
+SRIMALI KI KARIA,24.78333,73.46667,Rajasthan,Udaipur,Ganga,Banas,244700073280001,Dug Well,Unconfined,20.34,CGWB
+Neecha Talab,24.06667,73.43333,Rajasthan,Udaipur,Mahi,Mahi Upper,240400073260001,Dug Well,Unconfined,10.5,CGWB
+KANPUR,24.57778,73.77639,Rajasthan,Udaipur,Ganga,Banas,243440073463501,Dug Well,Unconfined,15.41,CGWB
+MAHOODA,24.35722,74.35361,Rajasthan,Udaipur,Mahi,Mahi Upper,A_24.3572_74.3536,,,,
+KHERODA,24.55556,74.20083,Rajasthan,Udaipur,Ganga,Banas,A_24.5556_74.2008,,,,
+KURABAR,24.44833,73.99167,Rajasthan,Udaipur,Mahi,Mahi Upper,242654073593001,Dug Well,Unconfined,17.21,CGWB
+Ramgiri(badagaon),24.625,73.68333,Rajasthan,Udaipur,Ganga,Banas,243730073410001,Dug Well,Unconfined,15.5,CGWB
+UNDRI,24.49583,73.6125,Rajasthan,Udaipur,Ganga,Banas,242945073364501,Dug Well,Unconfined,10.0,CGWB
+LUNIYARA,24.35556,73.35,Rajasthan,Udaipur,Sabarmati,Sabarmati Upper,A_24.3556_73.3500,,,,
+Ghori Mari,24.3,73.36667,Rajasthan,Udaipur,Sabarmati,Sabarmati Upper,A_24.3000_73.3667,,,,
+MAVLI1,24.78333,73.98333,Rajasthan,Udaipur,Ganga,Banas,244700073590001,Dug Well,Unconfined,24.82,CGWB
+Koliyari1,24.33333,73.35833,Rajasthan,Udaipur,Sabarmati,Sabarmati Upper,242000073213001,Bore Well,Unconfined,125.0,CGWB
+PADAWALI,24.62722,73.3925,Rajasthan,Udaipur,Sabarmati,Sabarmati Upper,243738073233301,Dug Well,Unconfined,9.45,CGWB
+KHOLRI,24.07194,74.06806,Rajasthan,Udaipur,Mahi,Mahi Upper,240419074040501,Dug Well,Unconfined,13.22,CGWB
+PADUNA,24.27222,73.68333,Rajasthan,Udaipur,Mahi,Mahi Upper,241620073410001,Dug Well,Unconfined,8.0,CGWB
+SOM1,24.17083,73.34306,Rajasthan,Udaipur,Mahi,Mahi Upper,241015073203501,Dug Well,Unconfined,15.56,CGWB
+HARIYAB,24.55,73.91667,Rajasthan,Udaipur,Mahi,Mahi Upper,243300073550001,Dug Well,Unconfined,20.0,CGWB
+Garanwas,24.15,73.35,Rajasthan,Udaipur,Mahi,Mahi Upper,240900073210001,Dug Well,Unconfined,11.8,CGWB
+Devgaon1,24.08333,74.03333,Rajasthan,Udaipur,Mahi,Mahi Upper,240500074020001,Bore Well,,110.8,CGWB
+JASWANTGARH,24.8,73.46667,Rajasthan,Udaipur,Ganga,Banas,244800073280001,Dug Well,Unconfined,17.79,CGWB
+GADOLI,24.75,73.83333,Rajasthan,Udaipur,Ganga,Banas,244500073500001,Bore Well,Unconfined,116.85,CGWB
+KHERWARA,23.98333,73.53333,Rajasthan,Udaipur,Mahi,Mahi Upper,235900073320001,Dug Well,Unconfined,12.89,CGWB
+AMALIA,24.225,73.35417,Rajasthan,Udaipur,Sabarmati,Sabarmati Upper,A_24.2250_73.3542,,,,
+BHATEWAR,24.61667,74.01667,Rajasthan,Udaipur,Ganga,Banas,243700074010001,Dug Well,Unconfined,12.0,CGWB
+Chhitri,23.96667,73.56667,Rajasthan,Udaipur,Mahi,Mahi Upper,235800073340001,Bore Well,,86.7,CGWB
+SALUMBER1,24.125,74.04667,Rajasthan,Udaipur,Mahi,Mahi Upper,240730074024801,Dug Well,Unconfined,11.58,CGWB
+PAI,24.45833,73.52083,Rajasthan,Udaipur,Sabarmati,Sabarmati Upper,242730073311501,Dug Well,,15.0,CGWB
+SEMRI,24.08333,73.85,Rajasthan,Udaipur,Mahi,Mahi Upper,240500073510001,Dug Well,Unconfined,7.03,CGWB
+Bhinder_Pz,24.575,74.16667,Rajasthan,Udaipur,Ganga,Banas,243430074100001,Dug Well,Unconfined,17.72,CGWB
+GUREL,24.33694,74.01611,Rajasthan,Udaipur,Mahi,Mahi Upper,242013074005801,Dug Well,Unconfined,16.45,CGWB
+PUNAWALI,24.85833,73.42917,Rajasthan,Udaipur,Ganga,Banas,245130073254501,Dug Well,Unconfined,18.42,CGWB
+BASSI,24.17194,73.98528,Rajasthan,Udaipur,Mahi,Mahi Upper,241019073590701,Dug Well,Unconfined,8.45,CGWB
+Sisarma,24.56333,73.65694,Rajasthan,Udaipur,Ganga,Banas,243348073392501,Dug Well,Unconfined,19.9,CGWB
+KATHAR1,24.83333,73.53333,Rajasthan,Udaipur,Ganga,Banas,A_24.8333_73.5333,,,,
+SAVINA,24.55222,73.71389,Rajasthan,Udaipur,Ganga,Banas,243308073425001,Dug Well,Unconfined,34.0,CGWB
+DEOLA,24.16667,74.05,Rajasthan,Udaipur,Mahi,Mahi Upper,241000074030001,Dug Well,Unconfined,8.16,CGWB
+BHINDER,24.575,74.16667,Rajasthan,Udaipur,Ganga,Banas,A_24.5750_74.1667,,,,
+BHOYANA,24.71667,73.91667,Rajasthan,Udaipur,Ganga,Banas,244300073550001,Dug Well,Unconfined,14.0,CGWB
+Nai,24.55,73.63333,Rajasthan,Udaipur,Ganga,Banas,243300073380001,Bore Well,,148.0,CGWB
+DINGRI,24.21667,73.86667,Rajasthan,Udaipur,Mahi,Mahi Upper,241300073520001,Dug Well,Unconfined,7.0,CGWB
+Karola,24.80667,71.79889,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,244824071475601,Tube Well,Unconfined,121.0,CGWB
+Hadetar,24.75222,71.82861,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,244508071494301,Tube Well,Unconfined,155.0,CGWB
+BAI2,27.31667,75.295,Rajasthan,Sikar,Ganga,Banas,271900075174201,Tube Well,Unconfined,41.0,CGWB
+Sarnau Pz,24.78028,71.93917,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,244649071562101,Tube Well,Unconfined,120.0,CGWB
+Alri,24.94,72.255,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245624072151801,Tube Well,Unconfined,28.0,CGWB
+Math,28.175,75.45417,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281030075271501,Tube Well,Unconfined,97.3,CGWB
+Hirpura,24.76194,72.11694,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,244543072070101,Tube Well,Unconfined,66.0,CGWB
+NIMLA,25.38333,72.88333,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252300072530001,Dug Well,Unconfined,22.0,CGWB
+KHOKAGAON,25.33333,72.0,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252000072000001,Tube Well,Unconfined,129.0,CGWB
+DHANWARA,24.96667,72.21667,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245800072130002,Tube Well,Unconfined,71.0,CGWB
+PUNAK KALAN,24.975,72.6,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245830072360001,Dug Well,Unconfined,15.04,CGWB
+Bhagli,25.27861,72.59583,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,251643072354501,Tube Well,Unconfined,80.0,CGWB
+Bakara Road,25.21389,72.49167,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,251250072293001,Tube Well,,99.0,CGWB
+Gudha Balotan,25.34028,72.87083,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252025072521501,Tube Well,Unconfined,85.6,CGWB
+Halivav,24.99111,71.61139,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245928071364101,Tube Well,Unconfined,115.7,CGWB
+BHADRAJAN DHANI,25.59583,72.88333,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,253545072530001,Dug Well,,30.0,CGWB
+BHINMAL1,25.0125,72.2625,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250045072154501,Dug Well,Unconfined,17.95,CGWB
+Kagmala(kundanpura),24.88333,72.3,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245300072180001,Tube Well,Unconfined,100.0,CGWB
+Sewara Pz,24.765,72.02194,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,244554072011901,Tube Well,Unconfined,116.0,CGWB
+BAGRA1,25.18333,72.6,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_25.1833_72.6000,,,,
+KORI,24.91944,72.27778,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245510072164001,Dug Well,,19.14,CGWB
+Serena,25.19472,72.43083,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_25.1947_72.4308,,,,
+JALORE1,25.33333,72.61667,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252000072370001,Dug Well,Unconfined,22.16,CGWB
+RAMSEEN,25.05,72.55,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250300072330001,Dug Well,Unconfined,18.96,CGWB
+DOONGRI,24.94167,71.40833,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245630071243001,Dug Well,Unconfined,26.0,CGWB
+Matriwara,24.70944,72.10944,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,244234072063401,Tube Well,Unconfined,130.0,CGWB
+Chochwa Ki Dhani,25.43333,72.05,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252600072030001,Tube Well,,100.0,CGWB
+Sewada,24.90639,71.74194,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245423071443101,Tube Well,Unconfined,132.5,CGWB
+Ledarmer,25.05361,72.34611,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250313072204601,Dug Well,Unconfined,56.3,CGWB
+Ranodar,24.95806,71.71889,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245729071430801,Tube Well,Unconfined,124.6,CGWB
+Rangala,25.39083,71.99194,Rajasthan,Jalore,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252327071593101,Tube Well,Unconfined,100.0,CGWB
+Dighal,28.04583,75.31667,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280245075190002,Tube Well,,68.65,CGWB
+DIGHAL,28.04583,75.31667,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_28.0458_75.3167,,,,
+Lakhu,28.21667,75.68056,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,RJGW_5468,Piezometer,Not Available,59.0,Rajasthan GW
+MUKUNDGARH,27.95417,75.21667,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275715075130001,Tube Well,Unconfined,86.2,CGWB
+Nawalgarh_Pz,27.85083,75.25583,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275103075152101,Tube Well,,109.7,CGWB
+MANDASI SANDASI,27.99583,75.275,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275945075163001,Tube Well,Unconfined,110.14,CGWB
+CHOWARA,27.875,75.63667,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275230075381201,Tube Well,,66.65,CGWB
+PAPORANA,27.9275,75.79028,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275539075472501,Dug Well,,28.0,CGWB
+MANDRELA,28.3125,75.44167,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281845075263001,Tube Well,Unconfined,79.15,CGWB
+Khudana,28.1875,75.52222,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281115075312001,Tube Well,Unconfined,94.5,CGWB
+PIPLI,28.38333,75.73333,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_28.3833_75.7333,,,,
+Rampura_Pz,28.26444,75.31417,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281552075185101,Tube Well,Unconfined,66.0,CGWB
+Dulania1,28.40639,75.70778,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282423075422801,Tube Well,Unconfined,101.0,CGWB
+BADAGAON,28.025,75.51,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280130075303601,Tube Well,Unconfined,107.3,CGWB
+Mukundgarh,27.95,75.21667,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.9500_75.2167,,,,
+Sithal,28.0,75.53333,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280000075320001,Tube Well,Unconfined,83.37,CGWB
+Jhanjha,28.20694,75.92222,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281225075552001,Tube Well,,115.6,CGWB
+Birmi,28.2,75.17778,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281200075104001,Tube Well,Unconfined,100.0,CGWB
+JAISINGHPURA,28.05833,75.26528,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280330075155501,Tube Well,Unconfined,96.8,CGWB
+Shivpura1,28.24028,75.63333,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281425075380001,Tube Well,Unconfined,93.0,CGWB
+PILANI,28.375,75.61944,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282230075371001,Tube Well,,100.0,CGWB
+Devroad,28.30278,75.625,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281810075373001,Tube Well,Unconfined,93.0,CGWB
+JHUNJHUNU,28.11667,75.38889,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280700075232001,Tube Well,,100.0,CGWB
+Meghpur,28.18333,75.98333,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281100075590001,Tube Well,,92.8,CGWB
+Likua,28.46667,75.69167,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282800075413001,Tube Well,,107.7,CGWB
+Mandawa1,28.05,75.13333,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280300075080002,Tube Well,,100.0,CGWB
+Morwa,28.39583,75.66667,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282345075400001,Tube Well,Unconfined,101.7,CGWB
+CHURELA,28.16389,75.25833,Rajasthan,Jhunjhunu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280950075153001,Tube Well,Unconfined,100.18,CGWB
+Gokulpura,27.58333,75.18333,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.5833_75.1833,,,,
+Barala,27.74833,75.88167,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274454075525401,Dug Well,Unconfined,13.0,CGWB
+Bibipur,27.89111,74.91278,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275328074544601,Tube Well,Unconfined,90.0,CGWB
+SEWAD BARI,27.60417,74.95,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273615074570001,Tube Well,,100.0,CGWB
+Garoda,27.72778,74.83972,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274340074502301,Tube Well,Unconfined,81.0,CGWB
+BINJYASI,27.52222,74.91111,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,RJGW_7228,Piezometer,Not Available,92.0,Rajasthan GW
+DHOD,27.53333,75.0,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273200075000001,Tube Well,Unconfined,111.0,CGWB
+Sekhiwas,27.86444,74.86139,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275152074514101,Tube Well,Unconfined,79.0,CGWB
+ROOKANSAR,28.13444,74.95972,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280804074573501,Tube Well,Unconfined,87.04,CGWB
+Piprali Pz,27.64111,75.25,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.6411_75.2500,,,,
+Binjyasi,27.5,74.98333,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.5000_74.9833,,,,
+KARANPURA,27.3875,75.05,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,272315075030001,Tube Well,Unconfined,96.16,CGWB
+Dhadhliawas,27.48333,75.55,Rajasthan,Sikar,Ganga,Banas,272900075330001,Tube Well,Unconfined,64.0,CGWB
+Bherala Mod,27.75833,75.88333,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274530075530001,Dug Well,,11.57,CGWB
+Ramasar,28.07333,74.82278,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280424074492201,Tube Well,,90.3,CGWB
+Lachhmangarh,27.8,75.01667,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274800075010001,Tube Well,Unconfined,100.0,CGWB
+Mandha,27.43333,75.41667,Rajasthan,Sikar,Ganga,Banas,272600075250001,Tube Well,,53.3,CGWB
+Goriya,27.55,75.26667,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273300075160001,Tube Well,Unconfined,86.0,CGWB
+Bau,27.79167,75.13333,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274730075080001,Tube Well,Unconfined,101.1,CGWB
+NECHWA,27.61667,74.77,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273700074461201,Tube Well,Unconfined,69.0,CGWB
+ROHALSOBHSAR,28.05,74.86667,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,RJGW_7256,Piezometer,Not Available,97.0,Rajasthan GW
+Dewas,28.05389,74.93778,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280314074561601,Tube Well,,76.4,CGWB
+Nathusar,27.41667,75.51667,Rajasthan,Sikar,Ganga,Banas,272500075310001,Tube Well,Unconfined,66.0,CGWB
+RASHIDPURA,27.71667,75.0875,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274300075051501,Tube Well,Unconfined,100.0,CGWB
+PALSANA,27.5,75.35,Rajasthan,Sikar,Ganga,Banas,273000075210002,Tube Well,Unconfined,62.0,CGWB
+Ghana,27.66667,74.91667,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.6667_74.9167,,,,
+Roru Badi_II,27.83917,74.89222,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275021074533201,Tube Well,Unconfined,78.0,CGWB
+BALARAN,27.90083,74.96111,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275403074574001,Tube Well,Unconfined,87.66,CGWB
+CHINCHAS,27.89167,75.0,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275330075000001,Tube Well,Unconfined,88.9,CGWB
+Bikamsara,27.91222,74.89917,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275444074535701,Tube Well,Unconfined,88.5,CGWB
+FATEHPUR,27.98333,74.975,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275900074583001,Tube Well,,85.7,CGWB
+JAJOD,27.795,74.87361,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274742074522501,Tube Well,Unconfined,91.5,CGWB
+Dhanadhan,28.09139,74.86361,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280529074514901,Tube Well,Unconfined,94.5,CGWB
+PIPRALI,27.64111,75.25,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273828075150001,Dug Well,Unconfined,68.8,CGWB
+Roru Badi_I,27.83917,74.89222,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.8392_74.8922,,,,
+Khatu Shyamji,27.36667,75.4,Rajasthan,Sikar,Ganga,Banas,272200075240001,Tube Well,Unconfined,69.0,CGWB
+Dhod,27.48333,74.98333,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.4833_74.9833,,,,
+Lampura,27.36667,75.48333,Rajasthan,Sikar,Ganga,Banas,272200075290001,Tube Well,,65.6,CGWB
+Sabalpura,27.65,75.13333,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273900075080001,Tube Well,Unconfined,137.5,CGWB
+Mehroli,27.36944,75.59167,Rajasthan,Sikar,Ganga,Banas,272210075353001,Tube Well,,66.0,CGWB
+Harsawa Bara,27.88833,74.95306,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275318074571101,Tube Well,Unconfined,93.5,CGWB
+GHANA,27.6625,74.89083,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273945074532701,Tube Well,Unconfined,98.5,CGWB
+Dewau Ji Ka Bas,27.76194,74.81361,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274543074484901,Tube Well,Unconfined,84.0,CGWB
+PATAN,27.8,75.98333,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274800075590001,Dug Well,Unconfined,17.0,CGWB
+Dhudhwalo Ka Bas,27.55,75.46667,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273300075280001,Tube Well,Unconfined,73.0,CGWB
+Datunjala,27.7875,74.97528,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274715074583101,Tube Well,Unconfined,87.0,CGWB
+GOKALPURA,27.57917,75.18333,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273445075110001,Tube Well,Unconfined,90.1,CGWB
+Anokh_Pz,27.50028,74.94139,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273001074562902,Tube Well,Unconfined,90.0,CGWB
+Nani,27.61667,75.1,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273700075060002,Tube Well,Unconfined,131.0,CGWB
+Ramsisar,28.07333,74.82306,Rajasthan,Sikar,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280424074492301,Tube Well,Unconfined,90.0,CGWB
+Gopalpura,26.36889,74.70583,Rajasthan,Ajmer,Ganga,Banas,262208074422101,Bore Well,,200.0,CGWB
+Gopalpura,26.04167,74.71333,Rajasthan,Ajmer,Ganga,Banas,RJGW_8370,Piezometer,,200.0,Rajasthan GW
+Saradhana,26.24667,74.57833,Rajasthan,Ajmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261448074344201,Bore Well,,160.2,CGWB
+BANDANWARA,26.15,74.7,Rajasthan,Ajmer,Ganga,Banas,260900074420001,Dug Well,,18.8,CGWB
+LAMANA,26.23333,74.49167,Rajasthan,Ajmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.2333_74.4917,,,,
+Tiloniya,26.65139,74.93611,Rajasthan,Ajmer,Ganga,Banas,263905074561001,Bore Well,Unconfined,150.0,CGWB
+Ramgarh2,25.96667,74.43333,Rajasthan,Ajmer,Ganga,Banas,255800074260001,Bore Well,Unconfined,150.0,CGWB
+AJAGARA,26.03333,75.1,Rajasthan,Ajmer,Ganga,Banas,260200075060001,Dug Well,Unconfined,8.17,CGWB
+Morajhar,26.30833,74.91667,Rajasthan,Ajmer,Ganga,Banas,261830074550001,Bore Well,Unconfined,150.0,CGWB
+TARAGARH,25.88333,74.15,Rajasthan,Ajmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,RJGW_9719,Dug Well,,19.29,Rajasthan GW
+KANPUR1,26.4,74.86667,Rajasthan,Ajmer,Ganga,Banas,262400074520001,Dug Well,Unconfined,10.0,CGWB
+NASIRABAD,26.28667,74.74028,Rajasthan,Ajmer,Ganga,Banas,261712074442501,Dug Well,Unconfined,20.87,CGWB
+BOGLA,25.83333,75.23333,Rajasthan,Ajmer,Ganga,Banas,255000075140001,Dug Well,Unconfined,10.07,CGWB
+KEKRI1,25.98333,75.15,Rajasthan,Ajmer,Ganga,Banas,255900075090001,Dug Well,Unconfined,14.39,CGWB
+ARIAN,26.45,75.06667,Rajasthan,Ajmer,Ganga,Banas,262700075040001,Dug Well,Unconfined,21.3,CGWB
+LUDIYANA,25.99722,74.58333,Rajasthan,Ajmer,Ganga,Banas,255950074350001,Dug Well,Unconfined,15.0,CGWB
+RAMSAR2,26.26667,74.83333,Rajasthan,Ajmer,Ganga,Banas,261600074500001,Dug Well,Unconfined,14.1,CGWB
+Barora,26.2125,75.03611,Rajasthan,Ajmer,Ganga,Banas,261245075021001,Dug Well,Unconfined,12.0,CGWB
+PAKHRIAWAS,26.1,74.41667,Rajasthan,Ajmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260600074250001,Dug Well,Unconfined,16.55,CGWB
+Goelo,26.12917,74.92778,Rajasthan,Ajmer,Ganga,Banas,260745074554001,Dug Well,Unconfined,12.17,CGWB
+BAGLIAS,25.90833,74.2,Rajasthan,Ajmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255430074120001,Dug Well,Unconfined,9.94,CGWB
+JHOPADIYAN,26.025,74.65833,Rajasthan,Ajmer,Ganga,Banas,260130074393001,Dug Well,Unconfined,19.7,CGWB
+SARWAD,26.05,75.0,Rajasthan,Ajmer,Ganga,Banas,260300075000001,Dug Well,Unconfined,7.5,CGWB
+DASUK,26.41667,75.13333,Rajasthan,Ajmer,Ganga,Banas,262500075080001,Dug Well,Unconfined,12.5,CGWB
+MASUDA1,26.09167,74.5125,Rajasthan,Ajmer,Ganga,Banas,260530074304501,Dug Well,Unconfined,17.84,CGWB
+GHUGRA,26.50417,74.69167,Rajasthan,Ajmer,Ganga,Banas,263015074413001,Dug Well,,19.0,CGWB
+NARBADKHERA,26.05,74.28333,Rajasthan,Ajmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260300074170001,Dug Well,Unconfined,29.0,CGWB
+SANPLA,25.91111,75.04167,Rajasthan,Ajmer,Ganga,Banas,255440075023001,Dug Well,Unconfined,10.35,CGWB
+Sarvena,25.97778,74.24722,Rajasthan,Ajmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_25.9778_74.2472,,,,
+KALYANPURA1,26.14111,74.80222,Rajasthan,Ajmer,Ganga,Banas,260828074480801,Dug Well,,14.61,CGWB
+JAWAJA1,25.93333,74.2,Rajasthan,Ajmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255600074120001,Dug Well,Unconfined,17.3,CGWB
+TABIJI,26.4,74.61667,Rajasthan,Ajmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,262400074370001,Dug Well,Unconfined,22.36,CGWB
+Andheri Devi,26.07833,74.37611,Rajasthan,Ajmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260442074223401,Bore Well,Unconfined,23.0,CGWB
+MAIDAYABADAYA,26.03333,74.35,Rajasthan,Ajmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,RJGW_0065,Dug Well,Not Available,21.5,Rajasthan GW
+Mangaliyawas,26.27694,74.50806,Rajasthan,Ajmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261637074302901,Dug Well,Unconfined,22.1,CGWB
+Daultpura,25.995,74.44944,Rajasthan,Ajmer,Ganga,Banas,255942074265801,Bore Well,Unconfined,197.4,CGWB
+HINDWAR,25.93333,76.44167,Rajasthan,Sawai Madhopur,Ganga,Kali Sindh And Others Up To Confluence With Parbati,255600076263001,Dug Well,Unconfined,16.25,CGWB
+PIPLAI,26.50417,76.55278,Rajasthan,Sawai Madhopur,Ganga,Banas,263015076331001,Dug Well,Unconfined,16.0,CGWB
+SEWA,26.525,76.85,Rajasthan,Sawai Madhopur,Ganga,Banas,263130076510001,Dug Well,Unconfined,13.0,CGWB
+CHANN,25.91667,76.46667,Rajasthan,Sawai Madhopur,Ganga,Kali Sindh And Others Up To Confluence With Parbati,255500076280001,Dug Well,Unconfined,25.0,CGWB
+KHANDAR1,26.02222,76.59444,Rajasthan,Sawai Madhopur,Ganga,Banas,260120076354001,Dug Well,Unconfined,36.67,CGWB
+BAMNAWAS,26.55,76.56111,Rajasthan,Sawai Madhopur,Ganga,Banas,263300076334001,Dug Well,Unconfined,17.0,CGWB
+MORAL TIWARA,26.32917,76.49167,Rajasthan,Sawai Madhopur,Ganga,Banas,261945076293001,Dug Well,Unconfined,14.1,CGWB
+MEENAPARA,26.37778,76.54861,Rajasthan,Sawai Madhopur,Ganga,Banas,262240076325501,Tube Well,Unconfined,26.0,CGWB
+GANGAPUR2,26.48333,76.73333,Rajasthan,Sawai Madhopur,Ganga,Banas,262900076440001,Dug Well,Unconfined,14.0,CGWB
+RAIPUR1,26.59583,76.94167,Rajasthan,Sawai Madhopur,Ganga,Yamuna Middle,263545076563001,Tube Well,,57.0,CGWB
+TOND,26.36667,76.39444,Rajasthan,Sawai Madhopur,Ganga,Banas,262200076234001,Dug Well,Unconfined,16.9,CGWB
+PHARIYA,25.91667,76.52222,Rajasthan,Sawai Madhopur,Ganga,Kali Sindh And Others Up To Confluence With Parbati,255500076312001,Dug Well,Unconfined,18.0,CGWB
+RANTHAMBOR,26.01667,76.45833,Rajasthan,Sawai Madhopur,Ganga,Kali Sindh And Others Up To Confluence With Parbati,260100076273001,Dug Well,Unconfined,14.64,CGWB
+BONALI,26.35417,76.25417,Rajasthan,Sawai Madhopur,Ganga,Banas,262115076151501,Dug Well,Unconfined,12.0,CGWB
+BHADOTI,26.23333,76.38333,Rajasthan,Sawai Madhopur,Ganga,Banas,261400076230001,Dug Well,Unconfined,13.82,CGWB
+Kushlipura,25.94167,76.37139,Rajasthan,Sawai Madhopur,Ganga,Kali Sindh And Others Up To Confluence With Parbati,255630076221701,Dug Well,Unconfined,15.0,CGWB
+KUSHTALA,25.96667,76.26667,Rajasthan,Sawai Madhopur,Ganga,Banas,255800076160001,Dug Well,Unconfined,16.0,CGWB
+Bolni1,26.31667,76.21667,Rajasthan,Sawai Madhopur,Ganga,Banas,261900076130001,Tube Well,,150.0,CGWB
+MALARNACHOR,26.30556,76.38056,Rajasthan,Sawai Madhopur,Ganga,Banas,261820076225001,Dug Well,Unconfined,18.0,CGWB
+BODAL,25.93333,76.43333,Rajasthan,Sawai Madhopur,Ganga,Kali Sindh And Others Up To Confluence With Parbati,255600076260001,Dug Well,Unconfined,12.69,CGWB
+SURWAL,26.0875,76.36111,Rajasthan,Sawai Madhopur,Ganga,Banas,260515076214001,Dug Well,Unconfined,12.67,CGWB
+PADRI TOPKHANA,25.975,76.66667,Rajasthan,Sawai Madhopur,Ganga,Banas,255830076400001,Dug Well,,28.0,CGWB
+NIMRI (RADEWA),25.60833,71.28333,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,253630071170001,Dug Well,Unconfined,35.2,CGWB
+BISUKALAN,26.275,71.30556,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261630071182001,Dug Well,Unconfined,37.3,CGWB
+Kasba Thana,25.20833,77.35833,Rajasthan,Baran,Ganga,Chambal Lower,251230077213001,Dug Well,Unconfined,10.9,CGWB
+TARLA,24.88333,71.21667,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245300071130001,Dug Well,Unconfined,6.98,CGWB
+Bhadka1,25.88333,71.35,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255300071210001,Tube Well,Unconfined,156.0,CGWB
+NAPAT,25.76944,70.32083,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,254610070191501,Dug Well,Unconfined,80.75,CGWB
+JASAI,25.71667,71.25556,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254300071152001,Dug Well,Unconfined,25.0,CGWB
+Dhorimanna,25.21667,71.43333,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,251300071260002,Tube Well,,250.0,CGWB
+Chohtan,25.475,71.06667,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252830071040001,Tube Well,Unconfined,250.0,CGWB
+BALEWA,25.91528,70.875,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,255455070523001,Dug Well,Unconfined,33.7,CGWB
+BACHHBAR,25.74167,70.95833,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,254430070573001,Dug Well,Unconfined,27.0,CGWB
+PANCHLA,25.99167,70.16667,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,255930070100001,Dug Well,Unconfined,53.45,CGWB
+DERASAR,25.91806,70.15833,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,255505070093001,Dug Well,,26.0,CGWB
+BHAKASAR,24.75278,71.11667,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,244510071070001,Dug Well,,9.0,CGWB
+PIPARLI GAON,25.12222,71.58889,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250720071352001,Tube Well,Unconfined,73.1,CGWB
+MUNGERIA,26.095,71.02278,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,260542071012201,Dug Well,Unconfined,29.62,CGWB
+JAWANSINGHKIBER,26.06667,70.98333,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,260400070590001,Dug Well,Unconfined,16.22,CGWB
+MANPUR2,23.85,73.77917,Rajasthan,Dungarpur,Mahi,Mahi Upper,235100073464501,Dug Well,Unconfined,8.59,CGWB
+SAUPADAMSINGH,26.2,71.825,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261200071493001,Dug Well,Unconfined,32.06,CGWB
+SARAWADI,26.00833,72.48333,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260030072290001,Dug Well,,22.0,CGWB
+KOTHOLA,25.10833,71.53333,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250630071320001,Dug Well,,6.0,CGWB
+KALYANPURA,26.03333,72.58333,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260200072350001,Dug Well,,28.05,CGWB
+GUJRO KA BERA,26.33833,71.55556,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,262018071332001,Tube Well,Unconfined,213.0,CGWB
+PADMANIYON,25.34583,71.4,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252045071240001,Dug Well,Unconfined,88.09,CGWB
+DEVRA,25.73333,72.51667,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254400072310001,Dug Well,Unconfined,33.7,CGWB
+Chitar Ka Par,25.94139,71.58806,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255629071351701,Tube Well,Unconfined,145.0,CGWB
+KASHMIR,26.25972,71.60556,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261535071362001,Tube Well,Unconfined,250.0,CGWB
+DOLI,26.06667,72.66667,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260400072400001,Dug Well,Unconfined,32.0,CGWB
+SHEO1,26.19306,71.24306,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,261135071143501,Dug Well,,9.93,CGWB
+ARNIYALI,25.46667,72.0125,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252800072004501,Tube Well,Unconfined,91.8,CGWB
+RAWATSAR1,25.73056,71.62083,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254350071371501,Tube Well,Unconfined,144.4,CGWB
+SHAHABAD1,25.25,77.13333,Rajasthan,Baran,Ganga,Chambal Lower,251500077080001,Dug Well,Unconfined,7.3,CGWB
+BARMER1,25.73611,71.39722,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254410071235001,Dug Well,Unconfined,40.0,CGWB
+KURI2,25.94167,72.36861,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255630072220701,Dug Well,Unconfined,14.3,CGWB
+CHAWA,25.74583,71.66278,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254445071394601,Dug Well,Unconfined,51.0,CGWB
+RAMJI KA GOL,25.06806,71.61667,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250405071370001,Dug Well,,6.73,CGWB
+NAND,25.98333,71.11667,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,255900071070001,Dug Well,Unconfined,23.86,CGWB
+HATHITALA,25.57444,71.39861,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,253428071235501,Dug Well,Unconfined,54.17,CGWB
+PANAVADA,26.02917,71.77917,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260145071464501,Dug Well,Unconfined,38.12,CGWB
+ADEL,25.425,71.70833,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252530071423001,Tube Well,,342.0,CGWB
+SUTHARON KI DHA,25.80833,71.03889,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,254829071022001,Dug Well,Unconfined,28.2,CGWB
+KITNOD,25.775,72.35556,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_25.7750_72.3556,,,,
+THOB,26.05,72.35833,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260300072213001,Dug Well,Unconfined,28.04,CGWB
+KHARIN,25.71667,71.11667,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,254300071070001,Dug Well,,50.0,CGWB
+Jhak Pz,26.16083,71.575,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260939071343001,Tube Well,Unconfined,120.0,CGWB
+REDANA,25.84583,70.93889,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,255045070562001,Dug Well,Unconfined,26.55,CGWB
+GADRA ROAD,25.74028,70.63889,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,254425070382001,Dug Well,Unconfined,107.34,CGWB
+SIHANI,25.775,71.08333,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,254630071050001,Dug Well,Unconfined,25.41,CGWB
+SINDARI,25.56667,71.9,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,253400071540001,Tube Well,Unconfined,51.5,CGWB
+SIYAGA TALA,25.3375,70.86528,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,252015070515501,Dug Well,Unconfined,71.44,CGWB
+SELAU,25.57639,70.825,Rajasthan,Barmer,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,253435070493001,Dug Well,,76.7,CGWB
+MATASAR,25.79167,71.6,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254730071360001,Dug Well,Unconfined,48.9,CGWB
+Rewali,25.06917,71.51611,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250409071305801,Tube Well,,133.0,CGWB
+Dhanau2,25.23944,71.46667,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,251422071280002,Tube Well,,250.0,CGWB
+Bagasar,25.99361,71.48139,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255937071285301,Tube Well,,112.0,CGWB
+BALOTRA1,25.82917,72.25833,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254945072153001,Dug Well,Unconfined,37.0,CGWB
+BISALA,25.90833,71.24167,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255430071143001,Dug Well,Unconfined,20.0,CGWB
+KATERIA,25.15833,71.45417,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250930071271501,Tube Well,Unconfined,250.0,CGWB
+Sata1,24.825,71.15833,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,244930071093001,Dug Well,Unconfined,6.3,CGWB
+KARMAWAS,25.78056,72.5875,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254650072351501,Tube Well,Unconfined,67.4,CGWB
+MOKHAB,26.24167,71.5125,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_26.2417_71.5125,,,,
+SANAWARA,25.48333,71.4,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,252900071240001,Dug Well,Unconfined,51.31,CGWB
+CHOTA ITADA,25.26667,71.01667,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,251600071010002,Tube Well,,120.0,CGWB
+KAWAS,25.875,71.54583,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255230071324501,Dug Well,,10.19,CGWB
+DHORIMANNA1,25.21667,71.43333,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,A_25.2167_71.4333,,,,
+Sedwa,25.06667,71.08333,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,250400071050001,Tube Well,Unconfined,250.0,CGWB
+BATARU,26.075,71.625,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260430071373002,Tube Well,,250.0,CGWB
+JHAK,26.14167,71.58333,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,260830071350001,Dug Well,,60.0,CGWB
+Santara,25.9975,71.9675,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255951071580301,Dug Well,Unconfined,7.8,CGWB
+PATRASAR,25.67778,71.22361,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254040071132501,Dug Well,Unconfined,18.45,CGWB
+SASION-KA-KUA,25.70417,71.4125,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,254215071244501,Dug Well,Unconfined,74.64,CGWB
+SIHANIYA,24.92222,71.15,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,245520071090001,Tube Well,Unconfined,250.0,CGWB
+SANLOR,25.59583,71.23333,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,253545071140001,Dug Well,Unconfined,32.0,CGWB
+BAITU1,25.92639,71.75417,Rajasthan,Barmer,West Flowing Rivers Of Kutch And Saurashtra Including Luni,Luni Upper,255535071451501,Dug Well,Unconfined,41.52,CGWB
+KHARBARO,28.93333,73.40833,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,285600073243001,Dug Well,Unconfined,47.7,CGWB
+BAJJU,27.93333,72.50833,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275600072303001,Dug Well,Unconfined,43.14,CGWB
+LAKHASAR2,28.09583,73.87083,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280545073521501,Dug Well,Unconfined,47.95,CGWB
+DANTOR,28.45,72.50833,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282700072303001,Dug Well,,20.65,CGWB
+JAITPUR1,28.875,74.0625,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,285230074034501,Tube Well,,151.0,CGWB
+LALERA,28.53333,73.5625,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283200073334501,Tube Well,Unconfined,150.0,CGWB
+MAHAJAN,28.78333,73.83333,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284700073500001,Dug Well,Unconfined,51.5,CGWB
+PAYAL TORI,25.26333,77.26333,Rajasthan,Baran,Ganga,Chambal Lower,251548077154801,Dug Well,Unconfined,13.2,CGWB
+Rekh Meghana,28.63333,73.6,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283800073360002,Tube Well,Unconfined,150.0,CGWB
+Kandharli Shallow,28.04167,72.35,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280230072210002,Tube Well,Unconfined,88.0,CGWB
+AMARPURA,28.25417,72.85278,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281515072511001,Dug Well,Unconfined,41.17,CGWB
+NOKHRA,27.64167,72.65,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273830072390001,Dug Well,Unconfined,92.0,CGWB
+MANKASAR,28.05,72.49167,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280300072293001,Dug Well,Unconfined,19.46,CGWB
+MODAYAT,27.96667,72.41667,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275800072250001,Dug Well,Unconfined,69.46,CGWB
+Godu_Pz_II,27.98333,72.35,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.9833_72.3500,,,,
+BHIKAMPUR,27.7375,72.1375,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274415072081501,Dug Well,Unconfined,36.05,CGWB
+LODERA,28.275,73.9,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_28.2750_73.9000,,,,
+GAJNER,27.97361,73.04722,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275825073025001,Tube Well,,161.7,CGWB
+Sangrew,28.7,73.88333,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284200073530001,Tube Well,Unconfined,153.0,CGWB
+KHARA1,28.19583,73.39111,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281145073232801,Dug Well,Unconfined,64.27,CGWB
+LAKHUSAR,28.31667,73.19167,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281900073113001,Dug Well,Unconfined,51.0,CGWB
+DUNGARGARH,28.08333,74.00833,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280500074003001,Dug Well,Unconfined,63.52,CGWB
+Kanwalisar,27.50417,73.43333,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273015073260001,Tube Well,Unconfined,150.0,CGWB
+Dhirera_Pz,28.21667,73.63333,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281300073380003,Tube Well,Unconfined,75.0,CGWB
+Kandharli Deep,28.04167,72.35,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_28.0417_72.3500,,,,
+KODAMDESAR,27.9625,73.55833,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.9625_73.5583,,,,
+Binjawari Dw,28.46167,73.46417,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282742073275101,Dug Well,Unconfined,10.7,CGWB
+LAKHANSAR,28.86667,73.35,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,285200073210001,Tube Well,Unconfined,250.0,CGWB
+NOKHA,27.55,73.36667,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,273300073220001,Tube Well,,158.55,CGWB
+HARIASAR,28.57639,73.81111,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283435073484001,Dug Well,Unconfined,61.95,CGWB
+SADHSAR,27.78889,73.77222,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274720073462001,Tube Well,,211.0,CGWB
+KARMISAR,28.01389,73.26667,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280050073160001,Tube Well,Unconfined,139.6,CGWB
+6 PB,28.66944,72.75,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284010072450001,Tube Well,Unconfined,164.5,CGWB
+Godu_Pz_I,27.98333,72.35,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275900072210001,Tube Well,Unconfined,190.61,CGWB
+MANARIA,28.75833,73.77222,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284530073462001,Dug Well,Unconfined,54.41,CGWB
+Laxmi Narayansar Dhani,28.63333,73.6,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_28.6333_73.6000,,,,
+NAPASAR,27.9625,73.55833,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275745073333002,Dug Well,,90.0,CGWB
+CHHATARGARH,28.66667,73.13333,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284000073080001,Dug Well,Unconfined,57.17,CGWB
+Bithnok,27.85,72.81667,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275100072490001,Tube Well,,201.0,CGWB
+KALYANSAR,27.93333,73.35417,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275600073211501,Tube Well,,148.0,CGWB
+DHIRERA,28.525,73.60833,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283130073363001,Dug Well,Unconfined,66.5,CGWB
+ARJANSAR,28.93333,73.88333,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,285600073530001,Dug Well,Unconfined,71.75,CGWB
+GODU,27.99167,72.26667,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275930072160001,Dug Well,Unconfined,48.83,CGWB
+Khajuwala_Pz,28.69306,72.59139,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284135072352901,Tube Well,Unconfined,240.0,CGWB
+GARIYALA,27.7625,72.58333,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274545072350001,Dug Well,,68.78,CGWB
+BINJAWARI,28.46667,73.45,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282800073270001,Tube Well,Unconfined,157.0,CGWB
+GORABDESAR,28.44444,74.01111,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282640074004001,Dug Well,,68.0,CGWB
+KOLAYAT,27.84167,72.95417,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275030072571501,Tube Well,Unconfined,318.0,CGWB
+BITHNOK,27.87083,72.725,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275215072433001,Dug Well,Unconfined,57.69,CGWB
+SATTASAR,28.59167,73.07917,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283530073044501,Dug Well,Unconfined,57.91,CGWB
+TANWAR WALA,28.27917,72.40833,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281645072243001,Dug Well,,39.47,CGWB
+Gariyala_Pz,27.78333,72.63333,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274700072380001,Tube Well,Unconfined,164.0,CGWB
+MALKISAR,28.64167,73.86667,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283830073520001,Dug Well,Unconfined,59.62,CGWB
+KAKRA,27.66667,73.6625,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274000073394501,Tube Well,Unconfined,178.92,CGWB
+DIYATRA,27.79028,72.82917,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274725072494501,Dug Well,,146.0,CGWB
+Mahajan,27.76667,73.81667,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.7667_73.8167,,,,
+DESHNOKH,27.8,73.35,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274800073210002,Tube Well,,205.0,CGWB
+Bhikampur Shallow,27.76222,72.16389,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274544072095001,Tube Well,Unconfined,116.0,CGWB
+Bajju (tejpura0,27.91667,72.50556,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275500072302001,Tube Well,Unconfined,120.0,CGWB
+Mahajan-Pz,27.76667,73.81667,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274600073490001,Tube Well,,,CGWB
+Kasturia Pz,28.32778,73.49167,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281940073293001,Tube Well,Unconfined,120.0,CGWB
+Manju Ki Dhani,27.9,72.6,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275400072360001,Tube Well,,200.0,CGWB
+RANER,28.88472,73.2875,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,285305073171501,Dug Well,Unconfined,47.6,CGWB
+SONIASAR,27.75,74.025,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274500074013001,Dug Well,,76.89,CGWB
+BADERAN,28.70139,73.76417,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284205073455101,Dug Well,Unconfined,49.29,CGWB
+Devli Talai,28.31667,72.65833,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281900072393001,Tube Well,,177.6,CGWB
+BHOLASAR,27.865,73.12778,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275154073074001,Tube Well,,250.0,CGWB
+RANJITPURA,28.02639,72.125,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280135072073001,Dug Well,Unconfined,42.8,CGWB
+LUNKARANSAR1,28.49167,73.75,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282930073450001,Tube Well,Unconfined,129.0,CGWB
+SOBHASAR,28.1125,73.22083,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280645073131501,Tube Well,,259.0,CGWB
+JAGGASAR,28.30833,72.42778,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281830072254001,Tube Well,Unconfined,250.0,CGWB
+DIYATRA1,27.79028,72.82917,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.7903_72.8292,,,,
+Khirera,28.47917,73.55833,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282845073333001,Dug Well,Unconfined,10.68,CGWB
+RAISAR,28.05,73.47917,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280300073284501,Tube Well,,153.65,CGWB
+KASTURIA,28.32917,73.4875,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281945073291501,Dug Well,Unconfined,42.6,CGWB
+KHAKLI,28.73333,73.11667,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284400073070001,Dug Well,,38.7,CGWB
+BHAMANWALI,28.36667,73.35,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282200073210001,Tube Well,,205.0,CGWB
+LUNKHA,28.67222,72.94583,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284020072564501,Tube Well,,203.12,CGWB
+SUI,27.74417,73.09972,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274439073055901,Tube Well,,143.0,CGWB
+Bhikampur Deep,27.76222,72.16389,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_27.7622_72.1639,,,,
+Gigasar-Pz,27.85417,73.395,Rajasthan,Bikaner,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275115073234201,Tube Well,,142.0,CGWB
+GUJRON KI DHANI,28.29167,74.90417,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281730074541501,Tube Well,Unconfined,107.35,CGWB
+MEHRASAR,28.36667,74.5375,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282200074321501,Dug Well,Unconfined,67.09,CGWB
+BHOJASAR,27.72083,74.54167,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274315074323001,Dug Well,,32.0,CGWB
+SADASAR,28.7,74.35,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284200074210001,Dug Well,Unconfined,75.0,CGWB
+Aspalsar,28.57694,74.50444,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283437074301601,Dug Well,Unconfined,50.0,CGWB
+RAJGARH1,28.63333,75.375,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283800075223001,Dug Well,Unconfined,26.0,CGWB
+BINASAR,28.2625,74.875,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281545074523001,Dug Well,Unconfined,45.0,CGWB
+Dokuwa1,28.58333,75.3,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_28.5833_75.3000,,,,
+RATANPURA1,28.53333,75.26667,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283200075160001,Tube Well,,91.0,CGWB
+LASERI,28.70833,75.48333,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284230075290001,Tube Well,,110.0,CGWB
+Ratangarh2,28.01667,74.61667,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280100074370002,Tube Well,Unconfined,105.0,CGWB
+NEEMA,28.46667,75.47222,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282800075282001,Tube Well,Unconfined,115.0,CGWB
+MITTASAR,28.41667,74.4,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282500074240001,Dug Well,Unconfined,66.0,CGWB
+TODIASAR,28.06667,74.73333,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_28.0667_74.7333,,,,
+MALASAR,28.2375,74.56667,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281415074340001,Dug Well,,50.0,CGWB
+RATANGARH,28.08333,74.61667,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280500074370001,Dug Well,,44.0,CGWB
+DUDWA,28.3125,74.82083,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281845074491501,Dug Well,,60.62,CGWB
+RAJALDESAR,28.0375,74.47639,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280215074283501,Tube Well,Unconfined,68.9,CGWB
+HARDESAR,28.64167,74.375,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283830074223001,Dug Well,Unconfined,64.0,CGWB
+BAMBOO,27.73333,74.11667,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274400074070001,Dug Well,Unconfined,65.23,CGWB
+PERIHARA,27.93333,74.56667,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275600074340001,Dug Well,,28.0,CGWB
+SOMASAR,28.38611,74.06667,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282310074040001,Dug Well,Unconfined,67.54,CGWB
+DUDWA KHARA,28.47083,75.07917,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282815075044501,Tube Well,Unconfined,92.5,CGWB
+BIRAMSAR1,28.04167,74.79167,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280230074473001,Dug Well,Unconfined,55.0,CGWB
+HARPALU KHUSALA,28.53333,75.43889,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283200075262001,Tube Well,Unconfined,114.5,CGWB
+DADREWA,28.66944,75.23333,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,284010075140001,Dug Well,Unconfined,26.0,CGWB
+Sangasar,28.0,74.66667,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280000074400001,Tube Well,Unconfined,44.7,CGWB
+Satda,28.21667,74.8,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281300074480001,Dug Well,Unconfined,51.5,CGWB
+MELUSAR1,28.20417,74.53056,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,281215074315001,Tube Well,Unconfined,70.0,CGWB
+SARDARSHAHAR,28.43889,74.43889,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282620074262001,Tube Well,Unconfined,76.0,CGWB
+TIDIYASAR,28.06667,74.73333,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280400074440001,Dug Well,Unconfined,50.0,CGWB
+KHUNDIA,28.41389,74.25278,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282450074151001,Dug Well,Unconfined,57.5,CGWB
+LOHA1,28.00833,74.625,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,280030074373001,Dug Well,Unconfined,50.0,CGWB
+GULERIYA,27.7375,74.46944,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274415074281001,Dug Well,Unconfined,18.0,CGWB
+SIRSALA,28.43333,75.13056,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282600075075001,Dug Well,Unconfined,31.69,CGWB
+BIDASAR,27.81667,74.28333,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,274900074170001,Dug Well,Unconfined,62.56,CGWB
+BHOJRASAR,27.98333,74.5875,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275900074351501,Dug Well,Unconfined,58.0,CGWB
+Perihara,27.92444,74.56111,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275528074334001,Dug Well,Unconfined,27.2,CGWB
+RAMPURA,28.46667,74.8625,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,282800074514501,Dug Well,Unconfined,28.16,CGWB
+KANWARI,27.91667,74.68333,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,275500074410001,Tube Well,Unconfined,52.5,CGWB
+MELUSAR,28.50417,74.7375,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283015074441501,Dug Well,Unconfined,48.0,CGWB
+GHANTEL,28.35833,74.9125,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,A_28.3583_74.9125,,,,
+NANGLI,28.65,75.3,Rajasthan,Churu,Area Of Inland Drainage In Rajasthan,Area Of Inland Drainage In Rajasthan,283900075180001,Dug Well,Unconfined,30.66,CGWB
+CHHIPA BAROD1,24.62444,76.70194,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,243728076420701,Dug Well,Unconfined,15.0,CGWB
+HARNAUDA,24.43611,76.7,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,242610076420001,Dug Well,Unconfined,11.0,CGWB
+KELWARA1,25.13333,76.9,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,250800076540001,Dug Well,Unconfined,5.0,CGWB
+ANTA1,25.15833,76.3,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,250930076180001,Dug Well,Unconfined,8.0,CGWB
+MAMONI,25.18778,77.10556,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251116077062001,Dug Well,Unconfined,11.0,CGWB
+URPURIA,25.30556,76.32917,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251820076194501,Dug Well,Unconfined,6.87,CGWB
+Chhabra_GWD,24.66778,76.84333,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,244004076503601,Bore Well,Unconfined,50.0,CGWB
+KANWAI,24.75833,76.74167,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,244530076443001,Dug Well,Unconfined,9.0,CGWB
+BHANWARGARH,25.09139,76.79361,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,250529076473701,Dug Well,Unconfined,13.7,CGWB
+SARTHAL,24.48333,76.6,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,242900076360001,Dug Well,Unconfined,8.0,CGWB
+CHABRA,24.66333,76.84361,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,243948076503701,Dug Well,,22.0,CGWB
+Chitri,23.56667,73.96667,Rajasthan,Dungarpur,Mahi,Mahi Upper,233400073580002,Tube Well,,86.7,CGWB
+KISHANGANJ1,25.10833,76.63333,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,250630076380001,Dug Well,Unconfined,14.5,CGWB
+SAMRANIA,25.15,77.01167,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,250900077004201,Dug Well,,3.67,CGWB
+Baran2,25.1,76.51667,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,250600076310001,Bore Well,Unconfined,150.0,CGWB
+MANGROL,25.325,76.5125,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251930076304501,Dug Well,Unconfined,8.81,CGWB
+BOTH,25.24167,76.50417,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251430076301501,Dug Well,Unconfined,11.0,CGWB
+ATRU1,24.8875,76.66111,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,245315076394001,Dug Well,Unconfined,11.12,CGWB
+Banthoni,25.08333,76.7,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,250500076420001,Bore Well,Unconfined,150.0,CGWB
+BAMLA,24.99167,76.475,Rajasthan,Baran,Ganga,Kali Sindh And Others Up To Confluence With Parbati,245930076283001,Dug Well,Unconfined,10.87,CGWB
+Aspur,23.95,74.08333,Rajasthan,Dungarpur,Mahi,Mahi Upper,235700074050001,Bore Well,Unconfined,150.0,CGWB
+Ramgarh2,23.925,73.96667,Rajasthan,Dungarpur,Mahi,Mahi Upper,235530073580001,Dug Well,Unconfined,20.0,CGWB
+ASPUR1,23.95833,74.07917,Rajasthan,Dungarpur,Mahi,Mahi Upper,235730074044501,Dug Well,Unconfined,13.0,CGWB
+Beechiwara,23.78333,73.5,Rajasthan,Dungarpur,Mahi,Mahi Upper,234700073300001,Dug Well,Unconfined,20.0,CGWB
+PEETH,23.52917,73.7625,Rajasthan,Dungarpur,Mahi,Mahi Lower,233145073454501,Dug Well,Unconfined,12.23,CGWB
+Kabja,23.85,74.08333,Rajasthan,Dungarpur,Mahi,Mahi Upper,235100074050001,Bore Well,Unconfined,92.1,CGWB
+KANABA,23.81667,73.56667,Rajasthan,Dungarpur,Mahi,Mahi Upper,234900073340001,Dug Well,Unconfined,11.2,CGWB
+BHILURA,23.61667,74.08333,Rajasthan,Dungarpur,Mahi,Mahi Upper,233700074050002,Dug Well,Unconfined,11.48,CGWB
+HATAI,23.88861,73.90083,Rajasthan,Dungarpur,Mahi,Mahi Upper,235319073540301,Dug Well,Unconfined,9.2,CGWB
+BARODA,23.9,74.07083,Rajasthan,Dungarpur,Mahi,Mahi Upper,235400074041501,Dug Well,Unconfined,10.06,CGWB
+KABJA,23.85,74.08333,Rajasthan,Dungarpur,Mahi,Mahi Upper,A_23.8500_74.0833,,,,
+SABLA,23.85556,74.16111,Rajasthan,Dungarpur,Mahi,Mahi Upper,235120074094001,Dug Well,Unconfined,11.51,CGWB
+Dungarpur1,23.83333,73.7,Rajasthan,Dungarpur,Mahi,Mahi Upper,235000073420001,Dug Well,Unconfined,16.01,CGWB
+NAYADERA,23.83333,73.68333,Rajasthan,Dungarpur,Mahi,Mahi Upper,235000073410001,Dug Well,Unconfined,10.75,CGWB
+Sagwara,23.75,74.06667,Rajasthan,Dungarpur,Mahi,Mahi Upper,234500074040001,Bore Well,Unconfined,150.0,CGWB
+KUA,23.46667,73.91667,Rajasthan,Dungarpur,Mahi,Mahi Upper,232800073550001,Dug Well,Unconfined,12.0,CGWB
+KARAWARA,23.63333,73.75,Rajasthan,Dungarpur,Sabarmati,Sabarmati Upper,233800073450001,Dug Well,,12.63,CGWB
+Jasala,23.46667,73.98333,Rajasthan,Dungarpur,Mahi,Mahi Upper,232800073590001,Bore Well,,150.0,CGWB
+NAYAGAON1,23.78333,74.04167,Rajasthan,Dungarpur,Mahi,Mahi Upper,234700074023001,Dug Well,Unconfined,9.9,CGWB
+NAVAL SHYAM,23.84167,73.56528,Rajasthan,Dungarpur,Mahi,Mahi Upper,A_23.8417_73.5653,,,,
+RATANPPUR,23.76667,73.45,Rajasthan,Dungarpur,Sabarmati,Sabarmati Upper,234600073270001,Dug Well,Unconfined,12.75,CGWB
+NANTHODA,23.68333,73.95833,Rajasthan,Dungarpur,Mahi,Mahi Upper,234059073572901,,,,CGWB
+Anteree,23.7,73.81667,Rajasthan,Dungarpur,Mahi,Mahi Upper,234200073490001,Dug Well,Unconfined,5.71,CGWB
+GORADA,23.7125,73.70417,Rajasthan,Dungarpur,Mahi,Mahi Upper,234245073421501,Dug Well,Unconfined,9.0,CGWB
+DEWAL1,26.23833,75.1875,Rajasthan,Tonk,Ganga,Banas,261418075111501,Dug Well,Unconfined,7.0,CGWB
+DIKOLIYA,25.975,75.96611,Rajasthan,Tonk,Ganga,Banas,255830075575801,Dug Well,Unconfined,11.95,CGWB
+Ghans,26.05833,75.875,Rajasthan,Tonk,Ganga,Banas,260330075523001,Bore Well,Unconfined,196.8,CGWB
+Mehndwas,26.11083,75.725,Rajasthan,Tonk,Ganga,Banas,A_26.1108_75.7250,,,,
+JAISINGHPUR,26.39167,75.4875,Rajasthan,Tonk,Ganga,Banas,262330075291501,Dug Well,Unconfined,10.85,CGWB
+JAINAGAR,25.81667,76.23278,Rajasthan,Tonk,Ganga,Kali Sindh And Others Up To Confluence With Parbati,254900076135801,Dug Well,Unconfined,23.0,CGWB
+TODARAISINGH1,26.01389,75.48889,Rajasthan,Tonk,Ganga,Banas,260050075292001,Dug Well,Unconfined,16.14,CGWB
+NIWAI1,26.36667,75.93333,Rajasthan,Tonk,Ganga,Banas,262200075560001,Dug Well,Unconfined,40.0,CGWB
+Nagar1,25.89583,75.83333,Rajasthan,Tonk,Ganga,Banas,255345075500001,Dug Well,Unconfined,15.0,CGWB
+SOP1,25.89083,76.17917,Rajasthan,Tonk,Ganga,Kali Sindh And Others Up To Confluence With Parbati,255327076104501,Dug Well,,13.55,CGWB
+SIROHI1,25.81167,75.475,Rajasthan,Tonk,Ganga,Banas,254842075283001,Dug Well,,10.65,CGWB
+Rustamganj,26.09167,75.83333,Rajasthan,Tonk,Ganga,Banas,260530075500001,Bore Well,Unconfined,160.4,CGWB
+Sirohi2,25.9,75.58333,Rajasthan,Tonk,Ganga,Banas,255400075350001,Tube Well,Unconfined,173.5,CGWB
+MANDIAWAS,26.11083,75.725,Rajasthan,Tonk,Ganga,Banas,260639075433001,Dug Well,Unconfined,21.0,CGWB
+NEGRIA,25.82917,75.35833,Rajasthan,Tonk,Ganga,Banas,254945075213001,Dug Well,,13.4,CGWB
+BANTHOLI,25.88333,75.56667,Rajasthan,Tonk,Ganga,Banas,255300075340001,Dug Well,Unconfined,11.0,CGWB
+ARNIYALMAL,26.05833,75.80833,Rajasthan,Tonk,Ganga,Banas,260330075483001,Dug Well,Unconfined,11.7,CGWB
+RAMTHALA,25.86389,75.28056,Rajasthan,Tonk,Ganga,Banas,255150075165001,Dug Well,Unconfined,7.55,CGWB
+MALPURA1,26.28333,75.38333,Rajasthan,Tonk,Ganga,Banas,261700075230001,Dug Well,Unconfined,16.18,CGWB
+HAMIRPUR,26.18333,75.575,Rajasthan,Tonk,Ganga,Banas,261100075343001,Dug Well,Unconfined,10.0,CGWB
+Sop1,25.89167,76.17917,Rajasthan,Tonk,Ganga,Kali Sindh And Others Up To Confluence With Parbati,255330076104501,Bore Well,Unconfined,150.0,CGWB
+MAHUVA,25.99861,75.68333,Rajasthan,Tonk,Ganga,Banas,255955075410001,Dug Well,Unconfined,9.0,CGWB
+ALIGARH,25.96667,76.08333,Rajasthan,Tonk,Ganga,Banas,255800076050001,Dug Well,Unconfined,31.0,CGWB
+SOHELA,26.24167,75.85,Rajasthan,Tonk,Ganga,Banas,261430075510001,Dug Well,Unconfined,16.61,CGWB
+NAYAGAON,26.04083,75.88889,Rajasthan,Tonk,Ganga,Banas,260227075532001,Dug Well,Unconfined,11.11,CGWB
+RAJGARH1,25.1,76.2,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,250600076120001,Dug Well,Unconfined,22.9,CGWB
+ALANIA,25.04083,75.89,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,250227075532401,Dug Well,Unconfined,12.2,CGWB
+KARSAI,26.425,76.93333,Rajasthan,Karauli,Ganga,Banas,262530076560001,Dug Well,Unconfined,24.0,CGWB
+KHERARASULPUR,25.12111,75.96556,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,250716075575601,Dug Well,Unconfined,11.83,CGWB
+KOTA1,25.18333,75.85,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251100075510001,Dug Well,Unconfined,18.31,CGWB
+AZIZPUR,26.93333,76.85,Rajasthan,Karauli,Ganga,Yamuna Middle,265600076510001,Tube Well,Unconfined,65.0,CGWB
+KHATOLI,25.67806,76.475,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,254041076283001,Dug Well,Unconfined,15.5,CGWB
+BORAWAS,25.02083,75.7,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,250115075420001,Dug Well,Unconfined,7.15,CGWB
+RATTANPURA,25.36667,76.3,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,252200076180001,Dug Well,Unconfined,21.17,CGWB
+DIGOD1,25.24167,76.08889,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251430076052001,Dug Well,Unconfined,6.25,CGWB
+MANDANA,24.93333,75.93333,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,245600075560001,Dug Well,Unconfined,13.42,CGWB
+KESHAVPURA,25.4375,76.4,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,252615076240001,Dug Well,Unconfined,12.12,CGWB
+DARA,24.90833,75.97778,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,245430075584001,Dug Well,Unconfined,4.0,CGWB
+AYANA,25.44583,76.43472,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,252645076260501,Dug Well,Unconfined,21.17,CGWB
+MANDAVRA,25.36917,76.1625,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,252209076094501,Dug Well,Unconfined,16.28,CGWB
+GAINTA,25.57583,76.31,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,253433076183601,Dug Well,Unconfined,27.0,CGWB
+GADEPAN,25.17722,76.18222,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251038076105601,Dug Well,Unconfined,10.99,CGWB
+SULTANPUR,25.28972,76.18111,Rajasthan,Kota,Ganga,Kali Sindh And Others Up To Confluence With Parbati,251723076105201,Dug Well,,10.81,CGWB
+TIBARA,26.85,76.96667,Rajasthan,Karauli,Ganga,Yamuna Middle,A_26.8500_76.9667,,,,
+SANKRA2,26.44722,77.0875,Rajasthan,Karauli,Ganga,Yamuna Middle,262650077051501,Dug Well,,9.25,CGWB
+Hindaun,26.73333,77.03333,Rajasthan,Karauli,Ganga,Yamuna Middle,264400077020001,Dug Well,Unconfined,11.0,CGWB
+Mamachari,26.43333,76.95,Rajasthan,Karauli,Ganga,Banas,262600076570001,Dug Well,Unconfined,20.0,CGWB
+BHAUAPURA,26.53611,77.13333,Rajasthan,Karauli,Ganga,Yamuna Middle,263210077080001,Dug Well,Unconfined,16.26,CGWB
+BADH KAMLA,26.69306,76.925,Rajasthan,Karauli,Ganga,Yamuna Middle,264135076553001,Dug Well,Unconfined,14.9,CGWB
+SAHAR1,26.60833,76.71667,Rajasthan,Karauli,Ganga,Banas,263630076430001,Dug Well,Unconfined,29.56,CGWB
+ISLAMPUR,26.7,77.01667,Rajasthan,Karauli,Ganga,Yamuna Middle,264200077010001,Dug Well,Unconfined,10.0,CGWB
+MANDRAL,26.30556,77.24861,Rajasthan,Karauli,Ganga,Chambal Lower,261820077145501,Dug Well,Unconfined,38.0,CGWB
+NADAUTI,26.68056,76.73333,Rajasthan,Karauli,Ganga,Yamuna Middle,A_26.6806_76.7333,,,,
+Langra_Pz,26.40528,77.1275,Rajasthan,Karauli,Ganga,Yamuna Middle,RJGW_5904,Piezometer,Not Available,90.0,Rajasthan GW
+BIJALPUR,26.45833,76.91667,Rajasthan,Karauli,Ganga,Yamuna Middle,262730076550001,Dug Well,Unconfined,40.0,CGWB
+KELADEVI,26.35,76.93333,Rajasthan,Karauli,Ganga,Banas,262100076560001,Dug Well,Unconfined,15.17,CGWB
+NAROLI DANG,26.325,76.68333,Rajasthan,Karauli,Ganga,Banas,261930076410001,Dug Well,Unconfined,23.0,CGWB
+Deeppura-Pz M,26.52917,77.075,Rajasthan,Karauli,Ganga,Yamuna Middle,A_26.5292_77.0750,,,,
+Lohrra,26.31667,76.83333,Rajasthan,Karauli,Ganga,Banas,261900076500001,Dug Well,Unconfined,14.7,CGWB
+KARANPURA1,26.825,76.9375,Rajasthan,Karauli,Ganga,Yamuna Middle,264930076561501,Tube Well,Unconfined,59.0,CGWB
+Deeppura-Pz S,26.52917,77.075,Rajasthan,Karauli,Ganga,Yamuna Middle,A_26.5292_77.0750,,,,
+Chainpur_Pz,26.54583,77.10833,Rajasthan,Karauli,Ganga,Yamuna Middle,263245077063001,Bore Well,,154.0,CGWB
+LANGRA,26.4125,77.12917,Rajasthan,Karauli,Ganga,Yamuna Middle,262445077074501,Dug Well,,15.0,CGWB
+SAPOTRA1,26.28917,76.755,Rajasthan,Karauli,Ganga,Banas,261721076451801,Dug Well,Unconfined,27.0,CGWB
+GURLA1,26.64167,77.00417,Rajasthan,Karauli,Ganga,Yamuna Middle,263830077001501,Dug Well,Unconfined,36.3,CGWB
+Deeppura-Pz D,26.52917,77.075,Rajasthan,Karauli,Ganga,Yamuna Middle,263145077043001,Bore Well,Unconfined,196.8,CGWB
+Atewa,26.38,76.92583,Rajasthan,Karauli,Ganga,Banas,262248076553301,Bore Well,Unconfined,75.0,CGWB
+Danpur,23.51667,74.71667,Rajasthan,Banswara,Mahi,Mahi Upper,233100074430001,Dug Well,Unconfined,12.0,CGWB
+Bilari,23.32694,74.36167,Rajasthan,Banswara,Mahi,Mahi Upper,231937074214201,Dug Well,Unconfined,9.8,CGWB
+Macha,23.28333,74.35,Rajasthan,Banswara,Mahi,Mahi Upper,231700074210001,Bore Well,,150.0,CGWB
+Khera Dahar,23.61667,74.50833,Rajasthan,Banswara,Mahi,Mahi Upper,233700074303001,Dug Well,Unconfined,11.0,CGWB
+Kupra,23.66667,74.50833,Rajasthan,Banswara,Mahi,Mahi Upper,234000074303001,Bore Well,,150.0,CGWB
+DUNGARIA,23.86389,74.45833,Rajasthan,Banswara,Mahi,Mahi Upper,235150074273001,Dug Well,Unconfined,17.0,CGWB
+Bagidora,23.40417,74.26667,Rajasthan,Banswara,Mahi,Mahi Upper,232415074160001,Dug Well,Unconfined,17.68,CGWB
+Danakhari,23.5575,74.60111,Rajasthan,Banswara,Mahi,Mahi Upper,233327074360301,Dug Well,Unconfined,10.0,CGWB
+Chiriwasa,23.50917,74.3775,Rajasthan,Banswara,Mahi,Mahi Upper,233030074223901,Dug Well,Unconfined,11.5,CGWB
+Wagtalav,23.55028,74.68583,Rajasthan,Banswara,Mahi,Mahi Upper,233301074410901,Dug Well,Unconfined,10.0,CGWB
+Khudan,23.68333,74.15,Rajasthan,Banswara,Mahi,Mahi Upper,A_23.6833_74.1500,,,,
+CHOTA DUNGRA,23.17222,74.29028,Rajasthan,Banswara,Mahi,Mahi Upper,231020074172501,Dug Well,Unconfined,9.8,CGWB
+Tejpur1,23.6,74.44167,Rajasthan,Banswara,Mahi,Mahi Upper,233600074263001,Bore Well,,150.0,CGWB
+Sadri,23.78333,74.46667,Rajasthan,Banswara,Mahi,Mahi Upper,234700074280002,Dug Well,Unconfined,10.0,CGWB
+BARODIA,23.41667,74.38333,Rajasthan,Banswara,Mahi,Mahi Upper,232500074230001,Dug Well,Unconfined,11.15,CGWB
+Banswara1,23.53333,74.45,Rajasthan,Banswara,Mahi,Mahi Upper,233200074270001,Dug Well,Unconfined,10.0,CGWB
+SENWASA,23.65611,74.38972,Rajasthan,Banswara,Mahi,Mahi Upper,233922074232301,Dug Well,Unconfined,11.9,CGWB
+LOHARIYA,23.23333,74.4,Rajasthan,Banswara,Mahi,Mahi Upper,A_23.2333_74.4000,,,,
+Arthuna1,23.5,74.1,Rajasthan,Banswara,Mahi,Mahi Upper,233000074060001,Bore Well,Unconfined,150.0,CGWB
+Borwat,23.50917,74.38444,Rajasthan,Banswara,Mahi,Mahi Upper,233033074230401,Bore Well,Unconfined,40.0,CGWB
+NARWALI,23.89444,74.44306,Rajasthan,Banswara,Mahi,Mahi Upper,A_23.8944_74.4431,,,,
+KUSALGARH,23.2,74.45,Rajasthan,Banswara,Mahi,Mahi Upper,231200074270002,Dug Well,Unconfined,8.52,CGWB
+GARHI PARTAPURA,23.59,74.175,Rajasthan,Banswara,Mahi,Mahi Upper,233524074103001,Dug Well,Unconfined,17.15,CGWB
+KALINJRA,23.34167,74.3125,Rajasthan,Banswara,Mahi,Mahi Upper,232030074184501,Dug Well,,8.92,CGWB
+GANORA,23.76667,74.25278,Rajasthan,Banswara,Mahi,Mahi Upper,234600074151001,Dug Well,Unconfined,9.74,CGWB
+Mokampura1,23.15,74.59167,Rajasthan,Banswara,Mahi,Mahi Upper,230900074353001,Bore Well,,150.0,CGWB
+Rathor Ki Phadoli,23.89444,74.44306,Rajasthan,Banswara,Mahi,Mahi Upper,235340074263502,Dug Well,Unconfined,9.5,CGWB
+BHUNGRA,23.68333,74.51667,Rajasthan,Banswara,Mahi,Mahi Upper,234100074310001,Dug Well,Unconfined,10.81,CGWB
+CHANDUJIKAGUDA,23.66667,74.3375,Rajasthan,Banswara,Mahi,Mahi Upper,234000074201502,Bore Well,Unconfined,150.0,CGWB
+Surwania,23.44167,74.36889,Rajasthan,Banswara,Mahi,Mahi Upper,232630074220801,Bore Well,Unconfined,129.0,CGWB
+Bhimpur,23.71528,74.26278,Rajasthan,Banswara,Mahi,Mahi Upper,234255074154601,Tube Well,Unconfined,20.0,CGWB
+WAJWANA,23.56806,74.2725,Rajasthan,Banswara,Mahi,Mahi Upper,233405074162101,Dug Well,,14.67,CGWB
+Sera Pada Sandoh,23.48333,74.36667,Rajasthan,Banswara,Mahi,Mahi Upper,232900074220001,Bore Well,Unconfined,150.0,CGWB
+Kotra1,23.46667,74.075,Rajasthan,Banswara,Mahi,Mahi Upper,232800074043001,Bore Well,Unconfined,150.0,CGWB
+Chhajwa,23.43333,74.06667,Rajasthan,Banswara,Mahi,Mahi Upper,232600074040002,Bore Well,Unconfined,150.0,CGWB
+Chhoti Sarwan,23.51667,74.66667,Rajasthan,Banswara,Mahi,Mahi Upper,233100074400001,Bore Well,,150.0,CGWB
+Borigoan,23.575,74.11667,Rajasthan,Banswara,Mahi,Mahi Upper,233430074070001,Bore Well,Unconfined,150.0,CGWB
+Chichi,23.3,74.31667,Rajasthan,Banswara,Mahi,Mahi Upper,231800074190001,Bore Well,Unconfined,150.0,CGWB
+Padla Barora,23.53611,74.51944,Rajasthan,Banswara,Mahi,Mahi Upper,233210074311001,Dug Well,Unconfined,12.5,CGWB
+Katumbi Dw,23.53611,74.61667,Rajasthan,Banswara,Mahi,Mahi Upper,233210074370001,Dug Well,Unconfined,10.0,CGWB
+Kusalgarh,23.2,74.46667,Rajasthan,Banswara,Mahi,Mahi Upper,231200074280001,Bore Well,Unconfined,150.0,CGWB
+ARTHUNA,23.49583,74.1,Rajasthan,Banswara,Mahi,Mahi Upper,232945074060001,Dug Well,Unconfined,12.64,CGWB
+RAKHO,23.37556,74.27917,Rajasthan,Banswara,Mahi,Mahi Upper,232232074164501,Dug Well,Unconfined,13.63,CGWB
+Charakni,23.31278,74.37972,Rajasthan,Banswara,Mahi,Mahi Upper,231846074224701,Dug Well,Unconfined,8.2,CGWB
+TALWARA1,23.56667,74.31667,Rajasthan,Banswara,Mahi,Mahi Upper,233400074190001,Bore Well,Unconfined,150.0,CGWB
+Kutumbi,23.53333,74.63333,Rajasthan,Banswara,Mahi,Mahi Upper,233200074380001,Bore Well,,150.0,CGWB
+Bansla,23.42111,74.29194,Rajasthan,Banswara,Mahi,Mahi Upper,232516074173101,Bore Well,Unconfined,142.0,CGWB
+Odwara,23.51667,74.16667,Rajasthan,Banswara,Mahi,Mahi Upper,233100074100001,Bore Well,,150.0,CGWB
+Bhura Kua,23.225,74.3,Rajasthan,Banswara,Mahi,Mahi Upper,A_23.2250_74.3000,,,,
+Wajwana,23.61667,74.28333,Rajasthan,Banswara,Mahi,Mahi Upper,233700074170001,Bore Well,Unconfined,150.0,CGWB
+Chand Ji Ka Guda,23.66667,74.3375,Rajasthan,Banswara,Mahi,Mahi Upper,A_23.6667_74.3375,,,,
+Ghazipur,26.97167,76.94417,Rajasthan,Dausa,Ganga,Yamuna Middle,265818076563901,Tube Well,,81.4,CGWB
+DAUSA1,26.89583,76.325,Rajasthan,Dausa,Ganga,Yamuna Middle,A_26.8958_76.3250,,,,
+BAPI_Pz,26.98056,76.28333,Rajasthan,Dausa,Ganga,Yamuna Middle,265850076170001,Bore Well,Unconfined,91.5,CGWB
+Sodan Ka Bas,27.09722,76.78667,Rajasthan,Dausa,Ganga,Yamuna Middle,270550076471201,Tube Well,Unconfined,67.0,CGWB
+DIDWANA2,26.5875,76.34167,Rajasthan,Dausa,Ganga,Banas,A_26.5875_76.3417,,,,
+SIKANDARA,26.96667,76.57917,Rajasthan,Dausa,Ganga,Yamuna Middle,265800076344501,Tube Well,Unconfined,50.0,CGWB
+Digaria Bheem,27.07083,76.73889,Rajasthan,Dausa,Ganga,Yamuna Middle,270415076442001,Tube Well,Unconfined,66.0,CGWB
+MANDAWARI,26.46667,76.41667,Rajasthan,Dausa,Ganga,Banas,262800076250001,Tube Well,,60.0,CGWB
+Dausa,26.89583,76.325,Rajasthan,Dausa,Ganga,Yamuna Middle,265345076193001,Dug Well,Unconfined,30.0,CGWB
+GARH RANOLI,26.8125,76.50972,Rajasthan,Dausa,Ganga,Yamuna Middle,264845076303501,Tube Well,,40.0,CGWB
+Jasuta_Pz,26.95,76.31667,Rajasthan,Dausa,Ganga,Yamuna Middle,265700076190001,Bore Well,,127.0,CGWB
+Bapi,26.98333,76.28333,Rajasthan,Dausa,Ganga,Yamuna Middle,265900076170001,Tube Well,,,CGWB
+Nagal Rajawatan,26.74583,76.33611,Rajasthan,Dausa,Ganga,Banas,264445076201002,Tube Well,Unconfined,200.0,CGWB
+BIGAWAS MOD,26.8,76.33333,Rajasthan,Dausa,Ganga,Banas,264800076200001,Dug Well,,12.9,CGWB
+Jasuta,26.96667,76.33333,Rajasthan,Dausa,Ganga,Yamuna Middle,265800076200001,Dug Well,Unconfined,18.0,CGWB
+Higetawari Dhani,26.9,77.03333,Rajasthan,Dausa,Ganga,Yamuna Middle,265400077020001,Tube Well,,40.0,CGWB
+PRAHLADPURA,26.68333,76.2,Rajasthan,Dausa,Ganga,Banas,264100076120001,Tube Well,Unconfined,62.8,CGWB
+LAWAN1,26.78333,76.21667,Rajasthan,Dausa,Ganga,Banas,264700076130001,Tube Well,Unconfined,44.0,CGWB
+Talchidi,26.91667,77.01667,Rajasthan,Dausa,Ganga,Yamuna Middle,265500077010001,Tube Well,Unconfined,56.0,CGWB
+Ghazipur-Pz,26.975,76.95556,Rajasthan,Dausa,Ganga,Yamuna Middle,265830076572001,Tube Well,Unconfined,81.4,CGWB
+Kalipahari,26.98333,76.40833,Rajasthan,Dausa,Ganga,Yamuna Middle,265900076243001,Tube Well,Unconfined,60.0,CGWB
+LALSOT2,26.56667,76.3375,Rajasthan,Dausa,Ganga,Banas,263400076201502,Tube Well,,70.0,CGWB
+DHAND1,26.9,77.03333,Rajasthan,Dausa,Ganga,Yamuna Middle,A_26.9000_77.0333,,,,
+MAHUWA,27.075,76.95,Rajasthan,Dausa,Ganga,Yamuna Middle,270430076570001,Tube Well,Unconfined,90.0,CGWB
+LANGRA BALAJI,26.95,76.73333,Rajasthan,Dausa,Ganga,Yamuna Middle,265700076440001,Tube Well,Unconfined,75.0,CGWB
+BHANDAREJ,26.91667,76.4,Rajasthan,Dausa,Ganga,Yamuna Middle,265500076240001,Dug Well,Unconfined,31.0,CGWB
+GIJGARH,26.88472,76.64306,Rajasthan,Dausa,Ganga,Yamuna Middle,265305076383501,Tube Well,,60.0,CGWB
+RASHIDPURA1,27.08333,76.9,Rajasthan,Dausa,Ganga,Yamuna Middle,270500076540001,Tube Well,,50.0,CGWB
+BAPI,26.975,76.29167,Rajasthan,Dausa,Ganga,Yamuna Middle,265830076173001,Dug Well,Unconfined,15.12,CGWB
+Baswa1,27.16667,76.58333,Rajasthan,Dausa,Ganga,Yamuna Middle,271000076350001,Bore Well,Unconfined,125.4,CGWB
+B GURJRAN,27.08333,76.58889,Rajasthan,Dausa,Ganga,Yamuna Middle,270500076352001,Tube Well,,59.82,CGWB

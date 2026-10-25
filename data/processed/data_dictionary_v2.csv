@@ -1,0 +1,51 @@
+﻿column,role,dtype,missing_pct,n_unique,example,description
+SITE_ID,ids_and_bookkeeping,object,0.0,1403,230900074353001,"Station ID (CGWB station code, ya A_<lat>_<lon> agar code nahi mila)"
+DATE,ids_and_bookkeeping,datetime64[ns],0.0,330,2005-08-25 00:00:00,Reading ki date
+STATE_NAME,ids_and_bookkeeping,object,0.0,1,Rajasthan,State (sab Rajasthan)
+DISTRICT_NAME,baseline,object,0.0,33,Banswara,District
+STATION_NAME,ids_and_bookkeeping,object,0.0,1393,Mokampura1,Station ka naam
+LAT,baseline,float64,0.0,1009,23.15,Latitude (degrees)
+LON,baseline,float64,0.0,1001,74.59167,Longitude (degrees)
+BASIN,ids_and_bookkeeping,object,0.0,6,Mahi,River basin
+SUB_BASIN,ids_and_bookkeeping,object,0.0,14,Mahi Upper,Sub basin
+WELL_TYPE,well_aquifer,object,1.4,5,Bore Well,"Well ka type (e.g. dug well, tube well)"
+AQUIFER_TYPE,well_aquifer,object,16.4,2,Unconfined,Aquifer ka type
+WELL_DEPTH,never_use_as_features,float64,1.7,728,150.0,"Well ki gehrai (m). MODEL INPUT NAHI, sirf advisory ke liye"
+WLS_WTR_LEVEL,target,float64,0.0,8249,2.28,TARGET. Depth to water level (m below ground). Zyada = paani neeche
+LEVEL_DIFF,never_use_as_features,float64,74.6,2489,0.44,Level mein badlav (A dataset). MODEL INPUT NAHI (target se bana hai)
+SOURCE_DS,ids_and_bookkeeping,object,0.0,2,B,Data source (A ya B)
+YEAR,baseline,int64,0.0,48,2005,Saal
+MONTH,ids_and_bookkeeping,int64,0.0,12,8,Mahina
+ROUND,ids_and_bookkeeping,object,0.0,5,Aug,CGWB round (Jan/May/Aug/Nov/Other)
+OUTLIER,never_use_as_features,bool,0.0,2,False,True agar level <0 ya >300. Train/test se hataya gaya
+BLOCK_NAME,ids_and_bookkeeping,object,45.8,195,SAJJANGARH,Block (sirf verified mapping wale stations ka)
+BLOCK_STATUS,ids_and_bookkeeping,object,0.0,2,UNMATCHED,Block mapping ka status
+rainfall_grid_lat,ids_and_bookkeeping,float64,0.0,15,23.0,Rainfall grid cell ka lat
+rainfall_grid_lon,ids_and_bookkeeping,float64,0.0,17,74.5,Rainfall grid cell ka lon
+rainfall_mm,rainfall,float64,37.1,4645,117.66,"Us mahine ka rainfall (mm), NASA POWER"
+valid_daily_records,ids_and_bookkeeping,float64,37.1,4,31.0,Us mahine mein kitne daily rainfall records valid the
+rainfall_lag_1m_mm,rainfall,float64,37.1,4384,306.67,Pichhle 1 mahine ka rainfall
+rainfall_lag_3m_mm,rainfall,float64,37.1,4948,4.08,Pichhle 3 mahine ka rainfall
+rainfall_lag_12m_mm,rainfall,float64,37.1,4618,326.7,Pichhle 12 mahine ka rainfall
+water_level_lag_1_obs_m,lag,float64,1.5,8199,2.28,Usi station ki pichhli reading ka level
+water_level_lag_2_obs_m,lag,float64,3.0,8141,2.28,Usi station ki us se pehli wali reading
+water_level_prev3_obs_mean_m,lag,float64,1.5,31895,2.28,Pichhli 3 readings ka average
+water_level_prev5_obs_mean_m,lag,float64,1.5,35741,2.28,Pichhli 5 readings ka average
+days_since_previous_observation,lag,float64,1.5,421,133.0,Pichhli reading se kitne din ho gaye
+month_sin,baseline,float64,0.0,11,-0.8660254037844384,Mahine ka sin encoding
+month_cos,baseline,float64,0.0,11,-0.5000000000000004,Mahine ka cos encoding
+elevation_m,elevation,float64,0.0,449,380.0,"Station ki elevation (m), SRTM30 (OpenTopoData)"
+elevation_source,ids_and_bookkeeping,object,0.0,1,SRTM30M,Elevation ka source
+elevation_status,ids_and_bookkeeping,object,0.0,1,OK,Elevation lookup status
+rainfall_normal_mm,rainfall,float64,0.0,144,265.6767857142857,District-month ka long-term normal rainfall
+rainfall_normal_grid_cells,ids_and_bookkeeping,int64,0.0,11,4,Normal nikalne mein kitne grid cells lage
+STAGE_EXTRACTION_PCT,stage_2023_snapshot,float64,62.4,136,63.54,Block ka Stage of Extraction % (2023 snapshot)
+CATEGORY_CODE,stage_2023_snapshot,object,62.4,5,SAFE,Block category (SA / SC / CR / OE ...)
+ASSESSMENT_YEAR,ids_and_bookkeeping,float64,62.4,1,2023.0,Stage ka assessment year
+ASSESSMENT_DATE,ids_and_bookkeeping,object,62.4,1,2023-03-31,Stage ki assessment date
+CATEGORY_CONFLICT,ids_and_bookkeeping,object,62.4,2,False,Category conflict ka flag
+STAGE_MATCH_STATUS,ids_and_bookkeeping,object,0.0,2,NO_EXACT_MATCH,Block-stage match ka status
+neighbor_prev_level_mean_5_m,neighbor,float64,4.8,41671,6.446666666666666,Aas-paas ke (5 tak) stations ka pichhla average level
+neighbor_prev_level_count_5,neighbor,int64,0.0,6,3,Kitne neighbors us average mein aaye
+nearest_neighbor_prev_distance_km,neighbor,float64,4.8,1507,13.608479306895632,Sabse paas ke neighbor ki doori (km)
+SPLIT,ids_and_bookkeeping,object,0.0,4,train,train (2005-2020) / val (2021) / test (2022-2023) / unused

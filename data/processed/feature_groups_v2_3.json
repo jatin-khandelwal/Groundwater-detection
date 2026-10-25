@@ -1,0 +1,124 @@
+{
+  "target": "WLS_WTR_LEVEL",
+  "baseline": [
+    "DISTRICT_NAME",
+    "LAT",
+    "LON",
+    "YEAR",
+    "month_sin",
+    "month_cos"
+  ],
+  "rainfall": [
+    "rainfall_mm",
+    "rainfall_lag_1m_mm",
+    "rainfall_lag_3m_mm",
+    "rainfall_lag_12m_mm",
+    "rainfall_normal_train_mm",
+    "rainfall_anomaly_mm",
+    "last_monsoon_total_mm",
+    "last_monsoon_anomaly_mm",
+    "rain_cum_6m_mm",
+    "rain_cum_12m_mm",
+    "rain_cum_12m_anomaly_mm"
+  ],
+  "elevation": [
+    "elevation_m"
+  ],
+  "well_aquifer": [
+    "WELL_TYPE",
+    "AQUIFER_TYPE"
+  ],
+  "lag": [
+    "water_level_lag_1_obs_m",
+    "water_level_lag_2_obs_m",
+    "water_level_prev3_obs_mean_m",
+    "water_level_prev5_obs_mean_m",
+    "days_since_previous_observation",
+    "level_trend_lag1_lag2_m",
+    "station_expanding_mean_m",
+    "station_prior_obs_count",
+    "level_same_round_prev_year_m"
+  ],
+  "neighbor": [
+    "neighbor_prev_level_mean_5_m",
+    "nearest_neighbor_prev_distance_km",
+    "neighbor_prev_level_count_5"
+  ],
+  "stage_2023_snapshot": [
+    "STAGE_EXTRACTION_PCT",
+    "CATEGORY_CODE"
+  ],
+  "never_use_as_features": [
+    "WELL_DEPTH",
+    "LEVEL_DIFF",
+    "OUTLIER"
+  ],
+  "ids_and_bookkeeping": [
+    "SITE_ID",
+    "STATION_NAME",
+    "DATE",
+    "MONTH",
+    "STATE_NAME",
+    "SOURCE_DS",
+    "ROUND",
+    "BLOCK_NAME",
+    "BLOCK_STATUS",
+    "BASIN",
+    "SUB_BASIN",
+    "rainfall_grid_lat",
+    "rainfall_grid_lon",
+    "valid_daily_records",
+    "elevation_source",
+    "elevation_status",
+    "rainfall_normal_grid_cells",
+    "ASSESSMENT_YEAR",
+    "ASSESSMENT_DATE",
+    "CATEGORY_CONFLICT",
+    "STAGE_MATCH_STATUS",
+    "SPLIT"
+  ],
+  "stage_district_2023_snapshot": [
+    "district_stage_mean_pct",
+    "district_overexploited_share",
+    "district_n_blocks"
+  ],
+  "unverified_do_not_use": [
+    "rainfall_normal_mm"
+  ],
+  "variant_B_groups": [
+    "baseline",
+    "rainfall",
+    "elevation",
+    "well_aquifer",
+    "neighbor",
+    "stage_2023_snapshot",
+    "stage_district_2023_snapshot"
+  ],
+  "variant_A_groups": [
+    "baseline",
+    "rainfall",
+    "elevation",
+    "well_aquifer",
+    "neighbor",
+    "stage_2023_snapshot",
+    "stage_district_2023_snapshot",
+    "lag"
+  ],
+  "climate_extra": [
+    "temp_prev3m_mean_c",
+    "temp_prev12m_mean_c",
+    "temp_anom_prev3m_c",
+    "temp_anom_prev12m_c",
+    "rh_prev3m_mean_pct",
+    "rh_anom_prev3m_pct"
+  ],
+  "evap_soil_extra": [
+    "pet_prev3m_sum_mm",
+    "pet_prev12m_sum_mm",
+    "water_balance_prev12m_mm",
+    "soil_wet_root_prev3m_mean",
+    "soil_wet_root_anom_prev3m",
+    "soil_wet_top_prev1m",
+    "evland_prev3m_mean"
+  ]
+}
