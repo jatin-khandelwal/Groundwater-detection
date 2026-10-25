@@ -1,0 +1,36 @@
+# Environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.agents/
+.claude/
+
+# Data: badi files git mein nahi, drive ya zip se share karo
+data/raw/
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.xlsx
+data/processed/*.txt
+*.zip
+handoff/
+outputs/
+Screenshot*.png
+tidy_plan.txt
+run_log.txt
+
+# Models (bade ho sakte hain)
+*.pkl
+*.joblib
+
+# Chhoti files jo git mein chahiye (data/processed ke andar bhi)
+!data/processed/*dictionary*.csv
+!data/processed/feature_groups*.json
+!data/processed/block_stage.csv
+!data/processed/rainfall_normals_v2_1.csv
+!data/processed/station_master.csv
+!data/processed/station_block_map.csv
+!data/processed/station_elevation.csv
+!data/processed/quality_year_round_counts_v2.csv
