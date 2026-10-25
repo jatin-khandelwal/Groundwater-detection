@@ -1,0 +1,119 @@
+{
+  "dataset_version": "dataset_v2_3.csv",
+  "rows_total": 92452,
+  "split_rows": {
+    "train": 50363,
+    "val": 1859,
+    "test": 5178
+  },
+  "split_years": {
+    "train": "2005-2020",
+    "val": "2021",
+    "test": "2022-2023"
+  },
+  "random_state": 42,
+  "sklearn_version": "1.9.0",
+  "train_mean_level": 21.243,
+  "persistence": {
+    "val": {
+      "n": 1859,
+      "R2": 0.9737,
+      "MAE": 2.07,
+      "MedAE": 1.02,
+      "rows_dropped_lag_nan": 0,
+      "dropped_pct": 0.0
+    },
+    "test": {
+      "n": 5178,
+      "R2": 0.9403,
+      "MAE": 2.648,
+      "MedAE": 1.155,
+      "rows_dropped_lag_nan": 0,
+      "dropped_pct": 0.0
+    }
+  },
+  "train_mean_baseline": {
+    "val": {
+      "n": 1859,
+      "R2": -0.002,
+      "MAE": 17.545,
+      "MedAE": 15.203
+    },
+    "test": {
+      "n": 5178,
+      "R2": -0.0003,
+      "MAE": 17.311,
+      "MedAE": 15.143
+    }
+  },
+  "persistence_by_round": {
+    "val": {
+      "Jan": {
+        "n": 617,
+        "R2": 0.9748,
+        "MAE": 1.79,
+        "MedAE": 0.79,
+        "rows_dropped_lag_nan": 0,
+        "dropped_pct": 0.0
+      },
+      "May": {
+        "n": 83,
+        "R2": 0.9751,
+        "MAE": 2.922,
+        "MedAE": 2.0,
+        "rows_dropped_lag_nan": 0,
+        "dropped_pct": 0.0
+      },
+      "Aug": {
+        "n": 560,
+        "R2": 0.9654,
+        "MAE": 2.452,
+        "MedAE": 1.3,
+        "rows_dropped_lag_nan": 0,
+        "dropped_pct": 0.0
+      },
+      "Nov": {
+        "n": 598,
+        "R2": 0.9774,
+        "MAE": 1.887,
+        "MedAE": 0.805,
+        "rows_dropped_lag_nan": 0,
+        "dropped_pct": 0.0
+      }
+    },
+    "test": {
+      "Jan": {
+        "n": 1296,
+        "R2": 0.9526,
+        "MAE": 2.182,
+        "MedAE": 0.8,
+        "rows_dropped_lag_nan": 0,
+        "dropped_pct": 0.0
+      },
+      "May": {
+        "n": 1295,
+        "R2": 0.9376,
+        "MAE": 2.762,
+        "MedAE": 1.35,
+        "rows_dropped_lag_nan": 0,
+        "dropped_pct": 0.0
+      },
+      "Aug": {
+        "n": 1284,
+        "R2": 0.9203,
+        "MAE": 3.386,
+        "MedAE": 1.82,
+        "rows_dropped_lag_nan": 0,
+        "dropped_pct": 0.0
+      },
+      "Nov": {
+        "n": 1279,
+        "R2": 0.9597,
+        "MAE": 2.176,
+        "MedAE": 1.0,
+        "rows_dropped_lag_nan": 0,
+        "dropped_pct": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+step,n_features,R2,MAE,MedAE
+baseline,6,0.5409,8.605,4.646
++rain_core,12,0.5404,8.604,4.653
++rain_new5,17,0.5463,8.529,4.594
++elevation,18,0.6152,8.229,4.842
++well_aquifer,20,0.622,8.121,4.856
++neighbor,23,0.6661,7.68,4.519
++stage_district,26,0.67,7.646,4.509
++stage_block (alag row),28,0.6624,7.753,4.578
++climate_extra (alag row),32,0.6724,7.639,4.515
++evap_soil_extra (alag row),33,0.675,7.647,4.586
