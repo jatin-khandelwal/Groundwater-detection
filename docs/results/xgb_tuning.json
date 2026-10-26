@@ -1,0 +1,43 @@
+{
+  "best_cv_mae": 7.598,
+  "best_params": {
+    "model__subsample": 0.85,
+    "model__reg_lambda": 5,
+    "model__n_estimators": 200,
+    "model__min_child_weight": 1,
+    "model__max_depth": 8,
+    "model__learning_rate": 0.05,
+    "model__colsample_bytree": 0.6
+  },
+  "n_iter": 25,
+  "cv": "GroupKFold(5) by SITE_ID",
+  "features": [
+    "DISTRICT_NAME",
+    "LAT",
+    "LON",
+    "YEAR",
+    "month_sin",
+    "month_cos",
+    "rainfall_mm",
+    "rainfall_lag_1m_mm",
+    "rainfall_lag_3m_mm",
+    "rainfall_lag_12m_mm",
+    "rainfall_normal_train_mm",
+    "rainfall_anomaly_mm",
+    "last_monsoon_total_mm",
+    "last_monsoon_anomaly_mm",
+    "rain_cum_6m_mm",
+    "rain_cum_12m_mm",
+    "rain_cum_12m_anomaly_mm",
+    "elevation_m",
+    "WELL_TYPE",
+    "AQUIFER_TYPE",
+    "neighbor_prev_level_mean_5_m",
+    "nearest_neighbor_prev_distance_km",
+    "neighbor_prev_level_count_5",
+    "district_stage_mean_pct",
+    "district_overexploited_share",
+    "district_n_blocks"
+  ],
+  "random_state": 42
+}

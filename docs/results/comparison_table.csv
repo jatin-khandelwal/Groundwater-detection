@@ -1,0 +1,3 @@
+model,variant,validation,n_features,R2,MAE,MedAE
+RF tuned,B,naya station (GroupKFold 5),26,0.7005,7.459,4.51
+XGBoost tuned,B,naya station (GroupKFold 5),26,0.6976,7.598,4.768

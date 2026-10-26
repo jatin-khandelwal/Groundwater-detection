@@ -1,0 +1,9 @@
+variant,training,validation,n,R2,MAE,MedAE
+B,QC rows ke saath,naya saal (val 2021),1837,0.9685,2.719,1.866
+B,QC rows ke saath,naya station (GroupKFold 5),49416,0.7027,7.427,4.489
+B,QC rows ke bina,naya saal (val 2021),1837,0.968,2.725,1.832
+B,QC rows ke bina,naya station (GroupKFold 5),49416,0.7004,7.461,4.489
+A,QC rows ke saath,naya saal (val 2021),1837,0.9811,1.898,1.093
+A,QC rows ke saath,naya station (GroupKFold 5),48802,0.9721,1.955,1.104
+A,QC rows ke bina,naya saal (val 2021),1837,0.9806,1.913,1.083
+A,QC rows ke bina,naya station (GroupKFold 5),48802,0.9729,1.928,1.088

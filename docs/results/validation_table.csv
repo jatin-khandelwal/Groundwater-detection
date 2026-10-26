@@ -1,0 +1,15 @@
+model,variant,validation,n,R2,MAE,MedAE
+RF tuned,B,naya station (GroupKFold 5),50363,0.7005,7.459,4.51
+RF tuned,B,naya saal (train 2005-2020 -> val 2021),1859,0.9671,2.78,1.896
+RF tuned,B,naya district (leave-one-district-out),50363,0.6308,8.605,5.684
+RF tuned,A,naya station (GroupKFold 5),49743,0.9686,2.018,1.119
+RF tuned,A,naya saal (train 2005-2020 -> val 2021),1859,0.9801,1.943,1.098
+RF tuned,A,naya district (leave-one-district-out),49743,0.9689,2.045,1.162
+XGBoost tuned,B,naya station (GroupKFold 5),50363,0.6976,7.598,4.768
+XGBoost tuned,B,naya saal (train 2005-2020 -> val 2021),1859,0.9473,3.662,2.49
+XGBoost tuned,B,naya district (leave-one-district-out),50363,0.5984,8.844,5.637
+XGBoost tuned,A,naya station (GroupKFold 5),49743,0.9673,2.028,1.115
+XGBoost tuned,A,naya saal (train 2005-2020 -> val 2021),1859,0.9798,1.982,1.155
+XGBoost tuned,A,naya district (leave-one-district-out),49743,0.9673,2.096,1.189
+persistence,-,train (lag wali rows),49743,0.9538,2.327,1.04
+persistence,-,val 2021,1859,0.9737,2.07,1.02
