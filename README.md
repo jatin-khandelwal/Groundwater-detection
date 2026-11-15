@@ -17,7 +17,7 @@ scripts/     data pipeline (download, merge, features, QC) aur model_utils.py
 notebooks/   model notebooks (baseline, ablation, XGBoost, validation, interval)
 docs/        LIMITATIONS.md, data dictionaries, reports
 backend/     FastAPI backend
-frontend/    React + Leaflet dashboard
+frontend/    Streamlit dashboard
 models/      final model files (git mein nahi, drive par)
 data/        raw/ aur processed/ (git mein nahi, drive par)
 ```
@@ -48,5 +48,8 @@ Saari scripts project root se chalao (`python scripts\<naam>.py`), kyunki paths 
 - Koi bhi average ya normal sirf training years se.
 - Suspicious rows flag hoti hain, delete nahi (scripts/qc_flags.py).
 
+## Data dictionary
+Final model dataset schema and field descriptions: `docs/data_dictionary_dataset_v2_3.csv` (77 columns). Data-row statistics are intentionally not included in this dictionary.
+
 ## Known limitations
-docs/LIMITATIONS.md dekho.
+See [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md) for neighbor-feature provenance, calibration, validation-scope, and advisory limitations.

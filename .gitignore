@@ -7,6 +7,10 @@ __pycache__/
 .vscode/
 .agents/
 .claude/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
 
 # Data: badi files git mein nahi, drive ya zip se share karo
 data/raw/
@@ -34,3 +38,11 @@ run_log.txt
 !data/processed/station_block_map.csv
 !data/processed/station_elevation.csv
 !data/processed/quality_year_round_counts_v2.csv
+
+# Runtime SQLite database is generated from processed CSVs
+backend/data/*.sqlite3
+backend/data/*.sqlite3-*
+*.sqlite3
+*.sqlite3-*
+tmp/demo2_processes.json
+tmp/demo_*.log
