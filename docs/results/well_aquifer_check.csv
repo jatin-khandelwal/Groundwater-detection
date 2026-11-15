@@ -1,0 +1,7 @@
+set,station_R2,station_MAE,district_R2,district_MAE
+final (10),0.6902,7.531,0.5868,9.037
++WELL_TYPE only,0.7009,7.463,0.6388,8.469
++AQUIFER_TYPE only,0.6843,7.632,0.5878,9.031
+"+both, asli values",0.6975,7.559,0.64,8.479
+"+both, predict par Unknown",0.6442,8.408,0.6061,9.07
+"+WELL_TYPE, predict par Unknown",0.6638,8.113,0.6004,9.137

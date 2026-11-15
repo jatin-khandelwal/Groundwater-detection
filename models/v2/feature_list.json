@@ -1,0 +1,12 @@
+[
+  "DISTRICT_NAME",
+  "LAT",
+  "LON",
+  "YEAR",
+  "month_sin",
+  "month_cos",
+  "elevation_m",
+  "neighbor_prev_level_mean_5_m",
+  "nearest_neighbor_prev_distance_km",
+  "neighbor_prev_level_count_5"
+]

@@ -1,0 +1,29 @@
+{
+  "features": [
+    "DISTRICT_NAME",
+    "LAT",
+    "LON",
+    "YEAR",
+    "month_sin",
+    "month_cos",
+    "elevation_m",
+    "neighbor_prev_level_mean_5_m",
+    "nearest_neighbor_prev_distance_km",
+    "neighbor_prev_level_count_5"
+  ],
+  "new_station": {
+    "R2": 0.6902,
+    "MAE": 7.531,
+    "MedAE": 4.547
+  },
+  "new_district": {
+    "R2": 0.5868,
+    "MAE": 9.037,
+    "MedAE": 5.877
+  },
+  "new_year_val2021_old_stations": {
+    "R2": 0.9724,
+    "MAE": 2.502,
+    "MedAE": 1.587
+  }
+}

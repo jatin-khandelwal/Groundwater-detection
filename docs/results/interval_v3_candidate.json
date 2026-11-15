@@ -1,0 +1,70 @@
+{
+  "status": "candidate_only_not_deployed",
+  "method": "Five-bin predicted-level residual calibration; 10th/90th residual quantiles; GroupKFold(5) by SITE_ID on SPLIT=train rows only; v3 neighbor inputs.",
+  "train_rows": 50363,
+  "train_years": [
+    2005,
+    2020
+  ],
+  "unique_sites": 1403,
+  "model_params": {
+    "n_estimators": 100,
+    "min_samples_leaf": 1,
+    "max_features": 0.4,
+    "max_depth": 20,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "scikit_learn_version": "1.9.0",
+  "features": [
+    "DISTRICT_NAME",
+    "LAT",
+    "LON",
+    "YEAR",
+    "month_sin",
+    "month_cos",
+    "elevation_m",
+    "neighbor_prev_level_mean_5_m",
+    "nearest_neighbor_prev_distance_km",
+    "neighbor_prev_level_count_5"
+  ],
+  "edges": [
+    7.206783200440942,
+    11.25057443481305,
+    19.344544694139447,
+    36.886426378812516
+  ],
+  "res_low": [
+    -3.8896642582228798,
+    -6.481181206187314,
+    -9.886560819671628,
+    -17.175799430917902,
+    -24.247938939050265
+  ],
+  "res_high": [
+    5.721546482712269,
+    7.344533455279612,
+    10.038189399541952,
+    18.421239398638566,
+    16.49222900045109
+  ],
+  "oof_mae_m": 7.501,
+  "crossfit_coverage_mean": 0.7991,
+  "crossfit_coverage_pooled": 0.7991,
+  "crossfit_coverage_by_fold": [
+    0.7953,
+    0.8155,
+    0.8002,
+    0.7893,
+    0.795
+  ],
+  "crossfit_mean_width_m_by_fold": [
+    24.099,
+    23.571,
+    23.384,
+    23.417,
+    25.191
+  ],
+  "warning": "This candidate was built after the frozen model was packaged and under the current environment version. It has not been independently checked against the deployed artifact version or calibrated on an untouched interval-calibration set. Do not replace models/v2/interval_table.json until reviewed.",
+  "holdout_2024_used": false
+}

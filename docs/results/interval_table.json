@@ -1,0 +1,69 @@
+{
+  "method": "out-of-fold residual quantiles by predicted-level bin (GroupKFold by SITE_ID, train 2005-2020)",
+  "interval": "80%",
+  "low_q": 0.1,
+  "high_q": 0.9,
+  "bin_edges_inner_m": [
+    7.0971640836993375,
+    11.157478982179766,
+    18.931046770857314,
+    36.99801264831962
+  ],
+  "bins": [
+    {
+      "res_low": -3.673026856429901,
+      "res_high": 5.268859375875465
+    },
+    {
+      "res_low": -6.300629961405261,
+      "res_high": 7.118091610335038
+    },
+    {
+      "res_low": -9.132338183267825,
+      "res_high": 9.982274337722584
+    },
+    {
+      "res_low": -16.67213393337926,
+      "res_high": 18.816789560259327
+    },
+    {
+      "res_low": -22.850637996393466,
+      "res_high": 19.77212860176759
+    }
+  ],
+  "clip_low_at_zero": true,
+  "n_train_rows": 50363,
+  "oof_mae": 7.459416520447657,
+  "holdout_station_coverage": 0.781299672744273,
+  "random_state": 42,
+  "sklearn": "1.9.0",
+  "dataset": "dataset_v2_3.csv",
+  "features": [
+    "DISTRICT_NAME",
+    "LAT",
+    "LON",
+    "YEAR",
+    "month_sin",
+    "month_cos",
+    "rainfall_mm",
+    "rainfall_lag_1m_mm",
+    "rainfall_lag_3m_mm",
+    "rainfall_lag_12m_mm",
+    "rainfall_normal_train_mm",
+    "rainfall_anomaly_mm",
+    "last_monsoon_total_mm",
+    "last_monsoon_anomaly_mm",
+    "rain_cum_6m_mm",
+    "rain_cum_12m_mm",
+    "rain_cum_12m_anomaly_mm",
+    "elevation_m",
+    "WELL_TYPE",
+    "AQUIFER_TYPE",
+    "neighbor_prev_level_mean_5_m",
+    "nearest_neighbor_prev_distance_km",
+    "neighbor_prev_level_count_5",
+    "district_stage_mean_pct",
+    "district_overexploited_share",
+    "district_n_blocks"
+  ]
+}

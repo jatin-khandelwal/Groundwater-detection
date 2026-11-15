@@ -1,0 +1,78 @@
+﻿column,group,description
+SITE_ID,ids_and_bookkeeping,"Station ID (CGWB station code, ya A_<lat>_<lon> agar code nahi mila)"
+DATE,ids_and_bookkeeping,Reading ki date
+STATE_NAME,ids_and_bookkeeping,State (sab Rajasthan)
+DISTRICT_NAME,baseline,District
+STATION_NAME,ids_and_bookkeeping,Station ka naam
+LAT,baseline,Latitude (degrees)
+LON,baseline,Longitude (degrees)
+BASIN,ids_and_bookkeeping,River basin
+SUB_BASIN,ids_and_bookkeeping,Sub basin
+WELL_TYPE,well_aquifer,"Well ka type (e.g. dug well, tube well)"
+AQUIFER_TYPE,well_aquifer,Aquifer ka type
+WELL_DEPTH,never_use_as_features,"Well ki gehrai (m). MODEL INPUT NAHI, sirf advisory ke liye"
+WLS_WTR_LEVEL,target,TARGET. Depth to water level (m below ground). Zyada = paani neeche
+LEVEL_DIFF,never_use_as_features,Level mein badlav (A dataset). MODEL INPUT NAHI (target se bana hai)
+SOURCE_DS,ids_and_bookkeeping,Data source (A ya B)
+YEAR,baseline,Saal
+MONTH,ids_and_bookkeeping,Mahina
+ROUND,ids_and_bookkeeping,CGWB round (Jan/May/Aug/Nov/Other)
+OUTLIER,never_use_as_features,True agar level <0 ya >300. Train/test se hataya gaya
+BLOCK_NAME,ids_and_bookkeeping,Block (sirf verified mapping wale stations ka)
+BLOCK_STATUS,ids_and_bookkeeping,Block mapping ka status
+rainfall_grid_lat,ids_and_bookkeeping,Rainfall grid cell ka lat
+rainfall_grid_lon,ids_and_bookkeeping,Rainfall grid cell ka lon
+rainfall_mm,rainfall,"Us mahine ka rainfall (mm), NASA POWER"
+valid_daily_records,ids_and_bookkeeping,Us mahine mein kitne daily rainfall records valid the
+rainfall_lag_1m_mm,rainfall,Pichhle 1 mahine ka rainfall
+rainfall_lag_3m_mm,rainfall,Pichhle 3 mahine ka rainfall
+rainfall_lag_12m_mm,rainfall,Pichhle 12 mahine ka rainfall
+water_level_lag_1_obs_m,lag,Usi station ki pichhli reading ka level
+water_level_lag_2_obs_m,lag,Usi station ki us se pehli wali reading
+water_level_prev3_obs_mean_m,lag,Pichhli 3 readings ka average
+water_level_prev5_obs_mean_m,lag,Pichhli 5 readings ka average
+days_since_previous_observation,lag,Pichhli reading se kitne din ho gaye
+month_sin,baseline,Mahine ka sin encoding
+month_cos,baseline,Mahine ka cos encoding
+elevation_m,elevation,"Station ki elevation (m), SRTM30 (OpenTopoData)"
+elevation_source,ids_and_bookkeeping,Elevation ka source
+elevation_status,ids_and_bookkeeping,Elevation lookup status
+rainfall_normal_mm,unverified_do_not_use,District-month ka long-term normal rainfall
+rainfall_normal_grid_cells,ids_and_bookkeeping,Normal nikalne mein kitne grid cells lage
+STAGE_EXTRACTION_PCT,stage_2023_snapshot,Block ka Stage of Extraction % (2023 snapshot)
+CATEGORY_CODE,stage_2023_snapshot,Block category (SA / SC / CR / OE ...)
+ASSESSMENT_YEAR,ids_and_bookkeeping,Stage ka assessment year
+ASSESSMENT_DATE,ids_and_bookkeeping,Stage ki assessment date
+CATEGORY_CONFLICT,ids_and_bookkeeping,Category conflict ka flag
+STAGE_MATCH_STATUS,ids_and_bookkeeping,Block-stage match ka status
+neighbor_prev_level_mean_5_m,neighbor,Aas-paas ke (5 tak) stations ka pichhla average level
+neighbor_prev_level_count_5,neighbor,Kitne neighbors us average mein aaye
+nearest_neighbor_prev_distance_km,neighbor,Sabse paas ke neighbor ki doori (km)
+SPLIT,ids_and_bookkeeping,train (2005-2020) / val (2021) / test (2022-2023) / unused
+rain_cum_6m_mm,rainfall,Reading wale mahine se pehle ke 6 mahine ka cumulative rainfall (mm)
+rain_cum_12m_mm,rainfall,Reading wale mahine se pehle ke 12 mahine ka cumulative rainfall (mm)
+last_monsoon_total_mm,rainfall,"Reading se pehle ke poore monsoon (Jun-Sep) ka rainfall total, grid cell ke hisaab se (mm)"
+last_monsoon_anomaly_mm,rainfall,Pichhla monsoon total minus monsoon normal (normal sirf 2005-2020 se) (mm)
+rain_cum_12m_anomaly_mm,rainfall,12 mahine cumulative minus saalana normal (normal sirf 2005-2020 se) (mm)
+level_trend_lag1_lag2_m,lag,"lag1 minus lag2 (+ = paani neeche ja raha). Lag jaisa, sirf Variant A (m)"
+station_expanding_mean_m,lag,"Station ka ab tak ka average level, current row shamil nahi. Sirf Variant A (m)"
+station_prior_obs_count,lag,Station ki kitni pichhli readings average mein aayi
+level_same_round_prev_year_m,lag,"Station ka pichhle saal ke same round ka level. Sirf Variant A, test mein 30.8% missing (m)"
+district_stage_mean_pct,stage_district_2023_snapshot,"District ke blocks ka average stage of extraction % (2023 snapshot, alag group)"
+district_overexploited_share,stage_district_2023_snapshot,District ke blocks mein Over-exploited (CATEGORY_CODE == OE) ka share (2023 snapshot)
+district_n_blocks,stage_district_2023_snapshot,District ke kitne blocks stage table mein hain (2023 snapshot)
+rainfall_normal_train_mm,rainfall,"Grid cell x mahine ka rainfall normal, sirf 2005-2020 (train years) se (mm)"
+rainfall_anomaly_mm,rainfall,rainfall_mm minus rainfall_normal_train_mm (mm)
+temp_prev3m_mean_c,climate_extra,"Pichhle 3 mahine ka average temperature (C), NASA POWER T2M"
+temp_prev12m_mean_c,climate_extra,Pichhle 12 mahine ka average temperature (C)
+temp_anom_prev3m_c,climate_extra,Pichhle 3 mahine ka temperature anomaly (2005-2020 normal se)
+temp_anom_prev12m_c,climate_extra,Pichhle 12 mahine ka temperature anomaly
+rh_prev3m_mean_pct,climate_extra,"Pichhle 3 mahine ka average relative humidity (%), NASA POWER RH2M"
+rh_anom_prev3m_pct,climate_extra,Pichhle 3 mahine ka humidity anomaly (2005-2020 normal se)
+pet_prev3m_sum_mm,evap_soil_extra,"Pichhle 3 mahine ka PET (Hargreaves estimate, mm), current mahina shamil nahi"
+pet_prev12m_sum_mm,evap_soil_extra,"Pichhle 12 mahine ka PET (Hargreaves estimate, mm)"
+soil_wet_root_prev3m_mean,evap_soil_extra,"Pichhle 3 mahine ka root-zone soil wetness (NASA POWER GWETROOT, relative index 0-1)"
+soil_wet_root_anom_prev3m,evap_soil_extra,Pichhle 3 mahine ka root-zone wetness anomaly (2005-2020 normal se)
+soil_wet_top_prev1m,evap_soil_extra,"Pichhle mahine ka surface soil wetness (GWETTOP, index 0-1)"
+evland_prev3m_mean,evap_soil_extra,"Pichhle 3 mahine ka average evaporation land (EVLAND, mm/day)"
+water_balance_prev12m_mm,evap_soil_extra,rain_cum_12m_mm minus pet_prev12m_sum_mm (mm); negative = PET rainfall se zyada

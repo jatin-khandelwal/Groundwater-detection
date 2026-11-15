@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-29",
+  "model_decision": "keep_frozen_v2_no_retraining",
+  "feature_definition_status": "operational_reconstruction_original_generator_not_recovered",
+  "neighbor_rule": {
+    "k": 5,
+    "radius_km_inclusive": 40.0,
+    "selection": "nearest_first_before_reading_availability_check",
+    "exclude_target_station_by": "SITE_ID",
+    "reading_cutoff": "strictly_before_target_date",
+    "max_age_days": null,
+    "replace_missing_selected_neighbor_with_next": false,
+    "zero_count_mean": null,
+    "zero_count_nearest_distance_km": null
+  },
+  "leakage_assertion": {
+    "passed": true,
+    "minimum_source_date_gap_days": 1
+  },
+  "stored_feature_comparison": {
+    "rows_with_both_means": 87980,
+    "absolute_mean_difference_median_m": 0.0,
+    "absolute_mean_difference_p90_m": 0.0,
+    "count_agreement_pct": 97.8,
+    "unresolved_mismatch_pct": 2.2
+  },
+  "predeclared_gate": {
+    "new_station_abs_delta_r2_max": 0.01,
+    "new_station_abs_delta_mae_m_max": 0.1,
+    "passed": true
+  },
+  "new_station_groupkfold5_site_id": {
+    "n": 50363,
+    "stored_baseline": {"R2": 0.6902, "MAE_m": 7.531},
+    "reconstructed_v3": {"R2": 0.6941, "MAE_m": 7.501},
+    "delta": {"R2": 0.0039, "MAE_m": -0.03}
+  },
+  "new_district_leave_one_district_out": {
+    "n": 50363,
+    "stored_baseline": {"R2": 0.5868, "MAE_m": 9.037},
+    "reconstructed_v3": {"R2": 0.5815, "MAE_m": 9.104},
+    "delta": {"R2": -0.0053, "MAE_m": 0.067}
+  },
+  "limitations": [
+    "Historical feature generator remains unidentified.",
+    "Count/mean mismatches affect about 2.2% of rows; tie ordering is not confirmed as their cause.",
+    "The 2022-2023 test and saved interval calibration were not recomputed for reconstructed v3 inputs."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "method": "5 bins of predicted level (OOF pred percentiles 20/40/60/80); 10th/90th residual percentile per bin; GroupKFold(5) by SITE_ID on train",
+  "features": [
+    "DISTRICT_NAME",
+    "LAT",
+    "LON",
+    "YEAR",
+    "month_sin",
+    "month_cos",
+    "elevation_m",
+    "neighbor_prev_level_mean_5_m",
+    "nearest_neighbor_prev_distance_km",
+    "neighbor_prev_level_count_5"
+  ],
+  "edges": [
+    7.186744659223254,
+    11.232137440879786,
+    19.17169378155432,
+    37.01353825550382
+  ],
+  "res_low": [
+    -3.833616484525039,
+    -6.4947606941135465,
+    -9.672304329723067,
+    -17.195426834266154,
+    -24.736123651564384
+  ],
+  "res_high": [
+    5.443290099586213,
+    7.427817812778835,
+    10.371361588612862,
+    18.499129027496842,
+    16.628446568260344
+  ],
+  "oof_mae": 7.530648281363202,
+  "oof_medae": 4.547001577013862,
+  "coverage_crossfit_mean": 0.7981254692216242,
+  "confidence_rule": "width < 15 high, 15-30 medium, > 30 low"
+}

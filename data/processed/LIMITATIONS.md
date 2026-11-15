@@ -12,3 +12,7 @@
 - Direct pumping/abstraction data is not available; Stage of Extraction is only a proxy.
 - WELL_DEPTH and LEVEL_DIFF are excluded from model inputs to avoid leakage.
 - Data source credit: India Data Portal (CGWB / India-WRIS data), Open Data Commons Attribution License.
+
+## QC flags (v2_3)
+- Suspicious rows are flagged, not deleted: level outside 0-300 m (10), |jump between last two readings| > 50 m (38), level deeper than the recorded well depth (2125). Total flagged: 2172.
+- Models are evaluated both with and without flagged rows; the rule was fixed before looking at test results.

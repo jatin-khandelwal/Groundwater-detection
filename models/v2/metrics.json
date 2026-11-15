@@ -1,0 +1,72 @@
+{
+  "model_version": "v2",
+  "dataset": "dataset_v2_3.csv",
+  "features": [
+    "DISTRICT_NAME",
+    "LAT",
+    "LON",
+    "YEAR",
+    "month_sin",
+    "month_cos",
+    "elevation_m",
+    "neighbor_prev_level_mean_5_m",
+    "nearest_neighbor_prev_distance_km",
+    "neighbor_prev_level_count_5"
+  ],
+  "fit_on": "train + val (2005-2021)",
+  "test_years": "2022-2023",
+  "random_state": 42,
+  "rf_params": {
+    "n_estimators": 100,
+    "min_samples_leaf": 1,
+    "max_features": 0.4,
+    "max_depth": 20
+  },
+  "versions": {
+    "python": "3.14.0",
+    "scikit-learn": "1.9.0",
+    "xgboost": "3.4.1"
+  },
+  "test": {
+    "n": 5178,
+    "R2": 0.9411,
+    "MAE": 3.205,
+    "MedAE": 2.067
+  },
+  "test_distance_gt_0": {
+    "n": 5005,
+    "R2": 0.943,
+    "MAE": 3.224,
+    "MedAE": 2.078
+  },
+  "interval": {
+    "file": "interval_table.json",
+    "level": "80%",
+    "test_coverage": 0.943,
+    "test_mean_width_m": 22.53,
+    "test_coverage_distance_gt_0": 0.942,
+    "test_mean_width_m_distance_gt_0": 22.51
+  },
+  "train_cv_final10": {
+    "new_station": {
+      "R2": 0.6902,
+      "MAE": 7.531,
+      "MedAE": 4.547
+    },
+    "new_district": {
+      "R2": 0.5868,
+      "MAE": 9.037,
+      "MedAE": 5.877
+    },
+    "new_year_old_stations_val2021": {
+      "R2": 0.9724,
+      "MAE": 2.502,
+      "MedAE": 1.587
+    }
+  },
+  "risk_thresholds_m": [
+    8,
+    22
+  ],
+  "confidence_rule": "interval width <15 m high, 15-30 medium, >30 low; no neighbor -> low"
+}

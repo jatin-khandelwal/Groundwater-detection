@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-31",
+  "scope": {
+    "target_years_included": "2005-2023",
+    "source_years_included": "2005-2023",
+    "rows": 91683,
+    "2024_holdout_touched": false,
+    "note": "2024 Jan/May targets and source readings were excluded to preserve the pre-registered holdout."
+  },
+  "stored_vs_reconstructed": {
+    "mean_and_distance_common_finite_rows": 87211,
+    "missing_pattern_agreement_pct": 99.846,
+    "absolute_mean_difference_m": {
+      "median": 0.0,
+      "p90": 0.0,
+      "p99": 2.6,
+      "max": 31.943
+    },
+    "absolute_contributing_neighbor_distance_difference_km": {
+      "median": 0.0235386296,
+      "p90": 0.1224660819,
+      "p99": 0.2491929351,
+      "max": 0.6179149486
+    },
+    "stored_count_agreement_pct": 97.836,
+    "count_mismatch_rows": 1984
+  },
+  "distance_definition_diagnostic_on_positive_count_rows": {
+    "stored_vs_dynamic_contributing_neighbor_distance": {
+      "rows": 87211,
+      "absolute_difference_median_km": 0.0235386296,
+      "absolute_difference_p99_km": 0.2491929351,
+      "absolute_difference_max_km": 0.6179149486,
+      "within_0_01_km_pct": 34.01
+    },
+    "stored_vs_static_nearest_station_distance": {
+      "rows": 87255,
+      "absolute_difference_median_km": 0.0390968705,
+      "absolute_difference_p99_km": 15.6087247661,
+      "absolute_difference_max_km": 34.9296932031,
+      "within_0_01_km_pct": 27.42
+    },
+    "interpretation": "Stored distance is closer to dynamic contributing-neighbor distance in this comparison, but the historical rule remains unidentified."
+  },
+  "mismatch_only_nearest_time_any_diagnostic": {
+    "rows": 1984,
+    "candidate_rule": {
+      "k": 5,
+      "radius_km_inclusive": 40,
+      "selection": "nearest_first_before_reading_check"
+    },
+    "nearest_time_any_mean_matches_stored": 1,
+    "nearest_time_any_all3_matches_stored": 1,
+    "nearest_time_any_all3_matches_using_later_reading": 0,
+    "rows_where_nearest_time_any_used_later_reading": 1520,
+    "rows_where_nearest_time_any_used_on_or_after_reading": 1945,
+    "interpretation": "No matching evidence of future leakage was found for this candidate rule on count-mismatch rows. This does not prove the unrecovered historical generator was leakage-free."
+  },
+  "comparison_note": {
+    "all3_rate": "47.1% on a 1,200-row random sample; mean, count, and distance all had to match simultaneously, with distance allowed to match the dynamic or static definition.",
+    "count_rate": "97.836% count-only agreement over 91,683 modeling rows through 2023.",
+    "are_comparable": false
+  },
+  "month_encoding": {
+    "month_sin": "sin(2*pi*MONTH/12)",
+    "month_cos": "cos(2*pi*MONTH/12)",
+    "month_range": "1 through 12",
+    "source": "scripts/build_dataset.py"
+  }
+}
