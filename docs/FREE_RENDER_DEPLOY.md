@@ -4,7 +4,7 @@ This setup deploys the Streamlit frontend and FastAPI backend as separate free R
 
 ## Files and privacy
 
-The Git repository contains application code and deployment settings. The model and six required CSV files are packaged separately in `tmp/render_artifacts.zip`. That archive contains no SQLite database, user accounts, passwords, or secrets. Publishing it as a public GitHub Release makes the model and source data downloadable by anyone.
+The Git repository contains application code and deployment settings. The deployment archive in `tmp/render_artifacts.zip` contains the unchanged frozen model represented as a preprocessor plus memory-mapped tree arrays, along with six required CSV files. It contains no SQLite database, user accounts, passwords, or secrets. Publishing it as a public GitHub Release makes the model and source data downloadable by anyone.
 
 ## Prepare the model/data archive
 
@@ -31,5 +31,5 @@ The frontend receives the backend’s HTTPS URL from Render service configuratio
 
 - Render Free has no persistent disk. A restart can remove the SQLite database, including users and sessions; the startup script recreates the initial admin from Render environment variables.
 - The model archive is downloaded and verified by SHA-256 at backend startup. Cold starts therefore need a working network connection and may take longer.
-- The model is about 230 MB before compression. The free backend has limited memory; if the service runs out of memory while loading the model, it will need a smaller model or a paid instance.
+- The deployment representation keeps the frozen 100-tree Random Forest and its preprocessing unchanged. A parity check on 100 dataset rows differed by at most 2.7×10⁻¹⁵ m. Tree arrays are loaded as memory-mapped files to reduce startup RAM use on Render Free.
 - The app has no password recovery flow. If the temporary SQLite database resets, the bootstrap admin credentials recreate the admin account.
