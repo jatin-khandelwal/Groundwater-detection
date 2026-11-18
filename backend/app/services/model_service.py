@@ -8,6 +8,7 @@ from typing import Any
 import pandas as pd
 
 from ..config import FEATURE_LIST_PATH, INTERVAL_PATH, METRICS_PATH, MODEL_PATH
+from .compact_forest import CompactForest
 
 
 class ModelService:
@@ -26,21 +27,28 @@ class ModelService:
 
     def load(self) -> None:
         try:
-            if not MODEL_PATH.is_file():
-                raise FileNotFoundError(f"Frozen model file missing: {MODEL_PATH}")
             self.features = json.loads(FEATURE_LIST_PATH.read_text(encoding="utf-8"))
             if not self.features:
                 raise ValueError("feature_list.json is empty")
-            try:
+            compact_dir = MODEL_PATH.parent / "render_compact"
+            if compact_dir.is_dir():
                 import joblib
 
-                self.model = joblib.load(MODEL_PATH)
-            except Exception as joblib_error:
+                preprocessor = joblib.load(compact_dir / "preprocessor.joblib")
+                self.model = CompactForest(preprocessor, compact_dir)
+            else:
+                if not MODEL_PATH.is_file():
+                    raise FileNotFoundError(f"Frozen model file missing: {MODEL_PATH}")
                 try:
-                    with MODEL_PATH.open("rb") as handle:
-                        self.model = pickle.load(handle)
-                except Exception:
-                    raise RuntimeError(f"Model load failed (joblib: {joblib_error})") from joblib_error
+                    import joblib
+
+                    self.model = joblib.load(MODEL_PATH)
+                except Exception as joblib_error:
+                    try:
+                        with MODEL_PATH.open("rb") as handle:
+                            self.model = pickle.load(handle)
+                    except Exception:
+                        raise RuntimeError(f"Model load failed (joblib: {joblib_error})") from joblib_error
             self.metrics = json.loads(METRICS_PATH.read_text(encoding="utf-8")) if METRICS_PATH.exists() else {}
             self.interval = json.loads(INTERVAL_PATH.read_text(encoding="utf-8")) if INTERVAL_PATH.exists() else {}
             self.error = None

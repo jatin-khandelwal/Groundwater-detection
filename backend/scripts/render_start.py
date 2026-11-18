@@ -15,7 +15,14 @@ from backend.app.services.auth_service import create_user
 
 
 REQUIRED_FILES = {
-    "models/v2/model.pkl",
+    "models/v2/render_compact/preprocessor.joblib",
+    "models/v2/render_compact/tree_offsets.npy",
+    "models/v2/render_compact/children_left.npy",
+    "models/v2/render_compact/children_right.npy",
+    "models/v2/render_compact/feature.npy",
+    "models/v2/render_compact/threshold.npy",
+    "models/v2/render_compact/value.npy",
+    "models/v2/render_compact/manifest.json",
     "models/v2/feature_list.json",
     "models/v2/metrics.json",
     "models/v2/interval_table.json",
