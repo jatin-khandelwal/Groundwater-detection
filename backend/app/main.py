@@ -52,7 +52,10 @@ app.add_middleware(
 @app.middleware("http")
 async def require_session(request: Request, call_next):
     path = request.url.path
-    public_paths = {"/health", "/auth/login", "/docs", "/redoc", "/openapi.json", "/docs/oauth2-redirect"}
+    public_paths = {
+        "/health", "/auth/login", "/auth/register", "/docs", "/redoc",
+        "/openapi.json", "/docs/oauth2-redirect",
+    }
     if request.method == "OPTIONS" or path in public_paths:
         return await call_next(request)
 

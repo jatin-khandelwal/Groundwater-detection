@@ -84,6 +84,14 @@ CREATE TABLE IF NOT EXISTS auth_login_attempts (
     failed_attempts INTEGER NOT NULL DEFAULT 0,
     locked_until INTEGER NOT NULL DEFAULT 0
 );
+CREATE TABLE IF NOT EXISTS auth_requests (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    email TEXT NOT NULL UNIQUE COLLATE NOCASE,
+    password_hash TEXT,
+    status TEXT NOT NULL DEFAULT 'pending' CHECK(status IN ('pending','approved','rejected')),
+    created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    reviewed_at TEXT
+);
 """
 
 
@@ -239,4 +247,9 @@ def ensure_runtime_schema(db_path: Path = DATABASE_PATH) -> None:
             "CREATE TABLE IF NOT EXISTS auth_login_attempts ("
             "email TEXT PRIMARY KEY COLLATE NOCASE, failed_attempts INTEGER NOT NULL DEFAULT 0, "
             "locked_until INTEGER NOT NULL DEFAULT 0);"
+            "CREATE TABLE IF NOT EXISTS auth_requests ("
+            "id INTEGER PRIMARY KEY AUTOINCREMENT, email TEXT NOT NULL UNIQUE COLLATE NOCASE, "
+            "password_hash TEXT, status TEXT NOT NULL DEFAULT 'pending' "
+            "CHECK(status IN ('pending','approved','rejected')), "
+            "created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP, reviewed_at TEXT);"
         )

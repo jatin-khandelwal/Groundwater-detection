@@ -408,7 +408,7 @@ def render_model_info(model_info: dict):
 
 def render_login(base_url: str):
     st.title("Sign in to groundwater intelligence")
-    st.caption("Use the account provided by your project administrator.")
+    st.caption("Sign in with an approved account. New users can request access below.")
     with st.form("login_form", border=True, clear_on_submit=True):
         email = st.text_input("Email", max_chars=254)
         password = st.text_input("Password", type="password", max_chars=128)
@@ -425,6 +425,36 @@ def render_login(base_url: str):
         except BackendError as exc:
             st.error(str(exc))
 
+    with st.expander("New user? Request access"):
+        st.caption("An administrator must approve your request before you can sign in.")
+        with st.form("access_request_form", border=True, clear_on_submit=True):
+            email = st.text_input("Email", max_chars=254, key="access_request_email")
+            password = st.text_input(
+                "Create password (12+ characters)", type="password", max_chars=128,
+                key="access_request_password",
+            )
+            confirm = st.text_input(
+                "Confirm password", type="password", max_chars=128,
+                key="access_request_password_confirm",
+            )
+            submitted = st.form_submit_button("Request access")
+        if submitted:
+            if password != confirm:
+                st.error("The passwords do not match.")
+            else:
+                try:
+                    result = request_api(
+                        "POST", base_url, "/auth/register",
+                        payload={"email": email.strip(), "password": password},
+                        authenticated=False,
+                    )
+                    st.success(
+                        "Request received. An administrator must approve it before you can sign in. "
+                        "The app does not send email notifications; contact your project administrator for an update."
+                    )
+                except BackendError as exc:
+                    st.error(str(exc))
+
 
 def render_account(user: dict):
     st.header("User account")
@@ -439,15 +469,53 @@ def render_admin_panel(base_url: str):
     try:
         summary = request_api("GET", base_url, "/admin/activity")
         users_result = request_api("GET", base_url, "/admin/users")
+        requests_result = request_api("GET", base_url, "/admin/access-requests")
     except BackendError as exc:
         show_api_error(exc)
         return
 
-    first, second = st.columns(2)
+    first, second, third = st.columns(3)
     first.metric("Accounts", summary.get("users_total", 0))
     second.metric("Active accounts", summary.get("users_active", 0))
+    third.metric("Pending access requests", summary.get("pending_access_requests", 0))
     with st.expander("API request totals"):
         st.dataframe(pd.DataFrame(summary.get("api_activity", [])), hide_index=True)
+
+    st.subheader("Access requests")
+    access_requests = requests_result.get("requests", [])
+    if access_requests:
+        st.dataframe(pd.DataFrame(access_requests), hide_index=True)
+        choices = {
+            f"{item['email']} · requested {item['created_at']}": item
+            for item in access_requests
+        }
+        selected_request = choices[st.selectbox("Select request", list(choices))]
+        approve_col, reject_col = st.columns(2)
+        if approve_col.button("Approve request", type="primary"):
+            try:
+                created = request_api(
+                    "POST", base_url,
+                    f"/admin/access-requests/{selected_request['id']}/approve",
+                )
+                st.success(
+                    f"Approved {created['user']['email']}. Tell them directly that they can now sign in; "
+                    "the app does not send email notifications."
+                )
+                st.rerun()
+            except BackendError as exc:
+                st.error(str(exc))
+        if reject_col.button("Reject request"):
+            try:
+                request_api(
+                    "POST", base_url,
+                    f"/admin/access-requests/{selected_request['id']}/reject",
+                )
+                st.success("Access request rejected.")
+                st.rerun()
+            except BackendError as exc:
+                st.error(str(exc))
+    else:
+        st.info("No pending access requests.")
 
     st.subheader("Create an account")
     with st.form("admin_create_user", border=True, clear_on_submit=True):

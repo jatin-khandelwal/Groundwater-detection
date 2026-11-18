@@ -74,6 +74,90 @@ def create_user(db_path, email: str, password: str, role: str = "user") -> dict[
     return dict(row)
 
 
+def request_user_access(db_path, email: str, password: str) -> None:
+    validate_credentials(email, password)
+    email = normalize_email(email)
+    encoded = hash_password(password)
+    with connect(db_path) as conn:
+        existing_user = conn.execute(
+            "SELECT 1 FROM auth_users WHERE email=? COLLATE NOCASE", (email,)
+        ).fetchone()
+        if existing_user:
+            return
+
+        existing_request = conn.execute(
+            "SELECT status FROM auth_requests WHERE email=? COLLATE NOCASE", (email,)
+        ).fetchone()
+        if existing_request and existing_request["status"] == "pending":
+            return
+
+        if existing_request:
+            conn.execute(
+                "UPDATE auth_requests SET password_hash=?,status='pending',created_at=CURRENT_TIMESTAMP,"
+                "reviewed_at=NULL WHERE email=? COLLATE NOCASE",
+                (encoded, email),
+            )
+        else:
+            conn.execute(
+                "INSERT INTO auth_requests(email,password_hash) VALUES(?,?)", (email, encoded)
+            )
+        conn.commit()
+
+
+def list_access_requests(db_path) -> list[dict[str, Any]]:
+    with connect(db_path) as conn:
+        rows = conn.execute(
+            "SELECT id,email,created_at FROM auth_requests WHERE status='pending' "
+            "ORDER BY created_at,id"
+        ).fetchall()
+    return [dict(row) for row in rows]
+
+
+def approve_access_request(db_path, request_id: int) -> dict[str, Any]:
+    with connect(db_path) as conn:
+        request = conn.execute(
+            "SELECT email,password_hash,status FROM auth_requests WHERE id=?", (request_id,)
+        ).fetchone()
+        if not request:
+            raise LookupError("Access request not found.")
+        if request["status"] != "pending" or not request["password_hash"]:
+            raise ValueError("This access request is no longer pending.")
+        try:
+            cursor = conn.execute(
+                "INSERT INTO auth_users(email,password_hash,role,is_active) VALUES(?,?,'user',1)",
+                (request["email"], request["password_hash"]),
+            )
+        except Exception as exc:
+            if "UNIQUE constraint failed" in str(exc):
+                raise ValueError("An account with this email already exists.") from exc
+            raise
+        conn.execute(
+            "UPDATE auth_requests SET password_hash=NULL,status='approved',reviewed_at=CURRENT_TIMESTAMP "
+            "WHERE id=?",
+            (request_id,),
+        )
+        conn.commit()
+        row = conn.execute(
+            "SELECT id,email,role,is_active,created_at FROM auth_users WHERE id=?", (cursor.lastrowid,)
+        ).fetchone()
+    return dict(row)
+
+
+def reject_access_request(db_path, request_id: int) -> None:
+    with connect(db_path) as conn:
+        cursor = conn.execute(
+            "UPDATE auth_requests SET password_hash=NULL,status='rejected',reviewed_at=CURRENT_TIMESTAMP "
+            "WHERE id=? AND status='pending'",
+            (request_id,),
+        )
+        if cursor.rowcount == 0:
+            exists = conn.execute("SELECT 1 FROM auth_requests WHERE id=?", (request_id,)).fetchone()
+            if not exists:
+                raise LookupError("Access request not found.")
+            raise ValueError("This access request is no longer pending.")
+        conn.commit()
+
+
 def reset_password(db_path, email: str, password: str) -> dict[str, Any]:
     validate_credentials(email, password)
     email = normalize_email(email)
@@ -180,8 +264,16 @@ def activity_summary(db_path) -> dict[str, Any]:
     with connect(db_path) as conn:
         users = conn.execute("SELECT COUNT(*) FROM auth_users").fetchone()[0]
         active = conn.execute("SELECT COUNT(*) FROM auth_users WHERE is_active=1").fetchone()[0]
+        pending_requests = conn.execute(
+            "SELECT COUNT(*) FROM auth_requests WHERE status='pending'"
+        ).fetchone()[0]
         events = conn.execute(
             "SELECT endpoint,COUNT(*) AS requests,MAX(created_at) AS last_request "
             "FROM prediction_log GROUP BY endpoint ORDER BY endpoint"
         ).fetchall()
-    return {"users_total": users, "users_active": active, "api_activity": [dict(row) for row in events]}
+    return {
+        "users_total": users,
+        "users_active": active,
+        "pending_access_requests": pending_requests,
+        "api_activity": [dict(row) for row in events],
+    }
