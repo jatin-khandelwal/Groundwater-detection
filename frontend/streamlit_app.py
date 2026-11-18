@@ -592,6 +592,17 @@ with st.sidebar:
         st.rerun()
     pages = ["Overview", "Stations", "Prediction", "Advisory", "Trends", "Model and data", "My account"]
     if current_user.get("role") == "admin":
+        try:
+            pending_count = request_api("GET", api_url, "/admin/activity").get(
+                "pending_access_requests", 0
+            )
+        except BackendError:
+            pending_count = 0
+        if pending_count:
+            st.sidebar.warning(
+                f"{pending_count} access request(s) need review. Open Administration.",
+                icon=":material/notifications_active:",
+            )
         pages.append("Administration")
     page = st.radio("View", pages)
 

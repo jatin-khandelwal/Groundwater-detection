@@ -33,3 +33,6 @@ The frontend receives the backend’s HTTPS URL from Render service configuratio
 - The model archive is downloaded and verified by SHA-256 at backend startup. Cold starts therefore need a working network connection and may take longer.
 - The deployment representation keeps the frozen 100-tree Random Forest and its preprocessing unchanged. A parity check on 100 dataset rows differed by at most 2.7×10⁻¹⁵ m. Tree arrays are loaded as memory-mapped files to reduce startup RAM use on Render Free.
 - The app has no password recovery flow. If the temporary SQLite database resets, the bootstrap admin credentials recreate the admin account.
+- Public signups create pending access requests only; they cannot choose a role or sign in before admin approval. Pending passwords are stored as hashes and old pending requests are removed after 30 days.
+- New requests show an in-app warning in the admin sidebar and appear in **Administration → Access requests**. No email provider is configured, so approval/rejection notices must be passed to users manually.
+- This remains a supervised demo deployment. Before accepting general public traffic, add email verification and signup throttling/CAPTCHA, and move accounts and requests to persistent managed storage.

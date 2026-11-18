@@ -79,6 +79,10 @@ def request_user_access(db_path, email: str, password: str) -> None:
     email = normalize_email(email)
     encoded = hash_password(password)
     with connect(db_path) as conn:
+        conn.execute(
+            "DELETE FROM auth_requests WHERE status='pending' "
+            "AND created_at < datetime('now','-30 days')"
+        )
         existing_user = conn.execute(
             "SELECT 1 FROM auth_users WHERE email=? COLLATE NOCASE", (email,)
         ).fetchone()
@@ -106,6 +110,11 @@ def request_user_access(db_path, email: str, password: str) -> None:
 
 def list_access_requests(db_path) -> list[dict[str, Any]]:
     with connect(db_path) as conn:
+        conn.execute(
+            "DELETE FROM auth_requests WHERE status='pending' "
+            "AND created_at < datetime('now','-30 days')"
+        )
+        conn.commit()
         rows = conn.execute(
             "SELECT id,email,created_at FROM auth_requests WHERE status='pending' "
             "ORDER BY created_at,id"
