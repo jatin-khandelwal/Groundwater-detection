@@ -46,3 +46,4 @@ backend/data/*.sqlite3-*
 *.sqlite3-*
 tmp/demo2_processes.json
 tmp/demo_*.log
+tmp/render_artifacts.zip

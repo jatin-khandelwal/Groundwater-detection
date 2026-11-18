@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 from datetime import date
 from pathlib import Path
 
@@ -10,7 +11,7 @@ import streamlit as st
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_API_URL = "http://127.0.0.1:8000"
+DEFAULT_API_URL = os.getenv("GW_API_URL", "http://127.0.0.1:8000")
 HISTORY_CUTOFF = date(2023, 12, 31)
 
 
@@ -20,8 +21,10 @@ class BackendError(RuntimeError):
 
 @st.cache_resource
 def get_http_client() -> httpx.Client:
+    request_timeout = float(os.getenv("GW_API_TIMEOUT_SECONDS", "12"))
+    connect_timeout = float(os.getenv("GW_API_CONNECT_TIMEOUT_SECONDS", "3"))
     return httpx.Client(
-        timeout=httpx.Timeout(12.0, connect=3.0),
+        timeout=httpx.Timeout(request_timeout, connect=connect_timeout),
         limits=httpx.Limits(max_connections=10, max_keepalive_connections=5),
     )
 
