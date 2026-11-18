@@ -409,6 +409,9 @@ def render_model_info(model_info: dict):
 def render_login(base_url: str):
     st.title("Sign in to groundwater intelligence")
     st.caption("Sign in with an approved account. New users can request access below.")
+    status_message = st.session_state.pop("access_status_message", None)
+    if status_message:
+        st.success(status_message)
     with st.form("login_form", border=True, clear_on_submit=True):
         email = st.text_input("Email", max_chars=254)
         password = st.text_input("Password", type="password", max_chars=128)
@@ -426,34 +429,48 @@ def render_login(base_url: str):
             st.error(str(exc))
 
     with st.expander("New user? Request access"):
-        st.caption("An administrator must approve your request before you can sign in.")
+        st.caption("Verify your email, set a password, then wait for administrator approval before signing in.")
         with st.form("access_request_form", border=True, clear_on_submit=True):
             email = st.text_input("Email", max_chars=254, key="access_request_email")
-            password = st.text_input(
-                "Create password (12+ characters)", type="password", max_chars=128,
-                key="access_request_password",
-            )
-            confirm = st.text_input(
-                "Confirm password", type="password", max_chars=128,
-                key="access_request_password_confirm",
-            )
             submitted = st.form_submit_button("Request access")
         if submitted:
-            if password != confirm:
-                st.error("The passwords do not match.")
-            else:
-                try:
-                    result = request_api(
-                        "POST", base_url, "/auth/register",
-                        payload={"email": email.strip(), "password": password},
-                        authenticated=False,
-                    )
-                    st.success(
-                        "Request received. An administrator must approve it before you can sign in. "
-                        "The app does not send email notifications; contact your project administrator for an update."
-                    )
-                except BackendError as exc:
-                    st.error(str(exc))
+            try:
+                result = request_api(
+                    "POST", base_url, "/auth/register",
+                    payload={"email": email.strip()},
+                    authenticated=False,
+                )
+                st.success(result.get("message", "Check your email for the verification link."))
+            except BackendError as exc:
+                st.error(str(exc))
+
+
+def render_complete_registration(base_url: str, token: str):
+    st.title("Verify email and set password")
+    st.caption("Choose a password of at least 12 characters. An administrator must approve your request before sign-in.")
+    with st.form("complete_registration_form", border=True, clear_on_submit=True):
+        password = st.text_input("Create password", type="password", max_chars=128)
+        confirm = st.text_input("Confirm password", type="password", max_chars=128)
+        submitted = st.form_submit_button("Verify email and submit request", type="primary")
+    if not submitted:
+        return
+    if password != confirm:
+        st.error("The passwords do not match.")
+        return
+    try:
+        result = request_api(
+            "POST", base_url, "/auth/complete-registration",
+            payload={"token": token, "password": password},
+            authenticated=False,
+        )
+        message = result.get("message", "Your request is waiting for administrator approval.")
+        if not result.get("notification_sent"):
+            message += " The administrator will see the request in the app; email alert delivery failed."
+        st.session_state["access_status_message"] = message
+        st.query_params.clear()
+        st.rerun()
+    except BackendError as exc:
+        st.error(str(exc))
 
 
 def render_account(user: dict):
@@ -497,20 +514,23 @@ def render_admin_panel(base_url: str):
                     "POST", base_url,
                     f"/admin/access-requests/{selected_request['id']}/approve",
                 )
-                st.success(
-                    f"Approved {created['user']['email']}. Tell them directly that they can now sign in; "
-                    "the app does not send email notifications."
-                )
+                if created.get("notification_sent"):
+                    st.success(f"Approved {created['user']['email']}; an approval email was sent.")
+                else:
+                    st.warning(f"Approved {created['user']['email']}, but the email could not be sent. Contact them directly.")
                 st.rerun()
             except BackendError as exc:
                 st.error(str(exc))
         if reject_col.button("Reject request"):
             try:
-                request_api(
+                result = request_api(
                     "POST", base_url,
                     f"/admin/access-requests/{selected_request['id']}/reject",
                 )
-                st.success("Access request rejected.")
+                if result.get("notification_sent"):
+                    st.success("Access request rejected; an email was sent.")
+                else:
+                    st.warning("Access request rejected, but the email could not be sent. Contact the requester directly.")
                 st.rerun()
             except BackendError as exc:
                 st.error(str(exc))
@@ -564,6 +584,11 @@ try:
     health = get_health(api_url)
 except BackendError as exc:
     show_api_error(exc)
+    st.stop()
+
+verification_token = st.query_params.get("complete_registration", "")
+if verification_token:
+    render_complete_registration(api_url, verification_token)
     st.stop()
 
 if st.session_state.get("auth_token"):

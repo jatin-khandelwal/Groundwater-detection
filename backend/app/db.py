@@ -89,8 +89,19 @@ CREATE TABLE IF NOT EXISTS auth_requests (
     email TEXT NOT NULL UNIQUE COLLATE NOCASE,
     password_hash TEXT,
     status TEXT NOT NULL DEFAULT 'pending' CHECK(status IN ('pending','approved','rejected')),
+    email_verified INTEGER NOT NULL DEFAULT 0,
+    verification_token_hash TEXT,
+    verification_expires_at INTEGER,
+    last_verification_sent_at INTEGER,
     created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
     reviewed_at TEXT
+);
+CREATE TABLE IF NOT EXISTS auth_signup_rate_limits (
+    scope TEXT NOT NULL,
+    key_hash TEXT NOT NULL,
+    window_started_at INTEGER NOT NULL,
+    attempts INTEGER NOT NULL,
+    PRIMARY KEY(scope,key_hash)
 );
 """
 
@@ -251,5 +262,22 @@ def ensure_runtime_schema(db_path: Path = DATABASE_PATH) -> None:
             "id INTEGER PRIMARY KEY AUTOINCREMENT, email TEXT NOT NULL UNIQUE COLLATE NOCASE, "
             "password_hash TEXT, status TEXT NOT NULL DEFAULT 'pending' "
             "CHECK(status IN ('pending','approved','rejected')), "
+            "email_verified INTEGER NOT NULL DEFAULT 0, verification_token_hash TEXT, "
+            "verification_expires_at INTEGER, last_verification_sent_at INTEGER, "
             "created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP, reviewed_at TEXT);"
+            "CREATE TABLE IF NOT EXISTS auth_signup_rate_limits ("
+            "scope TEXT NOT NULL, key_hash TEXT NOT NULL, window_started_at INTEGER NOT NULL, "
+            "attempts INTEGER NOT NULL, PRIMARY KEY(scope,key_hash));"
         )
+        request_columns = {
+            row[1] for row in conn.execute("PRAGMA table_info(auth_requests)").fetchall()
+        }
+        for name, declaration in (
+            ("email_verified", "INTEGER NOT NULL DEFAULT 0"),
+            ("verification_token_hash", "TEXT"),
+            ("verification_expires_at", "INTEGER"),
+            ("last_verification_sent_at", "INTEGER"),
+        ):
+            if name not in request_columns:
+                conn.execute(f"ALTER TABLE auth_requests ADD COLUMN {name} {declaration}")
+        conn.commit()

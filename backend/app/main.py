@@ -53,7 +53,7 @@ app.add_middleware(
 async def require_session(request: Request, call_next):
     path = request.url.path
     public_paths = {
-        "/health", "/auth/login", "/auth/register", "/docs", "/redoc",
+        "/health", "/auth/login", "/auth/register", "/auth/complete-registration", "/docs", "/redoc",
         "/openapi.json", "/docs/oauth2-redirect",
     }
     if request.method == "OPTIONS" or path in public_paths:

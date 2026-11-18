@@ -15,7 +15,15 @@ PASSWORD_ITERATIONS = 310_000
 SESSION_SECONDS = 12 * 60 * 60
 MAX_LOGIN_FAILURES = 5
 LOCK_SECONDS = 15 * 60
+VERIFICATION_SECONDS = 24 * 60 * 60
+SIGNUP_WINDOW_SECONDS = 60 * 60
+SIGNUP_EMAIL_LIMIT = 3
+SIGNUP_GLOBAL_LIMIT = 30
 EMAIL_RE = re.compile(r"^[^\s@]+@[^\s@]+\.[^\s@]+$")
+
+
+class SignupRateLimitError(ValueError):
+    pass
 
 
 def normalize_email(email: str) -> str:
@@ -74,11 +82,53 @@ def create_user(db_path, email: str, password: str, role: str = "user") -> dict[
     return dict(row)
 
 
-def request_user_access(db_path, email: str, password: str) -> None:
-    validate_credentials(email, password)
+def _check_signup_rate_limits(conn, email: str, now: int) -> None:
+    conn.execute(
+        "DELETE FROM auth_signup_rate_limits WHERE window_started_at < ?",
+        (now - SIGNUP_WINDOW_SECONDS,),
+    )
+    keys = {
+        "global": ("all", SIGNUP_GLOBAL_LIMIT),
+        "email": (hashlib.sha256(email.encode("utf-8")).hexdigest(), SIGNUP_EMAIL_LIMIT),
+    }
+    current = {}
+    for scope, (key_hash, limit) in keys.items():
+        row = conn.execute(
+            "SELECT window_started_at,attempts FROM auth_signup_rate_limits "
+            "WHERE scope=? AND key_hash=?",
+            (scope, key_hash),
+        ).fetchone()
+        attempts = row["attempts"] if row and now - row["window_started_at"] < SIGNUP_WINDOW_SECONDS else 0
+        if attempts >= limit:
+            raise SignupRateLimitError("Too many access requests. Please try again later.")
+        current[scope] = (key_hash, attempts, limit)
+
+    for scope, (key_hash, attempts, _) in current.items():
+        if attempts:
+            conn.execute(
+                "UPDATE auth_signup_rate_limits SET attempts=attempts+1 "
+                "WHERE scope=? AND key_hash=?",
+                (scope, key_hash),
+            )
+        else:
+            conn.execute(
+                "INSERT INTO auth_signup_rate_limits(scope,key_hash,window_started_at,attempts) "
+                "VALUES(?,?,?,1) ON CONFLICT(scope,key_hash) DO UPDATE SET "
+                "window_started_at=excluded.window_started_at,attempts=1",
+                (scope, key_hash, now),
+            )
+
+
+def request_user_access(db_path, email: str) -> str | None:
+    if not EMAIL_RE.fullmatch(email.strip()) or len(email) > 254:
+        raise ValueError("Enter a valid email address.")
     email = normalize_email(email)
-    encoded = hash_password(password)
+    now = int(time.time())
+    token = secrets.token_urlsafe(32)
+    token_hash = hashlib.sha256(token.encode("ascii")).hexdigest()
     with connect(db_path) as conn:
+        conn.execute("BEGIN IMMEDIATE")
+        _check_signup_rate_limits(conn, email, now)
         conn.execute(
             "DELETE FROM auth_requests WHERE status='pending' "
             "AND created_at < datetime('now','-30 days')"
@@ -87,25 +137,70 @@ def request_user_access(db_path, email: str, password: str) -> None:
             "SELECT 1 FROM auth_users WHERE email=? COLLATE NOCASE", (email,)
         ).fetchone()
         if existing_user:
+            conn.commit()
             return
 
         existing_request = conn.execute(
-            "SELECT status FROM auth_requests WHERE email=? COLLATE NOCASE", (email,)
+            "SELECT status,email_verified,verification_expires_at,last_verification_sent_at "
+            "FROM auth_requests WHERE email=? COLLATE NOCASE",
+            (email,),
         ).fetchone()
-        if existing_request and existing_request["status"] == "pending":
+        if existing_request and existing_request["status"] == "pending" and existing_request["email_verified"]:
+            conn.commit()
             return
 
+        if (
+            existing_request
+            and existing_request["status"] == "pending"
+            and existing_request["last_verification_sent_at"]
+            and now - existing_request["last_verification_sent_at"] < 60
+            and existing_request["verification_expires_at"]
+            and existing_request["verification_expires_at"] > now
+        ):
+            conn.commit()
+            return
+
+        expires_at = now + VERIFICATION_SECONDS
         if existing_request:
             conn.execute(
-                "UPDATE auth_requests SET password_hash=?,status='pending',created_at=CURRENT_TIMESTAMP,"
-                "reviewed_at=NULL WHERE email=? COLLATE NOCASE",
-                (encoded, email),
+                "UPDATE auth_requests SET password_hash=NULL,status='pending',email_verified=0,"
+                "verification_token_hash=?,verification_expires_at=?,last_verification_sent_at=?,"
+                "created_at=CURRENT_TIMESTAMP,reviewed_at=NULL WHERE email=? COLLATE NOCASE",
+                (token_hash, expires_at, now, email),
             )
         else:
             conn.execute(
-                "INSERT INTO auth_requests(email,password_hash) VALUES(?,?)", (email, encoded)
+                "INSERT INTO auth_requests(email,password_hash,verification_token_hash,"
+                "verification_expires_at,last_verification_sent_at) VALUES(?,?,?,?,?)",
+                (email, None, token_hash, expires_at, now),
             )
         conn.commit()
+    return token
+
+
+def complete_access_registration(db_path, token: str, password: str) -> str | None:
+    if not token or len(token) > 128:
+        return None
+    token_hash = hashlib.sha256(token.encode("ascii", errors="ignore")).hexdigest()
+    now = int(time.time())
+    with connect(db_path) as conn:
+        conn.execute("BEGIN IMMEDIATE")
+        row = conn.execute(
+            "SELECT id,email FROM auth_requests WHERE status='pending' AND email_verified=0 "
+            "AND verification_token_hash=? AND verification_expires_at>?",
+            (token_hash, now),
+        ).fetchone()
+        if not row:
+            return None
+        validate_credentials(row["email"], password)
+        password_hash = hash_password(password)
+        conn.execute(
+            "UPDATE auth_requests SET password_hash=?,email_verified=1,verification_token_hash=NULL,"
+            "verification_expires_at=NULL WHERE id=?",
+            (password_hash, row["id"]),
+        )
+        conn.commit()
+    return row["email"]
 
 
 def list_access_requests(db_path) -> list[dict[str, Any]]:
@@ -116,7 +211,7 @@ def list_access_requests(db_path) -> list[dict[str, Any]]:
         )
         conn.commit()
         rows = conn.execute(
-            "SELECT id,email,created_at FROM auth_requests WHERE status='pending' "
+            "SELECT id,email,created_at FROM auth_requests WHERE status='pending' AND email_verified=1 "
             "ORDER BY created_at,id"
         ).fetchall()
     return [dict(row) for row in rows]
@@ -125,11 +220,11 @@ def list_access_requests(db_path) -> list[dict[str, Any]]:
 def approve_access_request(db_path, request_id: int) -> dict[str, Any]:
     with connect(db_path) as conn:
         request = conn.execute(
-            "SELECT email,password_hash,status FROM auth_requests WHERE id=?", (request_id,)
+            "SELECT email,password_hash,status,email_verified FROM auth_requests WHERE id=?", (request_id,)
         ).fetchone()
         if not request:
             raise LookupError("Access request not found.")
-        if request["status"] != "pending" or not request["password_hash"]:
+        if request["status"] != "pending" or not request["email_verified"] or not request["password_hash"]:
             raise ValueError("This access request is no longer pending.")
         try:
             cursor = conn.execute(
@@ -152,19 +247,24 @@ def approve_access_request(db_path, request_id: int) -> dict[str, Any]:
     return dict(row)
 
 
-def reject_access_request(db_path, request_id: int) -> None:
+def reject_access_request(db_path, request_id: int) -> str:
     with connect(db_path) as conn:
-        cursor = conn.execute(
-            "UPDATE auth_requests SET password_hash=NULL,status='rejected',reviewed_at=CURRENT_TIMESTAMP "
-            "WHERE id=? AND status='pending'",
+        row = conn.execute(
+            "SELECT email FROM auth_requests WHERE id=? AND status='pending' AND email_verified=1",
             (request_id,),
-        )
-        if cursor.rowcount == 0:
+        ).fetchone()
+        if not row:
             exists = conn.execute("SELECT 1 FROM auth_requests WHERE id=?", (request_id,)).fetchone()
             if not exists:
                 raise LookupError("Access request not found.")
             raise ValueError("This access request is no longer pending.")
+        conn.execute(
+            "UPDATE auth_requests SET password_hash=NULL,status='rejected',reviewed_at=CURRENT_TIMESTAMP "
+            "WHERE id=? AND status='pending' AND email_verified=1",
+            (request_id,),
+        )
         conn.commit()
+    return row["email"]
 
 
 def reset_password(db_path, email: str, password: str) -> dict[str, Any]:
@@ -274,7 +374,7 @@ def activity_summary(db_path) -> dict[str, Any]:
         users = conn.execute("SELECT COUNT(*) FROM auth_users").fetchone()[0]
         active = conn.execute("SELECT COUNT(*) FROM auth_users WHERE is_active=1").fetchone()[0]
         pending_requests = conn.execute(
-            "SELECT COUNT(*) FROM auth_requests WHERE status='pending'"
+            "SELECT COUNT(*) FROM auth_requests WHERE status='pending' AND email_verified=1"
         ).fetchone()[0]
         events = conn.execute(
             "SELECT endpoint,COUNT(*) AS requests,MAX(created_at) AS last_request "

@@ -21,6 +21,20 @@ services:
         sync: false
       - key: GW_BOOTSTRAP_ADMIN_PASSWORD
         sync: false
+      - key: GW_SMTP_HOST
+        value: smtp.gmail.com
+      - key: GW_SMTP_PORT
+        value: "587"
+      - key: GW_SMTP_USERNAME
+        sync: false
+      - key: GW_SMTP_PASSWORD
+        sync: false
+      - key: GW_MAIL_FROM
+        sync: false
+      - key: GW_ADMIN_NOTIFICATION_EMAIL
+        sync: false
+      - key: GW_PUBLIC_FRONTEND_URL
+        value: https://groundwater-frontend.onrender.com
 
   - type: web
     name: groundwater-frontend
