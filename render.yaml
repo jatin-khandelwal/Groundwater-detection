@@ -14,9 +14,9 @@ services:
       - key: GW_AUTO_INIT_DB
         value: "0"
       - key: GW_ARTIFACT_URL
-        sync: false
+        value: https://raw.githubusercontent.com/jatin-khandelwal/Groundwater-detection/render-artifacts-v2/render_artifacts.zip
       - key: GW_ARTIFACT_SHA256
-        value: dd8c6593007f97dadb7eac4d474815d5661f1eba00f193b6c482b0808ba8f56a
+        value: 49742c44fb22859451be0dce482be5e36c15668cbce152dd75dbc888219a53ed
       - key: GW_BOOTSTRAP_ADMIN_EMAIL
         sync: false
       - key: GW_BOOTSTRAP_ADMIN_PASSWORD
