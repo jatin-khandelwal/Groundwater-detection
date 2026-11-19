@@ -30,7 +30,9 @@ Open `http://127.0.0.1:8000/docs`. SQLite is created at `backend/data/groundwate
 
 ## Login and roles
 
-The model artifact stays unchanged. Authentication is enforced by the API before protected data or prediction routes run. `GET /health` and `POST /auth/login` are public; the other application routes require a bearer session. Roles are `user` and `admin`. Users can use the prediction, station, history, and advisory features. Admins can also list/create/disable accounts and view aggregate API request totals. There is no public registration.
+The model artifact stays unchanged. Authentication is enforced by the API before protected data or prediction routes run. `GET /health`, `POST /auth/login`, `POST /auth/register`, and `POST /auth/complete-registration` are public; the remaining application routes require a bearer session. Roles are `user` and `admin`. Users can use the prediction, station, history, and advisory features. Admins can also review access requests, list/create/disable accounts, and view aggregate API request totals.
+
+Public registration requires SMTP configuration. A requester submits an email, opens the one-time verification link, and sets a password of at least 12 characters. The verified request waits for administrator approval. Signup throttling allows up to three requests per email and 30 requests per service per hour. Configure `GW_SMTP_USERNAME`, `GW_SMTP_PASSWORD`, `GW_MAIL_FROM`, and `GW_ADMIN_NOTIFICATION_EMAIL`; use a Gmail App Password for Gmail SMTP. Never commit mail credentials.
 
 Create the first administrator once, before starting the API:
 
