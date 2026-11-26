@@ -70,35 +70,5 @@ services:
           type: web
           name: groundwater-api
           envVarKey: GW_BOOTSTRAP_ADMIN_PASSWORD
-      - key: GW_SMTP_HOST
-        fromService:
-          type: web
-          name: groundwater-api
-          envVarKey: GW_SMTP_HOST
-      - key: GW_SMTP_PORT
-        fromService:
-          type: web
-          name: groundwater-api
-          envVarKey: GW_SMTP_PORT
-      - key: GW_SMTP_USERNAME
-        fromService:
-          type: web
-          name: groundwater-api
-          envVarKey: GW_SMTP_USERNAME
-      - key: GW_SMTP_PASSWORD
-        fromService:
-          type: web
-          name: groundwater-api
-          envVarKey: GW_SMTP_PASSWORD
-      - key: GW_MAIL_FROM
-        fromService:
-          type: web
-          name: groundwater-api
-          envVarKey: GW_MAIL_FROM
-      - key: GW_ADMIN_NOTIFICATION_EMAIL
-        fromService:
-          type: web
-          name: groundwater-api
-          envVarKey: GW_ADMIN_NOTIFICATION_EMAIL
       - key: GW_PUBLIC_FRONTEND_URL
         value: https://groundwater-frontend.onrender.com
