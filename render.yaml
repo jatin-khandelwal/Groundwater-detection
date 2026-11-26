@@ -40,8 +40,9 @@ services:
     name: groundwater-frontend
     runtime: python
     plan: free
-    buildCommand: pip install -r frontend/requirements.txt
-    startCommand: streamlit run frontend/streamlit_app.py --server.address 0.0.0.0 --server.port $PORT --browser.gatherUsageStats false
+    buildCommand: pip install -r backend/requirements.txt -r frontend/requirements.txt
+    startCommand: python -m backend.scripts.render_combined_start
+    healthCheckPath: /
     envVars:
       - key: PYTHON_VERSION
         value: 3.14.0
@@ -50,7 +51,54 @@ services:
       - key: GW_API_CONNECT_TIMEOUT_SECONDS
         value: "10"
       - key: GW_API_URL
+        value: http://127.0.0.1:8001
+      - key: GW_DATABASE_PATH
+        value: /tmp/groundwater.sqlite3
+      - key: GW_AUTO_INIT_DB
+        value: "0"
+      - key: GW_ARTIFACT_URL
+        value: https://raw.githubusercontent.com/jatin-khandelwal/Groundwater-detection/render-artifacts-v2/render_artifacts.zip
+      - key: GW_ARTIFACT_SHA256
+        value: 49742c44fb22859451be0dce482be5e36c15668cbce152dd75dbc888219a53ed
+      - key: GW_BOOTSTRAP_ADMIN_EMAIL
         fromService:
           type: web
           name: groundwater-api
-          envVarKey: RENDER_EXTERNAL_URL
+          envVarKey: GW_BOOTSTRAP_ADMIN_EMAIL
+      - key: GW_BOOTSTRAP_ADMIN_PASSWORD
+        fromService:
+          type: web
+          name: groundwater-api
+          envVarKey: GW_BOOTSTRAP_ADMIN_PASSWORD
+      - key: GW_SMTP_HOST
+        fromService:
+          type: web
+          name: groundwater-api
+          envVarKey: GW_SMTP_HOST
+      - key: GW_SMTP_PORT
+        fromService:
+          type: web
+          name: groundwater-api
+          envVarKey: GW_SMTP_PORT
+      - key: GW_SMTP_USERNAME
+        fromService:
+          type: web
+          name: groundwater-api
+          envVarKey: GW_SMTP_USERNAME
+      - key: GW_SMTP_PASSWORD
+        fromService:
+          type: web
+          name: groundwater-api
+          envVarKey: GW_SMTP_PASSWORD
+      - key: GW_MAIL_FROM
+        fromService:
+          type: web
+          name: groundwater-api
+          envVarKey: GW_MAIL_FROM
+      - key: GW_ADMIN_NOTIFICATION_EMAIL
+        fromService:
+          type: web
+          name: groundwater-api
+          envVarKey: GW_ADMIN_NOTIFICATION_EMAIL
+      - key: GW_PUBLIC_FRONTEND_URL
+        value: https://groundwater-frontend.onrender.com
